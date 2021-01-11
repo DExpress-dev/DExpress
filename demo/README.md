@@ -8,29 +8,9 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 ## 目录说明：
 
 ### file_express
-	file_express：保存使用DExpress进行编写的文件传输的Demo与模块。
-
-```python
-
-	c++：
-		windows：Windows下编写的Demo和传输模块。
-		linux：Linux下编写的Demo和传输模块。
-
-```
-
-
-
-### media_express
-
-
-
-## HLS低延时安全传输架构图
-![image](E:/Github/DExpress/image/framework_hls.jpg)
-
-## UDP组播公网传输架构图
-![image](https://github.com/Tinachain/DExpress/blob/master/image/framework_udp.jpg)
-
-## 性能导图
-![image](https://github.com/Tinachain/DExpress/blob/master/image/performance.jpg)
-
+	使用DExpress编写的文件传输Demo，此Demo的功能点说明：
+	（1）：具有带宽自适应功能，传输占用带宽会随着实时带宽做相应调整。
+	（2）：最低带宽占用量为512KB、最高带宽占用量为10MB。
+	（3）：具有传输文件、传输目录功能。
+	（4）：具有断点续传功能。
 
