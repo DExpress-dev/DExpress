@@ -26,7 +26,7 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 
 
 ## 专利证书
-![image](https://23466414.s21i.faiusr.com/4/1/ABUIABAEGAAgm6ax9QUo6L372AQw4wg4mgY!1500x1500.png.webp)
+![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/patent.jpg)
 
 ## UDP组播公网传输架构图
 ![image](https://github.com/Tinachain/DExpress/blob/master/image/framework_udp.jpg)
