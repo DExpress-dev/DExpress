@@ -7,17 +7,22 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 
 ## 目录说明：
 
-### file_express
-	file_express：保存使用DExpress进行编写的文件传输的Demo与模块。
+### lib
+	保存着常用操作系统下的DExpress的内核库，其中包括（Linux、Windows、Android以及IOS）。
 
-```python
+### interface
+	存放着使用DExpress所需要的详细接口定义声明，其中包括不同语言的声明（C++、Go、Delphi等）。
 
-	c++：
-		windows：Windows下编写的Demo和传输模块。
-		linux：Linux下编写的Demo和传输模块。
+### doc
+	存放着DExpress相关的所有文档。
 
-```
-
+### demo
+	存放着使用不同语言（C++、Go、Delphi）编写的Demo程序，其中目前有两个完整的Demo项目
+	
+	file_express：
+		使用DExpress编写的文件传输Demo
+	media_express:	
+		使用DExpress编写的视频流传输Demo
 
 
 ### media_express
