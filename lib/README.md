@@ -7,8 +7,14 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 
 ## 目录说明：
 
-### file_express
-	file_express：保存使用DExpress进行编写的文件传输的Demo与模块。
+### core
+	存放着DExpress的内核调用库。
+
+### client
+	存放着DExpress调用的客户端库。
+
+### server
+	存放着DExpress调用的服务端库。
 
 ```python
 
