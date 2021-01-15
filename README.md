@@ -21,8 +21,13 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 	
 	file_express：
 		使用DExpress编写的文件传输Demo
-	media_express:	
+
+	media_express:
 		使用DExpress编写的视频流传输Demo
+
+	livego_express:
+		使用DExpress内核实现了livego的Forward功能（使用harq将rtmp协议转发给其它的livego服务器）
+
 
 ## 传输波形图
 ![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/Waveform.png)
