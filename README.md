@@ -24,6 +24,8 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 	media_express:	
 		使用DExpress编写的视频流传输Demo
 
+## 传输波形图
+![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/Waveform.png)
 
 ## 专利证书
 ![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/patent.jpg)
