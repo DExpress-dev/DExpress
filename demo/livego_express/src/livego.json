@@ -1,0 +1,19 @@
+{
+	"staticAddr": true,
+	"listen": 1935,
+	"notifyUrl": "",
+	"hls": "enable",
+	"hlsPort": 8090,
+	"httpFLV": "enable",
+	"flvPort": 8011,
+	"httpOper": "enable",
+	"operPort": 8070,
+	"engineEnable": "enable",
+	"rtmpBase": "rtmp://10.10.50.220",
+	"engine": {
+		"ffmpeg": "/root/tools/ffmpeg/bin/ffmpeg"
+	},
+	"servers": [{
+		"servername": "live"
+	}]
+}

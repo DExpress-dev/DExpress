@@ -14,3 +14,8 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 	（3）：具有传输文件、传输目录功能。
 	（4）：具有断点续传功能。
 
+### livego_express
+	使用DExpress将livego中的rtmp协议Forward到指定的其它livego服务器上。
+	
+	livego功能说明：
+	
