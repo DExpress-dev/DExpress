@@ -26,7 +26,7 @@ object MainFrm: TMainFrm
     BevelOuter = bvNone
     TabOrder = 0
     object BitBtn1: TBitBtn
-      Left = 736
+      Left = 568
       Top = 12
       Width = 81
       Height = 29
@@ -35,13 +35,22 @@ object MainFrm: TMainFrm
       OnClick = BitBtn1Click
     end
     object BitBtn2: TBitBtn
-      Left = 823
+      Left = 679
       Top = 12
       Width = 81
       Height = 29
       Caption = #21457#20986#35831#27714
       TabOrder = 1
       OnClick = BitBtn2Click
+    end
+    object BitBtn3: TBitBtn
+      Left = 815
+      Top = 12
+      Width = 81
+      Height = 29
+      Caption = 'OpenClient'
+      TabOrder = 2
+      OnClick = BitBtn3Click
     end
   end
   object Panel2: TPanel
@@ -52,7 +61,6 @@ object MainFrm: TMainFrm
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 1
-    ExplicitHeight = 682
     object PageControl1: TPageControl
       Left = 0
       Top = 0
@@ -61,10 +69,8 @@ object MainFrm: TMainFrm
       ActivePage = TabSheet1
       Align = alClient
       TabOrder = 0
-      ExplicitHeight = 682
       object TabSheet1: TTabSheet
         Caption = #20256#36755#20219#21153
-        ExplicitHeight = 648
         object TaskView: TListView
           Left = 0
           Top = 441
@@ -104,7 +110,6 @@ object MainFrm: TMainFrm
           TabOrder = 0
           ViewStyle = vsReport
           OnCustomDrawItem = TaskViewCustomDrawItem
-          ExplicitHeight = 207
         end
         object Panel3: TPanel
           Left = 0
@@ -282,7 +287,6 @@ object MainFrm: TMainFrm
         Alignment = taCenter
         Width = 50
       end>
-    ExplicitTop = 723
   end
   object TaskTimer: TTimer
     Enabled = False
@@ -316,7 +320,7 @@ object MainFrm: TMainFrm
     Left = 272
     Top = 240
     Bitmap = {
-      494C010101000800280020002000FFFFFF00FF10FFFFFFFFFFFFFFFF424D3600
+      494C010101000800300020002000FFFFFF00FF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000800000002000000001002000000000000040
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000

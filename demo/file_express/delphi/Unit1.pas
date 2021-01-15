@@ -19,36 +19,29 @@ type
   end;
 
   (****事件定义部分****)
-  TOnExpressLogin = procedure(expressHandle: Integer; remoteIp: Pchar; remotePort: Integer; session: Pchar) of object;
-  TOnExpressFinish = procedure(expressHandle: Integer; filePath: Pchar; size: Int64) of object;
-  TOnExpressProgress = function(expressHandle: Integer; filePath: Pchar; max: Integer; cur: Integer): Boolean of object;
-  TOnExpressDisconnect = procedure(expressHandle: Integer; remoteIp: Pchar; remotePort: Integer) of object;
-  TOnExpressError = procedure(expressHandle: Integer; errorId: Integer; remoteIp: Pchar; remotePort: Integer) of object;
+  TOnExpressLogin = procedure(expressHandle: Integer; remoteIp: PAnsichar; remotePort: Integer; session: PAnsichar) of object;
+  TOnExpressFinish = procedure(expressHandle: Integer; filePath: PAnsichar; size: Int64) of object;
+  TOnExpressProgress = function(expressHandle: Integer; filePath: PAnsichar; max: Integer; cur: Integer): Boolean of object;
+  TOnExpressDisconnect = procedure(expressHandle: Integer; remoteIp: PAnsichar; remotePort: Integer) of object;
+  TOnExpressError = procedure(expressHandle: Integer; errorId: Integer; remoteIp: PAnsichar; remotePort: Integer) of object;
 
   {接口}
-    openClientFunc = function( bindIp: PAnsichar;
-                              remoteIp: PAnsichar;
-                              remotePort: Integer;
-                              log: PAnsichar;
-                              harqSoPath: PAnsichar;
-                              session: PAnsichar;
-                              encrypted: Boolean;
-                              onLogin: TOnExpressLogin;
-                              onProgress: TOnExpressProgress;
-                              onFinish: TOnExpressFinish;
-                              onDisconnect: TOnExpressDisconnect;
-                              onError: TOnExpressError):Integer; stdcall;
-
-     sendFileFunc = function(expressHandle: Integer;
-                            filePath: PAnsichar;
-                            saveRelativePath: PAnsichar): Boolean; stdcall;
-
-     sendDirFunc = function( expressHandle: Integer;
-                            dirPath: PAnsichar;
-                            saveRelativePath: PAnsichar): Boolean; stdcall;
-
-     closeClientFunc = procedure(expressHandle: Integer); stdcall;
-     versionFunc = function():PChar; stdcall;
+  function open_client( bindIp: PAnsichar;
+                        remoteIp: PAnsichar;
+                        remotePort: Integer;
+                        log: PAnsichar;
+                        harqSoPath: PAnsichar;
+                        session: PAnsichar;
+                        encrypted: Boolean;
+                        onLogin: Pointer;
+                        onProgress: Pointer;
+                        onFinish: Pointer;
+                        onDisconnect: Pointer;
+                        onError: Pointer):Integer;stdcall;external 'client_32.dll';
+  function send_file( expressHandle: Integer; filePath: PAnsichar; saveRelativePath: PAnsichar):Boolean;stdcall;external 'client_32.dll';
+  function send_dir(expressHandle: Integer; dirPath: PAnsichar; saveRelativePath: PAnsichar):Boolean;stdcall;external 'client_32.dll';
+  procedure close_client(expressHandle: Integer);stdcall;external 'client_32.dll';
+  function version():PAnsichar ;stdcall;external 'client_32.dll';
 
 type
   TMainFrm = class(TForm)
@@ -80,6 +73,7 @@ type
     Panel10: TPanel;
     DirDialog: TOpenDialog;
     IcoImageList: TImageList;
+    BitBtn3: TBitBtn;
     procedure TaskViewCustomDrawItem(Sender: TCustomListView; Item: TListItem;
       State: TCustomDrawState; var DefaultDraw: Boolean);
     procedure BitBtn1Click(Sender: TObject);
@@ -90,6 +84,7 @@ type
     procedure BitBtn2Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure DirButClick(Sender: TObject);
+    procedure BitBtn3Click(Sender: TObject);
 
   private
     { Private declarations }
@@ -123,18 +118,7 @@ type
     FOnExpressDisconnect: TOnExpressDisconnect;
     FOnExpressError: TOnExpressError;
 
-    {接口}
-    FOpenClient: openClientFunc;
-    FSendFile: sendFileFunc;
-    FSendDir: sendDirFunc;
-    FCloseClient: closeClientFunc;
-    FVersion: versionFunc;
-
-    function loadDll():Boolean;
     procedure openClient(bindIp, remoteIp: string; remotePort: Integer; logPath, harqPath, session: string);
-
-
-
 
   private
     procedure drawLocalDir(localDir: string);
@@ -152,11 +136,13 @@ type
 var
   MainFrm: TMainFrm;
 
+procedure OnExpressLogin(expressHandle: Integer; remoteIp: PAnsichar; remotePort: Integer; session: PAnsichar); stdcall;
+
 implementation
 
 {$R *.dfm}
 
-procedure OnExpressLogin(expressHandle: Integer; remoteIp: Pchar; remotePort: Integer; session: Pchar);
+procedure OnExpressLogin(expressHandle: Integer; remoteIp: PAnsichar; remotePort: Integer; session: PAnsichar);
 begin
 
 end;
@@ -248,6 +234,11 @@ end;
 procedure TMainFrm.BitBtn2Click(Sender: TObject);
 begin
   GetServer();
+end;
+
+procedure TMainFrm.BitBtn3Click(Sender: TObject);
+begin
+  openClient('0.0.0.0', '115.29.176.57', 41002, 'log', 'D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll', '123456');
 end;
 
 procedure TMainFrm.clearServer;
@@ -536,37 +527,10 @@ begin
   GetHttpClient.Get('http://10.10.50.211:8086/stream_service/new_stream?url=http://cctvcnch5c.v.wscdns.com/live/cctv8_2/index.m3u8');
 end;
 
-function TMainFrm.loadDll: Boolean;
-begin
-  if not FileExists(harqPath) or not FileExists(clientPath) then
-  begin
-    Result:=false;
-    exit;
-  end;
-
-  dllHandle:=LoadLibrary(PChar(clientPath));
-  if dllHandle = 0 then Exit;
-
-  //加载函数;
-  FOpenClient:=GetProcAddress(dllHandle, PChar('open_client'));
-  FSendFile:=GetProcAddress(dllHandle, PChar('send_file'));
-  FSendDir:=GetProcAddress(dllHandle, PChar('send_dir'));
-  FCloseClient:=GetProcAddress(dllHandle, PChar('close_client'));
-  FVersion:=GetProcAddress(dllHandle, PChar('version'));
-
-  if (@FOpenClient = nil) or (@FSendFile = nil) or (@FSendDir = nil) or (@FCloseClient = nil) or (@FVersion = nil) then
-  begin
-    FreeLibrary(dllHandle);
-    dllHandle:=0;
-  end;
-end;
-
 procedure TMainFrm.openClient(bindIp, remoteIp: string; remotePort: Integer;
   logPath, harqPath, session: string);
 begin
-  if (dllHandle <> 0)then
-  begin
-    expressHandle:=FOpenClient( PAnsichar(bindIp),
+    expressHandle:=open_client( PAnsichar(bindIp),
                                 PAnsichar(remoteIp),
                                 remotePort,
                                 PAnsichar(logPath),
@@ -578,8 +542,6 @@ begin
                                 @OnExpressFinish,
                                 @OnExpressDisconnect,
                                 @OnExpressError);
-  end;
-
 end;
 
 
