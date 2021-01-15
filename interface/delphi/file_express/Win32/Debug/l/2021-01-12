@@ -1,0 +1,8 @@
+[2021-01-11 09:52:19.514000][INFO ]---->>>> open_client interface log=l version=1.0.5 remote_ip=1 remote_port=41002
+[2021-01-11 09:52:19.514000][INFO ]User Use open_client Interface remote_ip=1 remote_port=41002
+[2021-01-11 09:52:19.514000][INFO ]Create express_client_thread express_handle=10001
+[2021-01-11 09:52:19.514000][INFO ]Init express_client_thread
+[2021-01-11 09:52:19.536000][INFO ]RUDP Start Create RUDP Manager Remote_ip=1 Remote_port=41002 Session=1 Log=l
+[2021-01-11 09:52:19.536000][INFO ]Create RUDP Client Object
+[2021-01-11 09:52:19.536000][INFO ]RUDP Client Object init
+[2021-01-11 09:52:19.536000][INFO ]Init server_ptr Params remote_ip=1 remote_port=41002 log=l so_path=D session=1
