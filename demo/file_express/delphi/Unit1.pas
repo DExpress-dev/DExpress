@@ -18,12 +18,13 @@ type
     Encrypt: Boolean;
   end;
 
-  (****事件定义部分****)
-  TOnExpressLogin = procedure(expressHandle: Integer; remoteIp: PAnsichar; remotePort: Integer; session: PAnsichar) of object;
-  TOnExpressFinish = procedure(expressHandle: Integer; filePath: PAnsichar; size: Int64) of object;
-  TOnExpressProgress = function(expressHandle: Integer; filePath: PAnsichar; max: Integer; cur: Integer): Boolean of object;
-  TOnExpressDisconnect = procedure(expressHandle: Integer; remoteIp: PAnsichar; remotePort: Integer) of object;
-  TOnExpressError = procedure(expressHandle: Integer; errorId: Integer; remoteIp: PAnsichar; remotePort: Integer) of object;
+  //定义回调函数类型;
+  OnLogin_CallBack = procedure(express_handle: Integer;  remote_ip: PAnsichar; remote_port: Integer; session: PAnsichar);stdcall;
+  OnProgress_CallBack = function(express_handle: Integer; file_path: PAnsichar; max: Integer; cur: Integer): Boolean;stdcall;
+  OnFinish_CallBack = procedure(express_handle: Integer; file_path: PAnsichar; size: Double);stdcall;
+  OnDisconnect_CallBack = procedure(express_handle: Integer; remote_ip: PAnsichar; remote_port: Integer);stdcall;
+  OnError_CallBack = procedure(express_handle: Integer; errorid: Integer; remote_ip: PAnsichar; remote_port: Integer);stdcall;
+
 
   {接口}
   function open_client( bindIp: PAnsichar;
@@ -33,11 +34,11 @@ type
                         harqSoPath: PAnsichar;
                         session: PAnsichar;
                         encrypted: Boolean;
-                        onLogin: Pointer;
-                        onProgress: Pointer;
-                        onFinish: Pointer;
-                        onDisconnect: Pointer;
-                        onError: Pointer):Integer;stdcall;external 'client_32.dll';
+                        onLogin: OnLogin_CallBack;
+                        onProgress: OnProgress_CallBack;
+                        onFinish: OnFinish_CallBack;
+                        onDisconnect: OnDisconnect_CallBack;
+                        onError: OnError_CallBack):Integer;stdcall;external 'client_32.dll';
   function send_file( expressHandle: Integer; filePath: PAnsichar; saveRelativePath: PAnsichar):Boolean;stdcall;external 'client_32.dll';
   function send_dir(expressHandle: Integer; dirPath: PAnsichar; saveRelativePath: PAnsichar):Boolean;stdcall;external 'client_32.dll';
   procedure close_client(expressHandle: Integer);stdcall;external 'client_32.dll';
@@ -110,14 +111,6 @@ type
     clientPath: string;
     dllHandle: THandle;
     expressHandle: Integer;
-
-    {事件}
-    FOnExpressLogin: TOnExpressLogin;
-    FOnExpressFinish: TOnExpressFinish;
-    FOnExpressProgress: TOnExpressProgress;
-    FOnExpressDisconnect: TOnExpressDisconnect;
-    FOnExpressError: TOnExpressError;
-
     procedure openClient(bindIp, remoteIp: string; remotePort: Integer; logPath, harqPath, session: string);
 
   private
@@ -136,33 +129,32 @@ type
 var
   MainFrm: TMainFrm;
 
-procedure OnExpressLogin(expressHandle: Integer; remoteIp: PAnsichar; remotePort: Integer; session: PAnsichar); stdcall;
-
 implementation
 
 {$R *.dfm}
 
-procedure OnExpressLogin(expressHandle: Integer; remoteIp: PAnsichar; remotePort: Integer; session: PAnsichar);
+//回调函数定义
+procedure OnExpressLogin(expressHandle: Integer; remoteIp: PAnsichar; remotePort: Integer; session: PAnsichar); stdcall;
+begin
+  Application.MessageBox(Pchar(remoteIp), Pchar(session), 0);
+end;
+
+procedure OnExpressFinish(expressHandle: Integer; filePath: Pchar; size: Int64); stdcall;
 begin
 
 end;
 
-procedure OnExpressFinish(expressHandle: Integer; filePath: Pchar; size: Int64);
+function OnExpressProgress(expressHandle: Integer; filePath: Pchar; max: Integer; cur: Integer): Boolean; stdcall;
 begin
 
 end;
 
-function OnExpressProgress(expressHandle: Integer; filePath: Pchar; max: Integer; cur: Integer): Boolean;
+procedure OnExpressDisconnect(expressHandle: Integer; remoteIp: Pchar; remotePort: Integer); stdcall;
 begin
 
 end;
 
-procedure OnExpressDisconnect(expressHandle: Integer; remoteIp: Pchar; remotePort: Integer);
-begin
-
-end;
-
-procedure OnExpressError(expressHandle: Integer; errorId: Integer; remoteIp: Pchar; remotePort: Integer);
+procedure OnExpressError(expressHandle: Integer; errorId: Integer; remoteIp: Pchar; remotePort: Integer); stdcall;
 begin
 
 end;
@@ -530,12 +522,12 @@ end;
 procedure TMainFrm.openClient(bindIp, remoteIp: string; remotePort: Integer;
   logPath, harqPath, session: string);
 begin
-    expressHandle:=open_client( PAnsichar(bindIp),
-                                PAnsichar(remoteIp),
+    expressHandle:=open_client( PAnsichar(AnsiString(bindIp)),
+                                PAnsichar(AnsiString(remoteIp)),
                                 remotePort,
-                                PAnsichar(logPath),
-                                PAnsichar(harqPath),
-                                PAnsichar(session),
+                                PAnsichar(AnsiString(logPath)),
+                                PAnsichar(AnsiString(harqPath)),
+                                PAnsichar(AnsiString(session)),
                                 true,
                                 @OnExpressLogin,
                                 @OnExpressProgress,
