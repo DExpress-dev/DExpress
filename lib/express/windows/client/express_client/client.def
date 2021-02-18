@@ -1,0 +1,11 @@
+LIBRARY "express_client"
+EXPORTS
+
+open_client @1
+send_file @2
+send_dir @3
+send_buffer @4
+cur_waiting_size @5
+stop_send @6
+close_client @7
+version @8
