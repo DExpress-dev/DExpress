@@ -53,40 +53,50 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 		ON_EXPRESS_BUFFER on_buffer：			接收到数据的回调
 		ON_EXPRESS_DISCONNECT on_disconnect：	连接断开的回调
 		ON_EXPRESS_ERROR on_error：				产生错误的回调
+	返回：
+		int：返回客户端传输使用的句柄
 	
 
 	send_file：
 		发送指定文件
 	参数：
-		int express_handle 
-		char* local_file_path 
-		char* remote_relative_path 
-		char* file_name
+		int express_handle：			客户端传输使用的句柄			 
+		char* local_file_path：		传输文件的本地路径
+		char* remote_relative_path：传输文件的远端相对路径（相对于服务端设置中的Base参数）
+		char* file_name：			传输文件的文件名
+	返回：
+		bool：是否可以发送指定文件
 
 	send_dir：
 		发送指定目录
 	参数：
-		int express_handle 
-		char* dir_path
-		char* save_relative_path
+		int express_handle：			客户端传输使用的句柄 
+		char* dir_path：				需要传输的目录
+		char* remote_relative_path：	传输目录的远端相对路径（相对于服务端设置中的Base参数）
+	返回：
+		bool：是否可以发送目录
 
 	send_buffer：
 		发送指定数据
 	参数：
-		int express_handle 
-		char* data
-		int size
+		int express_handle：			客户端传输使用的句柄
+		char* data：					需要传输的数据指针
+		int size：					需要传输的数据大小
+	返回：
+		bool：是否可以传输数据
 
 	cur_waiting_size：
 		当前等待发送的文件数量
 	参数：
-		int express_handle
+		int express_handle：			客户端传输使用的句柄
+	返回：
+		int：等待发送的文件数量
 			
 	stop_send：
 		停止发送文件
 	参数：
-		int express_handle 
-		char* file_path
+		int express_handle：			客户端传输使用的句柄 
+		char* local_file_path：		需要停止的文件本地路径
 
 	close_client：
 		关闭客户端
@@ -95,6 +105,8 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 
 	version：
 		获取当前版本
+	返回：
+		char*：当前使用的客户端版本
 
 ```python
 
