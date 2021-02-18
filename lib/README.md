@@ -11,10 +11,14 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 	存放着DExpress的内核调用库，其中x86目录下存放的是32位库、x64下存放的是64位库。
 
 ### client
-	存放着DExpress调用的客户端库，其中x86目录下存放的是32位库、x64下存放的是64位库。
+	存放着DExpress针对不同引用实现的不同客户端封装库，针对不同的引用场景使用不同的封装接口，其中包含：
+	file_express:
+		针对文件传输的接口封装。
+	media_express:
+		针对视频流传输的接口封装。
 
 ### server
-	存放着DExpress调用的服务端库，其中x86目录下存放的是32位库、x64下存放的是64位库。
+	存放着DExpress调用的服务端库，和客户端接口封装类似，其中包括file_express的接口封装和media_express的接口封装。
 
 ```python
 
@@ -23,11 +27,6 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 		linux：Linux下编写的Demo和传输模块。
 
 ```
-
-
-
-### media_express
-
 
 
 ## HLS低延时安全传输架构图

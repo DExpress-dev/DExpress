@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{77681696-1407-4f4a-a49e-9aed4c52583d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\windows">
+      <UniqueIdentifier>{7a79dcd8-6766-48e1-8d73-f8c92eef1a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="harq">
+      <UniqueIdentifier>{66a8ec27-9ace-4580-8bbe-a68698f2b61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="harq\header">
+      <UniqueIdentifier>{9ede9744-3271-404a-a25f-f4962ab67563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="harq\header\include">
+      <UniqueIdentifier>{7d37dc3f-16ed-47e9-8b2d-c140501ac2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="harq\header\include\windows">
+      <UniqueIdentifier>{8645e69b-0ca1-466e-9437-f2228bdac2ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{c62ae63b-7f1e-4837-a8c4-ff882feecc38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\path.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\write_log.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\windows\path_windows.h">
+      <Filter>header\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\windows\timer_windows.h">
+      <Filter>header\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\rudp\header\include\rudp_timer.h">
+      <Filter>harq\header\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\rudp\header\include\windows\delay_windows.h">
+      <Filter>harq\header\include\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\rudp\header\include\rudp_public.h">
+      <Filter>harq\header\include</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\windows\file_windows.h">
+      <Filter>header\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\public.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\header\interface.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\header\protocol.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\file.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\client\main_thread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\client\udp_manager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="client_dll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\header\path.cpp">
+      <Filter>header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\header\write_log.cpp">
+      <Filter>header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\header\windows\path_windows.cpp">
+      <Filter>header\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\header\windows\timer_windows.cpp">
+      <Filter>header\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\rudp\header\include\rudp_timer.cpp">
+      <Filter>harq\header\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\rudp\header\include\windows\delay_windows.cpp">
+      <Filter>harq\header\include\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\rudp\header\include\rudp_public.cpp">
+      <Filter>harq\header\include</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\header\windows\file_windows.cpp">
+      <Filter>header\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\header\public.cpp">
+      <Filter>header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\client\main_thread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\client\udp_manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="client.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="client.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
