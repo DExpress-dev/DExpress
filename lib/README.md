@@ -10,15 +10,91 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 ### core
 	存放着DExpress的内核调用库，其中x86目录下存放的是32位库、x64下存放的是64位库。
 
-### client
-	存放着DExpress针对不同引用实现的不同客户端封装库，针对不同的引用场景使用不同的封装接口，其中包含：
-	file_express:
-		针对文件传输的接口封装。
-	media_express:
-		针对视频流传输的接口封装。
-
 ### server
-	存放着DExpress调用的服务端库，和客户端接口封装类似，其中包括file_express的接口封装和media_express的接口封装。
+	存放着DExpress针对不同的系统（安卓、IOS、Linux、Windows），提供的服务端接口封装，包含功能有：
+	
+	
+	接口：
+		open_server：	打开服务端
+	参数：
+		char *bind_ip：				绑定的IP地址（常用0.0.0.0）
+		int listen_port, 			监听端口
+		char *log_path, 			日志保存路径
+		char *harq_path, 			内核库（libharq.so、harq.dll）存放的绝对路径
+		char *base_path, 			文件保存的基础目录
+		bool same_name_deleted,		目录下的同名文件是否删除
+		ON_EXPRESS_LOGIN on_login, 				客户端登录的回调
+		ON_EXPRESS_PROGRESS on_progress,		接收文件进度的回调 
+		ON_EXPRESS_FINISH on_finished, 			接收完文件的回调
+		ON_EXPRESS_BUFFER on_buffer, 			接收到数据的回调
+		ON_EXPRESS_DISCONNECT on_disconnect,	连接断开的回调 
+		ON_EXPRESS_ERROR on_error				产生错误的回调
+		
+	close_server：
+		关闭服务端
+	version：
+		获取当前版本
+
+### client
+	存放着DExpress针对不同的系统（安卓、IOS、Linux、Windows），提供的客户端接口封装，包含功能有：
+	open_client：
+		打开客户端
+	参数：
+		char* bind_ip：				绑定的IP地址（常用0.0.0.0）
+		char* remote_ip：			服务端IP地址		
+		int remote_port：			服务端监听的端口
+		char* log：					日志保存路径
+		char *harq_so_path：			内核库（libharq.so、harq.dll）存放的绝对路径	
+		char* session：				登录服务端所用的session
+		bool encrypted：				数据是否需要加密		
+		ON_EXPRESS_LOGIN on_login：				登录完成回调
+		ON_EXPRESS_PROGRESS on_progress：		接收文件进度的回调
+		ON_EXPRESS_FINISH on_finish：			接收完文件的回调
+		ON_EXPRESS_BUFFER on_buffer：			接收到数据的回调
+		ON_EXPRESS_DISCONNECT on_disconnect：	连接断开的回调
+		ON_EXPRESS_ERROR on_error：				产生错误的回调
+	
+
+	send_file：
+		发送指定文件
+	参数：
+		int express_handle 
+		char* local_file_path 
+		char* remote_relative_path 
+		char* file_name
+
+	send_dir：
+		发送指定目录
+	参数：
+		int express_handle 
+		char* dir_path
+		char* save_relative_path
+
+	send_buffer：
+		发送指定数据
+	参数：
+		int express_handle 
+		char* data
+		int size
+
+	cur_waiting_size：
+		当前等待发送的文件数量
+	参数：
+		int express_handle
+			
+	stop_send：
+		停止发送文件
+	参数：
+		int express_handle 
+		char* file_path
+
+	close_client：
+		关闭客户端
+	参数：
+		int express_handle
+
+	version：
+		获取当前版本
 
 ```python
 

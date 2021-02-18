@@ -7,8 +7,17 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 
 ## 目录说明：
 
-### file_express
-	file_express：保存使用DExpress进行编写的文件传输的Demo与模块。
+### android
+	android：目录下保存了为安卓系统提供的内核库以及JNI的接口。
+
+### ios
+	ios：目录下存放着使用IOS调用的保存了为安卓系统提供的内核库以及JNI的接口。
+
+### android
+	android：保存了为安卓系统提供的内核库以及JNI的接口。
+
+### android
+	android：保存了为安卓系统提供的内核库以及JNI的接口。
 
 ```python
 
