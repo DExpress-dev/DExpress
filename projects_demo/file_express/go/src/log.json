@@ -1,0 +1,12 @@
+{
+    "LogLevel" : "debug",
+
+    "FileWriter" : {
+        "LogPath" : "log/Gslb-%Y%M%D.log",
+        "On": true
+    },
+
+    "ConsoleWriter" : {
+        "On" : true
+    }
+}
