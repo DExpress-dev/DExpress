@@ -1,6 +1,0 @@
-LIBRARY "express_server"
-EXPORTS
-
-open_server @1
-close_server @2
-version @3
