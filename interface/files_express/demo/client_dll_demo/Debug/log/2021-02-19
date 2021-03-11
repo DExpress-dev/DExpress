@@ -1,0 +1,377 @@
+[2021-02-21 17:54:26.232000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 17:54:26.234000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 17:54:26.235000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 17:54:26.235000][INFO ]Init express_client_thread
+[2021-02-21 17:54:26.236000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 17:54:26.237000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 17:54:26.240000][INFO ]Create RUDP Client Object
+[2021-02-21 17:54:26.242000][INFO ]RUDP Client Object init
+[2021-02-21 17:54:26.267000][INFO ]RUDP Client Object init Success
+[2021-02-21 17:54:26.268000][INFO ]****First Connect****
+[2021-02-21 17:54:26.268000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 17:54:26.371000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55620
+[2021-02-21 17:54:26.403000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 17:54:26.405000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 17:54:26.409000][INFO ]RUDP Connect Success
+[2021-02-21 17:54:26.418000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 17:54:26.540000][INFO ]open_client Connect Success!
+[2021-02-21 18:00:24.618000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:00:24.618000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:00:24.620000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:00:24.621000][INFO ]Init express_client_thread
+[2021-02-21 18:00:24.621000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:00:24.622000][INFO ]Create RUDP Client Object
+[2021-02-21 18:00:24.622000][INFO ]RUDP Client Object init
+[2021-02-21 18:00:24.623000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:00:24.651000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:00:24.651000][INFO ]****First Connect****
+[2021-02-21 18:00:24.651000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:00:24.744000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55608
+[2021-02-21 18:00:24.797000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:00:24.798000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:00:24.802000][INFO ]RUDP Connect Success
+[2021-02-21 18:00:24.811000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:00:24.924000][INFO ]open_client Connect Success!
+[2021-02-21 18:00:26.038000][ERROR]Send Local File Failed harq_read_file Result=0
+[2021-02-21 18:01:37.752000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:01:37.759000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:01:37.759000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:01:37.760000][INFO ]Init express_client_thread
+[2021-02-21 18:01:37.760000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:01:37.761000][INFO ]Create RUDP Client Object
+[2021-02-21 18:01:37.761000][INFO ]RUDP Client Object init
+[2021-02-21 18:01:37.761000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:01:37.791000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:01:37.792000][INFO ]****First Connect****
+[2021-02-21 18:01:37.792000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:01:37.909000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55620
+[2021-02-21 18:01:37.929000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:01:37.933000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:01:37.938000][INFO ]RUDP Connect Success
+[2021-02-21 18:01:37.947000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:01:38.063000][INFO ]open_client Connect Success!
+[2021-02-21 18:01:40.065000][ERROR]Send Local File Failed harq_read_file Result=0
+[2021-02-21 18:03:40.713000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:03:40.716000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:03:40.716000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:03:40.716000][INFO ]Init express_client_thread
+[2021-02-21 18:03:40.717000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:03:40.718000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:03:40.719000][INFO ]Create RUDP Client Object
+[2021-02-21 18:03:40.719000][INFO ]RUDP Client Object init
+[2021-02-21 18:03:40.744000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:03:44.015000][INFO ]****First Connect****
+[2021-02-21 18:03:46.784000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:03:46.925000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55612
+[2021-02-21 18:03:46.960000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:03:46.961000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:03:46.963000][INFO ]RUDP Connect Success
+[2021-02-21 18:03:46.969000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:03:47.085000][INFO ]open_client Connect Success!
+[2021-02-21 18:04:40.114000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:04:40.115000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:04:40.117000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:04:40.118000][INFO ]Init express_client_thread
+[2021-02-21 18:04:40.118000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:04:40.119000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:04:40.119000][INFO ]Create RUDP Client Object
+[2021-02-21 18:04:40.120000][INFO ]RUDP Client Object init
+[2021-02-21 18:04:40.155000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:04:40.155000][INFO ]****First Connect****
+[2021-02-21 18:04:40.155000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:04:40.249000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55611
+[2021-02-21 18:04:40.312000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:04:40.313000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:04:40.316000][INFO ]RUDP Connect Success
+[2021-02-21 18:04:40.325000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:04:40.421000][INFO ]open_client Connect Success!
+[2021-02-21 18:05:26.812000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:05:26.814000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:05:26.815000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:05:26.815000][INFO ]Init express_client_thread
+[2021-02-21 18:05:26.815000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:05:26.816000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:05:26.816000][INFO ]Create RUDP Client Object
+[2021-02-21 18:05:26.817000][INFO ]RUDP Client Object init
+[2021-02-21 18:05:26.842000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:05:26.842000][INFO ]****First Connect****
+[2021-02-21 18:05:26.842000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:05:26.934000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55607
+[2021-02-21 18:05:26.973000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:05:26.975000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:05:26.980000][INFO ]RUDP Connect Success
+[2021-02-21 18:05:26.990000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:05:27.117000][INFO ]open_client Connect Success!
+[2021-02-21 18:06:19.134000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:06:19.134000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:06:19.136000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:06:19.136000][INFO ]Init express_client_thread
+[2021-02-21 18:06:19.137000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:06:19.138000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:06:19.138000][INFO ]Create RUDP Client Object
+[2021-02-21 18:06:19.138000][INFO ]RUDP Client Object init
+[2021-02-21 18:06:19.166000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:06:19.167000][INFO ]****First Connect****
+[2021-02-21 18:06:19.167000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:06:19.290000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55614
+[2021-02-21 18:06:19.312000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:06:19.313000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:06:19.318000][INFO ]RUDP Connect Success
+[2021-02-21 18:06:19.326000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:06:19.439000][INFO ]open_client Connect Success!
+[2021-02-21 18:07:14.156000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:07:14.159000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:07:14.159000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:07:14.160000][INFO ]Init express_client_thread
+[2021-02-21 18:07:14.160000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:07:14.161000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:07:14.161000][INFO ]Create RUDP Client Object
+[2021-02-21 18:07:14.162000][INFO ]RUDP Client Object init
+[2021-02-21 18:07:14.191000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:07:14.192000][INFO ]****First Connect****
+[2021-02-21 18:07:14.192000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:07:14.308000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55623
+[2021-02-21 18:07:14.328000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:07:14.330000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:07:14.335000][INFO ]RUDP Connect Success
+[2021-02-21 18:07:14.346000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:07:14.462000][INFO ]open_client Connect Success!
+[2021-02-21 18:07:46.008000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:07:46.008000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:07:46.010000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:07:46.011000][INFO ]Init express_client_thread
+[2021-02-21 18:07:46.011000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:07:46.012000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:07:46.013000][INFO ]Create RUDP Client Object
+[2021-02-21 18:07:46.013000][INFO ]RUDP Client Object init
+[2021-02-21 18:07:46.047000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:07:46.048000][INFO ]****First Connect****
+[2021-02-21 18:07:46.048000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:07:46.160000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55618
+[2021-02-21 18:07:46.180000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:07:46.181000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:07:46.187000][INFO ]RUDP Connect Success
+[2021-02-21 18:07:46.198000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:07:46.312000][INFO ]open_client Connect Success!
+[2021-02-21 18:09:05.257000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:09:05.257000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:09:05.260000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:09:05.260000][INFO ]Init express_client_thread
+[2021-02-21 18:09:05.261000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:09:05.262000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:09:05.262000][INFO ]Create RUDP Client Object
+[2021-02-21 18:09:05.263000][INFO ]RUDP Client Object init
+[2021-02-21 18:09:05.295000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:09:05.295000][INFO ]****First Connect****
+[2021-02-21 18:09:05.296000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:09:05.383000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55607
+[2021-02-21 18:09:05.430000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:09:05.431000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:09:05.434000][INFO ]RUDP Connect Success
+[2021-02-21 18:09:05.444000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:09:05.563000][INFO ]open_client Connect Success!
+[2021-02-21 18:14:27.800000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:14:27.800000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:14:27.815000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:14:27.815000][INFO ]Init express_client_thread
+[2021-02-21 18:14:27.816000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:14:27.817000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:14:27.817000][INFO ]Create RUDP Client Object
+[2021-02-21 18:14:27.818000][INFO ]RUDP Client Object init
+[2021-02-21 18:14:27.847000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:14:27.847000][INFO ]****First Connect****
+[2021-02-21 18:14:27.847000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:14:27.989000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55617
+[2021-02-21 18:14:28.011000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:14:28.013000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:14:28.016000][INFO ]RUDP Connect Success
+[2021-02-21 18:14:28.024000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:14:28.118000][INFO ]open_client Connect Success!
+[2021-02-21 18:18:11.298000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:18:11.299000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:18:11.301000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:18:11.301000][INFO ]Init express_client_thread
+[2021-02-21 18:18:11.302000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:18:11.302000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:18:11.303000][INFO ]Create RUDP Client Object
+[2021-02-21 18:18:11.303000][INFO ]RUDP Client Object init
+[2021-02-21 18:18:11.333000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:18:11.334000][INFO ]****First Connect****
+[2021-02-21 18:18:11.334000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:18:11.436000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55601
+[2021-02-21 18:18:11.484000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:18:11.485000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:18:11.486000][INFO ]RUDP Connect Success
+[2021-02-21 18:18:11.494000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:18:11.602000][INFO ]open_client Connect Success!
+[2021-02-21 18:19:49.573000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:19:49.574000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:19:49.576000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:19:49.576000][INFO ]Init express_client_thread
+[2021-02-21 18:19:49.577000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:19:49.578000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:19:49.578000][INFO ]Create RUDP Client Object
+[2021-02-21 18:19:49.579000][INFO ]RUDP Client Object init
+[2021-02-21 18:19:49.608000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:19:49.608000][INFO ]****First Connect****
+[2021-02-21 18:19:49.608000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:19:49.720000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55607
+[2021-02-21 18:19:49.750000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:19:49.751000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:19:49.755000][INFO ]RUDP Connect Success
+[2021-02-21 18:19:49.764000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:19:49.878000][INFO ]open_client Connect Success!
+[2021-02-21 18:21:06.870000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:21:06.871000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:21:06.873000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:21:06.873000][INFO ]Init express_client_thread
+[2021-02-21 18:21:06.874000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:21:06.875000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:21:06.875000][INFO ]Create RUDP Client Object
+[2021-02-21 18:21:06.876000][INFO ]RUDP Client Object init
+[2021-02-21 18:21:06.912000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:21:06.912000][INFO ]****First Connect****
+[2021-02-21 18:21:06.913000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:21:07.028000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55604
+[2021-02-21 18:21:07.064000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:21:07.065000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:21:07.069000][INFO ]RUDP Connect Success
+[2021-02-21 18:21:07.078000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:21:07.176000][INFO ]open_client Connect Success!
+[2021-02-21 18:23:42.113000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:23:42.114000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:23:42.117000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:23:42.117000][INFO ]Init express_client_thread
+[2021-02-21 18:23:42.118000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:23:42.118000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:23:42.119000][INFO ]Create RUDP Client Object
+[2021-02-21 18:23:42.119000][INFO ]RUDP Client Object init
+[2021-02-21 18:23:42.171000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:23:42.172000][INFO ]****First Connect****
+[2021-02-21 18:23:42.172000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:23:42.295000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55615
+[2021-02-21 18:23:42.305000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:23:42.306000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:23:42.310000][INFO ]RUDP Connect Success
+[2021-02-21 18:23:42.318000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:23:42.420000][INFO ]open_client Connect Success!
+[2021-02-21 18:23:43.999000][ERROR]send_file Failed File Not Found E:/tools/nsatool.exe
+[2021-02-21 18:24:06.516000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:24:06.516000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:24:06.518000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:24:06.518000][INFO ]Init express_client_thread
+[2021-02-21 18:24:06.519000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:24:06.519000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:24:06.520000][INFO ]Create RUDP Client Object
+[2021-02-21 18:24:06.520000][INFO ]RUDP Client Object init
+[2021-02-21 18:24:06.547000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:24:06.547000][INFO ]****First Connect****
+[2021-02-21 18:24:06.547000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:24:06.622000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55599
+[2021-02-21 18:24:06.675000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:24:06.677000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:24:06.680000][INFO ]RUDP Connect Success
+[2021-02-21 18:24:06.688000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:24:06.819000][INFO ]open_client Connect Success!
+[2021-02-21 18:26:08.529000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:26:08.533000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:26:08.533000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:26:08.533000][INFO ]Init express_client_thread
+[2021-02-21 18:26:08.534000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:26:08.535000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:26:08.535000][INFO ]Create RUDP Client Object
+[2021-02-21 18:26:08.536000][INFO ]RUDP Client Object init
+[2021-02-21 18:26:08.560000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:26:08.560000][INFO ]****First Connect****
+[2021-02-21 18:26:08.560000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:26:08.682000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55608
+[2021-02-21 18:26:08.713000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:26:08.715000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:26:08.718000][INFO ]RUDP Connect Success
+[2021-02-21 18:26:08.727000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:26:08.836000][INFO ]open_client Connect Success!
+[2021-02-21 18:26:33.469000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:26:33.470000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:26:33.472000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:26:33.473000][INFO ]Init express_client_thread
+[2021-02-21 18:26:33.474000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:26:33.474000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:26:33.475000][INFO ]Create RUDP Client Object
+[2021-02-21 18:26:33.475000][INFO ]RUDP Client Object init
+[2021-02-21 18:26:33.529000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:26:33.530000][INFO ]****First Connect****
+[2021-02-21 18:26:33.530000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:26:33.608000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55594
+[2021-02-21 18:26:33.665000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:26:33.666000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:26:33.669000][INFO ]RUDP Connect Success
+[2021-02-21 18:26:33.679000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:26:33.775000][INFO ]open_client Connect Success!
+[2021-02-21 18:26:54.113000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:26:54.115000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:26:54.115000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:26:54.116000][INFO ]Init express_client_thread
+[2021-02-21 18:26:54.117000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:26:54.117000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:26:54.118000][INFO ]Create RUDP Client Object
+[2021-02-21 18:26:54.118000][INFO ]RUDP Client Object init
+[2021-02-21 18:26:54.150000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:26:54.150000][INFO ]****First Connect****
+[2021-02-21 18:26:54.150000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:26:54.289000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55614
+[2021-02-21 18:26:54.301000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:26:54.302000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:26:54.303000][INFO ]RUDP Connect Success
+[2021-02-21 18:26:54.309000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:26:54.419000][INFO ]open_client Connect Success!
+[2021-02-21 18:28:13.620000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:28:13.620000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:28:13.623000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:28:13.623000][INFO ]Init express_client_thread
+[2021-02-21 18:28:13.624000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:28:13.625000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:28:13.626000][INFO ]Create RUDP Client Object
+[2021-02-21 18:28:13.626000][INFO ]RUDP Client Object init
+[2021-02-21 18:28:13.651000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:28:13.652000][INFO ]****First Connect****
+[2021-02-21 18:28:13.653000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:28:13.768000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55600
+[2021-02-21 18:28:13.814000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:28:13.817000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:28:13.822000][INFO ]RUDP Connect Success
+[2021-02-21 18:28:13.830000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:28:13.929000][INFO ]open_client Connect Success!
+[2021-02-21 18:28:52.833000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:28:52.834000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:28:52.836000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:28:52.836000][INFO ]Init express_client_thread
+[2021-02-21 18:28:52.837000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:28:52.838000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:28:52.838000][INFO ]Create RUDP Client Object
+[2021-02-21 18:28:52.838000][INFO ]RUDP Client Object init
+[2021-02-21 18:28:52.887000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:28:52.887000][INFO ]****First Connect****
+[2021-02-21 18:28:52.887000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:28:53.002000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55610
+[2021-02-21 18:28:53.033000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:28:53.036000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:28:53.041000][INFO ]RUDP Connect Success
+[2021-02-21 18:28:53.049000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:28:53.139000][INFO ]open_client Connect Success!
+[2021-02-21 18:43:09.231000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:43:09.232000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 18:43:09.235000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 18:43:09.235000][INFO ]Init express_client_thread
+[2021-02-21 18:43:09.236000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 18:43:09.237000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 18:43:09.237000][INFO ]Create RUDP Client Object
+[2021-02-21 18:43:09.237000][INFO ]RUDP Client Object init
+[2021-02-21 18:43:09.271000][INFO ]RUDP Client Object init Success
+[2021-02-21 18:43:09.271000][INFO ]****First Connect****
+[2021-02-21 18:43:09.271000][INFO ]harq_start_client_ptr_ ip=10.10.50.136 port=41002
+[2021-02-21 18:43:09.368000][INFO ]Linker OnConnect Remote_Ip=10.10.50.136 Remote_Port=41002 Linker_Handle=1001 TimeStamp=55588
+[2021-02-21 18:43:09.411000][INFO ]connect_server harq_start_client_ptr ret=10001
+[2021-02-21 18:43:09.412000][INFO ]begin_client Success Udp_Ip=10.10.50.136 Udp_Port=41002
+[2021-02-21 18:43:09.415000][INFO ]RUDP Connect Success
+[2021-02-21 18:43:09.423000][INFO ]Message ---->>>> harq_connect Success
+[2021-02-21 18:43:09.538000][INFO ]open_client Connect Success!

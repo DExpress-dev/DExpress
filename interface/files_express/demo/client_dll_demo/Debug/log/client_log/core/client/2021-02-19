@@ -1,0 +1,927 @@
+[2021-02-21 17:54:26.272000][INFO ]********
+[2021-02-21 17:54:26.273000][INFO ]harq_manager init
+[2021-02-21 17:54:26.274000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 17:54:26.274000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 17:54:26.275000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 17:54:26.275000][INFO ]Create linker_ptr->init OK
+[2021-02-21 17:54:26.278000][INFO ]harq_manager init local_port=36283
+[2021-02-21 17:54:26.278000][INFO ]Set Fd Attribute Success fd=260 port=36283 bind_ip=0.0.0.0
+[2021-02-21 17:54:26.279000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=260
+[2021-02-21 17:54:26.279000][INFO ]Bind fd Success fd=260
+[2021-02-21 17:54:26.281000][INFO ]Create recv_channel OK
+[2021-02-21 17:54:26.282000][INFO ]Create recv_rate OK
+[2021-02-21 17:54:26.282000][INFO ]Create send_rate OK
+[2021-02-21 17:54:26.283000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 17:54:26.284000][INFO ]Create send_channel OK
+[2021-02-21 17:54:26.284000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 17:54:26.286000][INFO ]Init Fec Decoder OK
+[2021-02-21 17:54:26.290000][INFO ]Create rudp_group OK
+[2021-02-21 17:54:26.292000][INFO ]Create frames_class OK
+[2021-02-21 17:54:26.294000][INFO ]Create protocol_thread OK
+[2021-02-21 17:54:26.296000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 17:54:26.299000][INFO ]Create send_thread OK fd=260 get_max_bandwidth=10485760
+[2021-02-21 17:54:26.301000][INFO ]send_syn_buffer OK
+[2021-02-21 17:54:26.369000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613728521955 local_base_timer_=1613728466301 first_rto=68 sys_server_time_stamp=55620, sys_client_time_stamp=-55620
+[2021-02-21 17:54:27.274000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB91/s Overall Recv=3KB31/s Bandwidth=512KB0/s
+[2021-02-21 18:00:24.653000][INFO ]********
+[2021-02-21 18:00:24.654000][INFO ]harq_manager init
+[2021-02-21 18:00:24.655000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:00:24.655000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:00:24.656000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:00:24.656000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:00:24.658000][INFO ]harq_manager init local_port=12610
+[2021-02-21 18:00:24.659000][INFO ]Set Fd Attribute Success fd=292 port=12610 bind_ip=0.0.0.0
+[2021-02-21 18:00:24.659000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=292
+[2021-02-21 18:00:24.660000][INFO ]Bind fd Success fd=292
+[2021-02-21 18:00:24.662000][INFO ]Create recv_channel OK
+[2021-02-21 18:00:24.662000][INFO ]Create recv_rate OK
+[2021-02-21 18:00:24.662000][INFO ]Create send_rate OK
+[2021-02-21 18:00:24.663000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:00:24.664000][INFO ]Create send_channel OK
+[2021-02-21 18:00:24.665000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:00:24.670000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:00:24.675000][INFO ]Create rudp_group OK
+[2021-02-21 18:00:24.679000][INFO ]Create frames_class OK
+[2021-02-21 18:00:24.684000][INFO ]Create protocol_thread OK
+[2021-02-21 18:00:24.685000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:00:24.689000][INFO ]Create send_thread OK fd=292 get_max_bandwidth=10485760
+[2021-02-21 18:00:24.691000][INFO ]send_syn_buffer OK
+[2021-02-21 18:00:24.740000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613728880324 local_base_timer_=1613728824691 first_rto=49 sys_server_time_stamp=55608, sys_client_time_stamp=-55608
+[2021-02-21 18:00:25.653000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB601/s Overall Recv=3KB541/s Bandwidth=512KB0/s
+[2021-02-21 18:00:26.655000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=15KB272/s Overall Recv=7KB109/s Bandwidth=512KB0/s
+[2021-02-21 18:00:27.658000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=2KB397/s Overall Recv=15KB175/s Bandwidth=512KB0/s
+[2021-02-21 18:00:28.660000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=15KB515/s Overall Recv=15KB515/s Bandwidth=512KB0/s
+[2021-02-21 18:00:29.662000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:00:30.664000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB515/s Bandwidth=512KB0/s
+[2021-02-21 18:00:31.666000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB855/s Bandwidth=512KB0/s
+[2021-02-21 18:00:32.667000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB515/s Bandwidth=512KB0/s
+[2021-02-21 18:00:33.668000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:00:34.670000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:00:35.671000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:00:36.674000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB1/s Overall Recv=15KB515/s Bandwidth=512KB0/s
+[2021-02-21 18:00:37.675000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:00:38.678000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:00:39.680000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:01:37.794000][INFO ]********
+[2021-02-21 18:01:37.795000][INFO ]harq_manager init
+[2021-02-21 18:01:37.797000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:01:37.797000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:01:37.798000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:01:37.798000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:01:37.802000][INFO ]harq_manager init local_port=28099
+[2021-02-21 18:01:37.802000][INFO ]Set Fd Attribute Success fd=264 port=28099 bind_ip=0.0.0.0
+[2021-02-21 18:01:37.802000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=264
+[2021-02-21 18:01:37.803000][INFO ]Bind fd Success fd=264
+[2021-02-21 18:01:37.804000][INFO ]Create recv_channel OK
+[2021-02-21 18:01:37.805000][INFO ]Create recv_rate OK
+[2021-02-21 18:01:37.805000][INFO ]Create send_rate OK
+[2021-02-21 18:01:37.805000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:01:37.806000][INFO ]Create send_channel OK
+[2021-02-21 18:01:37.806000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:01:37.809000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:01:37.813000][INFO ]Create rudp_group OK
+[2021-02-21 18:01:37.818000][INFO ]Create frames_class OK
+[2021-02-21 18:01:37.821000][INFO ]Create protocol_thread OK
+[2021-02-21 18:01:37.823000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:01:37.826000][INFO ]Create send_thread OK fd=264 get_max_bandwidth=10485760
+[2021-02-21 18:01:37.828000][INFO ]send_syn_buffer OK
+[2021-02-21 18:01:37.906000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613728953487 local_base_timer_=1613728897828 first_rto=78 sys_server_time_stamp=55620, sys_client_time_stamp=-55620
+[2021-02-21 18:01:38.795000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB91/s Overall Recv=2KB885/s Bandwidth=512KB0/s
+[2021-02-21 18:01:39.796000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB571/s Overall Recv=1KB506/s Bandwidth=512KB0/s
+[2021-02-21 18:01:40.796000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=14KB446/s Overall Recv=19KB976/s Bandwidth=512KB0/s
+[2021-02-21 18:01:41.796000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=15KB515/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:01:42.797000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:01:43.800000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB515/s Bandwidth=512KB0/s
+[2021-02-21 18:01:44.800000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB511/s Overall Recv=15KB515/s Bandwidth=512KB0/s
+[2021-02-21 18:01:45.801000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:01:46.803000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:01:47.804000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB1/s Overall Recv=15KB855/s Bandwidth=512KB0/s
+[2021-02-21 18:01:48.807000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB345/s Bandwidth=512KB0/s
+[2021-02-21 18:01:49.810000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB511/s Overall Recv=15KB855/s Bandwidth=512KB0/s
+[2021-02-21 18:01:52.145000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB515/s Bandwidth=512KB0/s
+[2021-02-21 18:03:46.789000][INFO ]********
+[2021-02-21 18:03:46.792000][INFO ]harq_manager init
+[2021-02-21 18:03:46.795000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:03:46.796000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:03:46.797000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:03:46.798000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:03:46.805000][INFO ]harq_manager init local_port=23682
+[2021-02-21 18:03:46.806000][INFO ]Set Fd Attribute Success fd=268 port=23682 bind_ip=0.0.0.0
+[2021-02-21 18:03:46.807000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=268
+[2021-02-21 18:03:46.808000][INFO ]Bind fd Success fd=268
+[2021-02-21 18:03:46.813000][INFO ]Create recv_channel OK
+[2021-02-21 18:03:46.813000][INFO ]Create recv_rate OK
+[2021-02-21 18:03:46.814000][INFO ]Create send_rate OK
+[2021-02-21 18:03:46.815000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:03:46.817000][INFO ]Create send_channel OK
+[2021-02-21 18:03:46.820000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:03:46.824000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:03:46.833000][INFO ]Create rudp_group OK
+[2021-02-21 18:03:46.837000][INFO ]Create frames_class OK
+[2021-02-21 18:03:46.841000][INFO ]Create protocol_thread OK
+[2021-02-21 18:03:46.845000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:03:46.854000][INFO ]Create send_thread OK fd=268 get_max_bandwidth=10485760
+[2021-02-21 18:03:46.857000][INFO ]send_syn_buffer OK
+[2021-02-21 18:03:46.923000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613729082502 local_base_timer_=1613729026857 first_rto=66 sys_server_time_stamp=55612, sys_client_time_stamp=-55612
+[2021-02-21 18:03:47.791000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB261/s Overall Recv=3KB31/s Bandwidth=512KB0/s
+[2021-02-21 18:03:48.794000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB741/s Overall Recv=1KB506/s Bandwidth=512KB0/s
+[2021-02-21 18:03:55.744000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=19KB790/s Overall Recv=8KB564/s Bandwidth=512KB0/s
+[2021-02-21 18:04:40.158000][INFO ]********
+[2021-02-21 18:04:40.159000][INFO ]harq_manager init
+[2021-02-21 18:04:40.161000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:04:40.162000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:04:40.163000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:04:40.163000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:04:40.166000][INFO ]harq_manager init local_port=30807
+[2021-02-21 18:04:40.166000][INFO ]Set Fd Attribute Success fd=260 port=30807 bind_ip=0.0.0.0
+[2021-02-21 18:04:40.166000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=260
+[2021-02-21 18:04:40.166000][INFO ]Bind fd Success fd=260
+[2021-02-21 18:04:40.168000][INFO ]Create recv_channel OK
+[2021-02-21 18:04:40.168000][INFO ]Create recv_rate OK
+[2021-02-21 18:04:40.169000][INFO ]Create send_rate OK
+[2021-02-21 18:04:40.169000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:04:40.170000][INFO ]Create send_channel OK
+[2021-02-21 18:04:40.172000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:04:40.176000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:04:40.180000][INFO ]Create rudp_group OK
+[2021-02-21 18:04:40.184000][INFO ]Create frames_class OK
+[2021-02-21 18:04:40.188000][INFO ]Create protocol_thread OK
+[2021-02-21 18:04:40.191000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:04:40.197000][INFO ]Create send_thread OK fd=260 get_max_bandwidth=10485760
+[2021-02-21 18:04:40.199000][INFO ]send_syn_buffer OK
+[2021-02-21 18:04:40.246000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613729135834 local_base_timer_=1613729080199 first_rto=47 sys_server_time_stamp=55611, sys_client_time_stamp=-55611
+[2021-02-21 18:04:41.159000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB771/s Overall Recv=3KB541/s Bandwidth=512KB0/s
+[2021-02-21 18:04:42.161000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=15KB612/s Overall Recv=7KB279/s Bandwidth=512KB0/s
+[2021-02-21 18:04:43.163000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=2KB397/s Overall Recv=15KB5/s Bandwidth=512KB0/s
+[2021-02-21 18:04:44.167000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=15KB685/s Overall Recv=15KB855/s Bandwidth=512KB0/s
+[2021-02-21 18:04:45.175000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB511/s Overall Recv=15KB515/s Bandwidth=512KB0/s
+[2021-02-21 18:04:46.180000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:04:47.183000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB855/s Bandwidth=512KB0/s
+[2021-02-21 18:04:48.185000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB511/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:04:49.188000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:04:50.191000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:04:51.194000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB511/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:04:52.200000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB1/s Overall Recv=15KB515/s Bandwidth=512KB0/s
+[2021-02-21 18:04:53.202000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB855/s Bandwidth=512KB0/s
+[2021-02-21 18:04:54.205000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:04:55.206000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB855/s Bandwidth=512KB0/s
+[2021-02-21 18:04:56.207000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB511/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:04:57.207000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB1/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:04:58.208000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB511/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:04:59.211000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB515/s Bandwidth=512KB0/s
+[2021-02-21 18:05:00.211000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=16KB1/s Bandwidth=512KB0/s
+[2021-02-21 18:05:26.844000][INFO ]********
+[2021-02-21 18:05:26.845000][INFO ]harq_manager init
+[2021-02-21 18:05:26.846000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:05:26.846000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:05:26.846000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:05:26.847000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:05:26.849000][INFO ]harq_manager init local_port=17044
+[2021-02-21 18:05:26.850000][INFO ]Set Fd Attribute Success fd=272 port=17044 bind_ip=0.0.0.0
+[2021-02-21 18:05:26.850000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=272
+[2021-02-21 18:05:26.850000][INFO ]Bind fd Success fd=272
+[2021-02-21 18:05:26.852000][INFO ]Create recv_channel OK
+[2021-02-21 18:05:26.853000][INFO ]Create recv_rate OK
+[2021-02-21 18:05:26.853000][INFO ]Create send_rate OK
+[2021-02-21 18:05:26.853000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:05:26.853000][INFO ]Create send_channel OK
+[2021-02-21 18:05:26.853000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:05:26.856000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:05:26.859000][INFO ]Create rudp_group OK
+[2021-02-21 18:05:26.861000][INFO ]Create frames_class OK
+[2021-02-21 18:05:26.864000][INFO ]Create protocol_thread OK
+[2021-02-21 18:05:26.865000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:05:26.867000][INFO ]Create send_thread OK fd=272 get_max_bandwidth=10485760
+[2021-02-21 18:05:26.869000][INFO ]send_syn_buffer OK
+[2021-02-21 18:05:26.931000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613729182507 local_base_timer_=1613729126869 first_rto=62 sys_server_time_stamp=55607, sys_client_time_stamp=-55607
+[2021-02-21 18:05:27.844000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB261/s Overall Recv=3KB201/s Bandwidth=512KB0/s
+[2021-02-21 18:05:28.846000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB911/s Overall Recv=1KB676/s Bandwidth=512KB0/s
+[2021-02-21 18:05:29.850000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=2KB57/s Overall Recv=15KB175/s Bandwidth=512KB0/s
+[2021-02-21 18:05:30.855000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=28KB730/s Overall Recv=20KB632/s Bandwidth=512KB0/s
+[2021-02-21 18:05:31.860000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB511/s Overall Recv=15KB515/s Bandwidth=512KB0/s
+[2021-02-21 18:05:32.864000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB345/s Bandwidth=512KB0/s
+[2021-02-21 18:05:33.864000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB855/s Bandwidth=512KB0/s
+[2021-02-21 18:05:34.865000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB345/s Bandwidth=512KB0/s
+[2021-02-21 18:05:35.867000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB855/s Bandwidth=512KB0/s
+[2021-02-21 18:05:36.868000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB515/s Bandwidth=512KB0/s
+[2021-02-21 18:05:37.869000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB855/s Bandwidth=512KB0/s
+[2021-02-21 18:05:38.872000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:05:39.875000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB511/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:05:40.876000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB345/s Bandwidth=512KB0/s
+[2021-02-21 18:05:41.880000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB341/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:06:19.169000][INFO ]********
+[2021-02-21 18:06:19.169000][INFO ]harq_manager init
+[2021-02-21 18:06:19.170000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:06:19.171000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:06:19.171000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:06:19.171000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:06:19.177000][INFO ]harq_manager init local_port=10999
+[2021-02-21 18:06:19.178000][INFO ]Set Fd Attribute Success fd=264 port=10999 bind_ip=0.0.0.0
+[2021-02-21 18:06:19.178000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=264
+[2021-02-21 18:06:19.178000][INFO ]Bind fd Success fd=264
+[2021-02-21 18:06:19.182000][INFO ]Create recv_channel OK
+[2021-02-21 18:06:19.182000][INFO ]Create recv_rate OK
+[2021-02-21 18:06:19.182000][INFO ]Create send_rate OK
+[2021-02-21 18:06:19.183000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:06:19.184000][INFO ]Create send_channel OK
+[2021-02-21 18:06:19.186000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:06:19.191000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:06:19.194000][INFO ]Create rudp_group OK
+[2021-02-21 18:06:19.198000][INFO ]Create frames_class OK
+[2021-02-21 18:06:19.201000][INFO ]Create protocol_thread OK
+[2021-02-21 18:06:19.203000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:06:19.207000][INFO ]Create send_thread OK fd=264 get_max_bandwidth=10485760
+[2021-02-21 18:06:19.209000][INFO ]send_syn_buffer OK
+[2021-02-21 18:06:19.287000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613729234862 local_base_timer_=1613729179209 first_rto=78 sys_server_time_stamp=55614, sys_client_time_stamp=-55614
+[2021-02-21 18:06:20.170000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB91/s Overall Recv=2KB885/s Bandwidth=512KB0/s
+[2021-02-21 18:06:28.234000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=14KB446/s Overall Recv=6KB283/s Bandwidth=512KB0/s
+[2021-02-21 18:07:14.194000][INFO ]********
+[2021-02-21 18:07:14.195000][INFO ]harq_manager init
+[2021-02-21 18:07:14.196000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:07:14.196000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:07:14.196000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:07:14.197000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:07:14.199000][INFO ]harq_manager init local_port=19190
+[2021-02-21 18:07:14.200000][INFO ]Set Fd Attribute Success fd=264 port=19190 bind_ip=0.0.0.0
+[2021-02-21 18:07:14.200000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=264
+[2021-02-21 18:07:14.201000][INFO ]Bind fd Success fd=264
+[2021-02-21 18:07:14.204000][INFO ]Create recv_channel OK
+[2021-02-21 18:07:14.205000][INFO ]Create recv_rate OK
+[2021-02-21 18:07:14.205000][INFO ]Create send_rate OK
+[2021-02-21 18:07:14.206000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:07:14.207000][INFO ]Create send_channel OK
+[2021-02-21 18:07:14.209000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:07:14.211000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:07:14.213000][INFO ]Create rudp_group OK
+[2021-02-21 18:07:14.217000][INFO ]Create frames_class OK
+[2021-02-21 18:07:14.221000][INFO ]Create protocol_thread OK
+[2021-02-21 18:07:14.222000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:07:14.225000][INFO ]Create send_thread OK fd=264 get_max_bandwidth=10485760
+[2021-02-21 18:07:14.226000][INFO ]send_syn_buffer OK
+[2021-02-21 18:07:14.305000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613729289889 local_base_timer_=1613729234226 first_rto=79 sys_server_time_stamp=55623, sys_client_time_stamp=-55623
+[2021-02-21 18:07:15.195000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB91/s Overall Recv=2KB885/s Bandwidth=512KB0/s
+[2021-02-21 18:07:23.910000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=14KB446/s Overall Recv=6KB283/s Bandwidth=512KB0/s
+[2021-02-21 18:07:46.050000][INFO ]********
+[2021-02-21 18:07:46.053000][INFO ]harq_manager init
+[2021-02-21 18:07:46.053000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:07:46.054000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:07:46.054000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:07:46.054000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:07:46.057000][INFO ]harq_manager init local_port=21083
+[2021-02-21 18:07:46.057000][INFO ]Set Fd Attribute Success fd=240 port=21083 bind_ip=0.0.0.0
+[2021-02-21 18:07:46.058000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=240
+[2021-02-21 18:07:46.058000][INFO ]Bind fd Success fd=240
+[2021-02-21 18:07:46.060000][INFO ]Create recv_channel OK
+[2021-02-21 18:07:46.060000][INFO ]Create recv_rate OK
+[2021-02-21 18:07:46.060000][INFO ]Create send_rate OK
+[2021-02-21 18:07:46.061000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:07:46.062000][INFO ]Create send_channel OK
+[2021-02-21 18:07:46.063000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:07:46.065000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:07:46.067000][INFO ]Create rudp_group OK
+[2021-02-21 18:07:46.069000][INFO ]Create frames_class OK
+[2021-02-21 18:07:46.071000][INFO ]Create protocol_thread OK
+[2021-02-21 18:07:46.074000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:07:46.076000][INFO ]Create send_thread OK fd=240 get_max_bandwidth=10485760
+[2021-02-21 18:07:46.078000][INFO ]send_syn_buffer OK
+[2021-02-21 18:07:46.156000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613729321735 local_base_timer_=1613729266078 first_rto=78 sys_server_time_stamp=55618, sys_client_time_stamp=-55618
+[2021-02-21 18:07:47.051000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB91/s Overall Recv=2KB885/s Bandwidth=512KB0/s
+[2021-02-21 18:07:55.970000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB618/s Overall Recv=1KB336/s Bandwidth=512KB0/s
+[2021-02-21 18:09:05.298000][INFO ]********
+[2021-02-21 18:09:05.299000][INFO ]harq_manager init
+[2021-02-21 18:09:05.300000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:09:05.300000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:09:05.300000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:09:05.300000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:09:05.302000][INFO ]harq_manager init local_port=24880
+[2021-02-21 18:09:05.302000][INFO ]Set Fd Attribute Success fd=260 port=24880 bind_ip=0.0.0.0
+[2021-02-21 18:09:05.303000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=260
+[2021-02-21 18:09:05.303000][INFO ]Bind fd Success fd=260
+[2021-02-21 18:09:05.305000][INFO ]Create recv_channel OK
+[2021-02-21 18:09:05.305000][INFO ]Create recv_rate OK
+[2021-02-21 18:09:05.305000][INFO ]Create send_rate OK
+[2021-02-21 18:09:05.306000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:09:05.307000][INFO ]Create send_channel OK
+[2021-02-21 18:09:05.309000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:09:05.312000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:09:05.315000][INFO ]Create rudp_group OK
+[2021-02-21 18:09:05.317000][INFO ]Create frames_class OK
+[2021-02-21 18:09:05.320000][INFO ]Create protocol_thread OK
+[2021-02-21 18:09:05.322000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:09:05.325000][INFO ]Create send_thread OK fd=260 get_max_bandwidth=10485760
+[2021-02-21 18:09:05.327000][INFO ]send_syn_buffer OK
+[2021-02-21 18:09:05.380000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613729400961 local_base_timer_=1613729345327 first_rto=53 sys_server_time_stamp=55607, sys_client_time_stamp=-55607
+[2021-02-21 18:09:06.298000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB601/s Overall Recv=3KB371/s Bandwidth=512KB0/s
+[2021-02-21 18:09:08.991000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB788/s Overall Recv=1KB336/s Bandwidth=512KB0/s
+[2021-02-21 18:14:27.849000][INFO ]********
+[2021-02-21 18:14:27.850000][INFO ]harq_manager init
+[2021-02-21 18:14:27.851000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:14:27.851000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:14:27.852000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:14:27.852000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:14:27.855000][INFO ]harq_manager init local_port=41846
+[2021-02-21 18:14:27.855000][INFO ]Set Fd Attribute Success fd=260 port=41846 bind_ip=0.0.0.0
+[2021-02-21 18:14:27.856000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=260
+[2021-02-21 18:14:27.856000][INFO ]Bind fd Success fd=260
+[2021-02-21 18:14:27.859000][INFO ]Create recv_channel OK
+[2021-02-21 18:14:27.859000][INFO ]Create recv_rate OK
+[2021-02-21 18:14:27.859000][INFO ]Create send_rate OK
+[2021-02-21 18:14:27.860000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:14:27.861000][INFO ]Create send_channel OK
+[2021-02-21 18:14:27.863000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:14:27.876000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:14:27.888000][INFO ]Create rudp_group OK
+[2021-02-21 18:14:27.892000][INFO ]Create frames_class OK
+[2021-02-21 18:14:27.896000][INFO ]Create protocol_thread OK
+[2021-02-21 18:14:27.899000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:14:27.904000][INFO ]Create send_thread OK fd=260 get_max_bandwidth=10485760
+[2021-02-21 18:14:27.905000][INFO ]send_syn_buffer OK
+[2021-02-21 18:14:27.987000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613729723563 local_base_timer_=1613729667905 first_rto=82 sys_server_time_stamp=55617, sys_client_time_stamp=-55617
+[2021-02-21 18:14:28.851000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=2KB945/s Overall Recv=2KB715/s Bandwidth=512KB0/s
+[2021-02-21 18:14:29.854000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB571/s Overall Recv=1KB336/s Bandwidth=512KB0/s
+[2021-02-21 18:14:33.497000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=499/s Overall Recv=1KB741/s Bandwidth=512KB0/s
+[2021-02-21 18:18:11.336000][INFO ]********
+[2021-02-21 18:18:11.336000][INFO ]harq_manager init
+[2021-02-21 18:18:11.337000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:18:11.337000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:18:11.338000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:18:11.338000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:18:11.340000][INFO ]harq_manager init local_port=31043
+[2021-02-21 18:18:11.340000][INFO ]Set Fd Attribute Success fd=268 port=31043 bind_ip=0.0.0.0
+[2021-02-21 18:18:11.340000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=268
+[2021-02-21 18:18:11.341000][INFO ]Bind fd Success fd=268
+[2021-02-21 18:18:11.345000][INFO ]Create recv_channel OK
+[2021-02-21 18:18:11.345000][INFO ]Create recv_rate OK
+[2021-02-21 18:18:11.345000][INFO ]Create send_rate OK
+[2021-02-21 18:18:11.346000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:18:11.347000][INFO ]Create send_channel OK
+[2021-02-21 18:18:11.348000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:18:11.358000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:18:11.363000][INFO ]Create rudp_group OK
+[2021-02-21 18:18:11.368000][INFO ]Create frames_class OK
+[2021-02-21 18:18:11.373000][INFO ]Create protocol_thread OK
+[2021-02-21 18:18:11.374000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:18:11.380000][INFO ]Create send_thread OK fd=268 get_max_bandwidth=10485760
+[2021-02-21 18:18:11.381000][INFO ]send_syn_buffer OK
+[2021-02-21 18:18:11.433000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613729947008 local_base_timer_=1613729891381 first_rto=52 sys_server_time_stamp=55601, sys_client_time_stamp=-55601
+[2021-02-21 18:18:12.338000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB601/s Overall Recv=3KB371/s Bandwidth=512KB0/s
+[2021-02-21 18:18:18.016000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB759/s Overall Recv=1KB166/s Bandwidth=512KB0/s
+[2021-02-21 18:19:49.610000][INFO ]********
+[2021-02-21 18:19:49.611000][INFO ]harq_manager init
+[2021-02-21 18:19:49.612000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:19:49.613000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:19:49.613000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:19:49.613000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:19:49.616000][INFO ]harq_manager init local_port=35684
+[2021-02-21 18:19:49.616000][INFO ]Set Fd Attribute Success fd=260 port=35684 bind_ip=0.0.0.0
+[2021-02-21 18:19:49.616000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=260
+[2021-02-21 18:19:49.617000][INFO ]Bind fd Success fd=260
+[2021-02-21 18:19:49.618000][INFO ]Create recv_channel OK
+[2021-02-21 18:19:49.618000][INFO ]Create recv_rate OK
+[2021-02-21 18:19:49.619000][INFO ]Create send_rate OK
+[2021-02-21 18:19:49.619000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:19:49.620000][INFO ]Create send_channel OK
+[2021-02-21 18:19:49.621000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:19:49.627000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:19:49.630000][INFO ]Create rudp_group OK
+[2021-02-21 18:19:49.633000][INFO ]Create frames_class OK
+[2021-02-21 18:19:49.636000][INFO ]Create protocol_thread OK
+[2021-02-21 18:19:49.637000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:19:49.643000][INFO ]Create send_thread OK fd=260 get_max_bandwidth=10485760
+[2021-02-21 18:19:49.645000][INFO ]send_syn_buffer OK
+[2021-02-21 18:19:49.717000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613730045288 local_base_timer_=1613729989645 first_rto=72 sys_server_time_stamp=55607, sys_client_time_stamp=-55607
+[2021-02-21 18:19:50.611000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB91/s Overall Recv=3KB31/s Bandwidth=512KB0/s
+[2021-02-21 18:19:52.438000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB61/s Overall Recv=510/s Bandwidth=512KB0/s
+[2021-02-21 18:21:06.915000][INFO ]********
+[2021-02-21 18:21:06.916000][INFO ]harq_manager init
+[2021-02-21 18:21:06.918000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:21:06.918000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:21:06.919000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:21:06.919000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:21:06.922000][INFO ]harq_manager init local_port=18989
+[2021-02-21 18:21:06.922000][INFO ]Set Fd Attribute Success fd=228 port=18989 bind_ip=0.0.0.0
+[2021-02-21 18:21:06.923000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=228
+[2021-02-21 18:21:06.923000][INFO ]Bind fd Success fd=228
+[2021-02-21 18:21:06.924000][INFO ]Create recv_channel OK
+[2021-02-21 18:21:06.925000][INFO ]Create recv_rate OK
+[2021-02-21 18:21:06.925000][INFO ]Create send_rate OK
+[2021-02-21 18:21:06.925000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:21:06.935000][INFO ]Create send_channel OK
+[2021-02-21 18:21:06.936000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:21:06.938000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:21:06.941000][INFO ]Create rudp_group OK
+[2021-02-21 18:21:06.944000][INFO ]Create frames_class OK
+[2021-02-21 18:21:06.950000][INFO ]Create protocol_thread OK
+[2021-02-21 18:21:06.952000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:21:06.959000][INFO ]Create send_thread OK fd=228 get_max_bandwidth=10485760
+[2021-02-21 18:21:06.961000][INFO ]send_syn_buffer OK
+[2021-02-21 18:21:07.026000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613730122598 local_base_timer_=1613730066961 first_rto=65 sys_server_time_stamp=55604, sys_client_time_stamp=-55604
+[2021-02-21 18:21:07.916000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB261/s Overall Recv=3KB31/s Bandwidth=512KB0/s
+[2021-02-21 18:21:08.919000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB911/s Overall Recv=1KB676/s Bandwidth=512KB0/s
+[2021-02-21 18:21:16.745000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=452/s Overall Recv=915/s Bandwidth=512KB0/s
+[2021-02-21 18:21:33.020000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=26KB860/s Overall Recv=228KB387/s Bandwidth=512KB0/s
+[2021-02-21 18:23:42.174000][INFO ]********
+[2021-02-21 18:23:42.176000][INFO ]harq_manager init
+[2021-02-21 18:23:42.177000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:23:42.177000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:23:42.177000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:23:42.178000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:23:42.180000][INFO ]harq_manager init local_port=23136
+[2021-02-21 18:23:42.180000][INFO ]Set Fd Attribute Success fd=260 port=23136 bind_ip=0.0.0.0
+[2021-02-21 18:23:42.180000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=260
+[2021-02-21 18:23:42.181000][INFO ]Bind fd Success fd=260
+[2021-02-21 18:23:42.182000][INFO ]Create recv_channel OK
+[2021-02-21 18:23:42.183000][INFO ]Create recv_rate OK
+[2021-02-21 18:23:42.184000][INFO ]Create send_rate OK
+[2021-02-21 18:23:42.184000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:23:42.185000][INFO ]Create send_channel OK
+[2021-02-21 18:23:42.185000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:23:42.188000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:23:42.193000][INFO ]Create rudp_group OK
+[2021-02-21 18:23:42.195000][INFO ]Create frames_class OK
+[2021-02-21 18:23:42.197000][INFO ]Create protocol_thread OK
+[2021-02-21 18:23:42.198000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:23:42.201000][INFO ]Create send_thread OK fd=260 get_max_bandwidth=10485760
+[2021-02-21 18:23:42.203000][INFO ]send_syn_buffer OK
+[2021-02-21 18:23:42.292000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613730277863 local_base_timer_=1613730222203 first_rto=89 sys_server_time_stamp=55615, sys_client_time_stamp=-55615
+[2021-02-21 18:23:43.176000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=2KB945/s Overall Recv=2KB715/s Bandwidth=512KB0/s
+[2021-02-21 18:23:44.178000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB571/s Overall Recv=1KB166/s Bandwidth=512KB0/s
+[2021-02-21 18:23:45.182000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB401/s Overall Recv=15KB175/s Bandwidth=512KB0/s
+[2021-02-21 18:23:46.189000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=15KB685/s Overall Recv=15KB855/s Bandwidth=512KB0/s
+[2021-02-21 18:23:47.199000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB1/s Overall Recv=15KB515/s Bandwidth=512KB0/s
+[2021-02-21 18:23:48.201000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:23:49.204000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=2 Overall Send=16KB171/s Overall Recv=15KB685/s Bandwidth=512KB0/s
+[2021-02-21 18:24:06.548000][INFO ]********
+[2021-02-21 18:24:06.550000][INFO ]harq_manager init
+[2021-02-21 18:24:06.550000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:24:06.551000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:24:06.551000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:24:06.551000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:24:06.553000][INFO ]harq_manager init local_port=11260
+[2021-02-21 18:24:06.554000][INFO ]Set Fd Attribute Success fd=276 port=11260 bind_ip=0.0.0.0
+[2021-02-21 18:24:06.554000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=276
+[2021-02-21 18:24:06.554000][INFO ]Bind fd Success fd=276
+[2021-02-21 18:24:06.556000][INFO ]Create recv_channel OK
+[2021-02-21 18:24:06.556000][INFO ]Create recv_rate OK
+[2021-02-21 18:24:06.556000][INFO ]Create send_rate OK
+[2021-02-21 18:24:06.557000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:24:06.557000][INFO ]Create send_channel OK
+[2021-02-21 18:24:06.558000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:24:06.560000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:24:06.564000][INFO ]Create rudp_group OK
+[2021-02-21 18:24:06.566000][INFO ]Create frames_class OK
+[2021-02-21 18:24:06.568000][INFO ]Create protocol_thread OK
+[2021-02-21 18:24:06.570000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:24:06.572000][INFO ]Create send_thread OK fd=276 get_max_bandwidth=10485760
+[2021-02-21 18:24:06.573000][INFO ]send_syn_buffer OK
+[2021-02-21 18:24:06.619000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613730302195 local_base_timer_=1613730246573 first_rto=46 sys_server_time_stamp=55599, sys_client_time_stamp=-55599
+[2021-02-21 18:24:07.549000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB941/s Overall Recv=3KB541/s Bandwidth=512KB0/s
+[2021-02-21 18:24:12.525000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB231/s Overall Recv=1020/s Bandwidth=512KB0/s
+[2021-02-21 18:24:15.829000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=4KB45/s Overall Recv=5KB558/s Bandwidth=512KB0/s
+[2021-02-21 18:26:08.562000][INFO ]********
+[2021-02-21 18:26:08.563000][INFO ]harq_manager init
+[2021-02-21 18:26:08.564000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:26:08.564000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:26:08.565000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:26:08.565000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:26:08.567000][INFO ]harq_manager init local_port=15065
+[2021-02-21 18:26:08.568000][INFO ]Set Fd Attribute Success fd=260 port=15065 bind_ip=0.0.0.0
+[2021-02-21 18:26:08.568000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=260
+[2021-02-21 18:26:08.568000][INFO ]Bind fd Success fd=260
+[2021-02-21 18:26:08.570000][INFO ]Create recv_channel OK
+[2021-02-21 18:26:08.570000][INFO ]Create recv_rate OK
+[2021-02-21 18:26:08.571000][INFO ]Create send_rate OK
+[2021-02-21 18:26:08.571000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:26:08.573000][INFO ]Create send_channel OK
+[2021-02-21 18:26:08.575000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:26:08.585000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:26:08.589000][INFO ]Create rudp_group OK
+[2021-02-21 18:26:08.595000][INFO ]Create frames_class OK
+[2021-02-21 18:26:08.598000][INFO ]Create protocol_thread OK
+[2021-02-21 18:26:08.600000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:26:08.608000][INFO ]Create send_thread OK fd=260 get_max_bandwidth=10485760
+[2021-02-21 18:26:08.609000][INFO ]send_syn_buffer OK
+[2021-02-21 18:26:08.679000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613730424252 local_base_timer_=1613730368609 first_rto=70 sys_server_time_stamp=55608, sys_client_time_stamp=-55608
+[2021-02-21 18:26:09.564000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB91/s Overall Recv=3KB31/s Bandwidth=512KB0/s
+[2021-02-21 18:26:33.532000][INFO ]********
+[2021-02-21 18:26:33.534000][INFO ]harq_manager init
+[2021-02-21 18:26:33.535000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:26:33.535000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:26:33.535000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:26:33.535000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:26:33.538000][INFO ]harq_manager init local_port=21754
+[2021-02-21 18:26:33.539000][INFO ]Set Fd Attribute Success fd=260 port=21754 bind_ip=0.0.0.0
+[2021-02-21 18:26:33.540000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=260
+[2021-02-21 18:26:33.542000][INFO ]Bind fd Success fd=260
+[2021-02-21 18:26:33.544000][INFO ]Create recv_channel OK
+[2021-02-21 18:26:33.544000][INFO ]Create recv_rate OK
+[2021-02-21 18:26:33.544000][INFO ]Create send_rate OK
+[2021-02-21 18:26:33.545000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:26:33.546000][INFO ]Create send_channel OK
+[2021-02-21 18:26:33.547000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:26:33.549000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:26:33.552000][INFO ]Create rudp_group OK
+[2021-02-21 18:26:33.553000][INFO ]Create frames_class OK
+[2021-02-21 18:26:33.556000][INFO ]Create protocol_thread OK
+[2021-02-21 18:26:33.558000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:26:33.562000][INFO ]Create send_thread OK fd=260 get_max_bandwidth=10485760
+[2021-02-21 18:26:33.564000][INFO ]send_syn_buffer OK
+[2021-02-21 18:26:33.606000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613730449179 local_base_timer_=1613730393564 first_rto=42 sys_server_time_stamp=55594, sys_client_time_stamp=-55594
+[2021-02-21 18:26:34.534000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB941/s Overall Recv=3KB881/s Bandwidth=512KB0/s
+[2021-02-21 18:26:36.780000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB231/s Overall Recv=1KB166/s Bandwidth=512KB0/s
+[2021-02-21 18:26:54.152000][INFO ]********
+[2021-02-21 18:26:54.153000][INFO ]harq_manager init
+[2021-02-21 18:26:54.154000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:26:54.155000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:26:54.155000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:26:54.155000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:26:54.157000][INFO ]harq_manager init local_port=24227
+[2021-02-21 18:26:54.158000][INFO ]Set Fd Attribute Success fd=260 port=24227 bind_ip=0.0.0.0
+[2021-02-21 18:26:54.158000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=260
+[2021-02-21 18:26:54.158000][INFO ]Bind fd Success fd=260
+[2021-02-21 18:26:54.162000][INFO ]Create recv_channel OK
+[2021-02-21 18:26:54.163000][INFO ]Create recv_rate OK
+[2021-02-21 18:26:54.163000][INFO ]Create send_rate OK
+[2021-02-21 18:26:54.164000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:26:54.165000][INFO ]Create send_channel OK
+[2021-02-21 18:26:54.166000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:26:54.175000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:26:54.179000][INFO ]Create rudp_group OK
+[2021-02-21 18:26:54.182000][INFO ]Create frames_class OK
+[2021-02-21 18:26:54.185000][INFO ]Create protocol_thread OK
+[2021-02-21 18:26:54.187000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:26:54.195000][INFO ]Create send_thread OK fd=260 get_max_bandwidth=10485760
+[2021-02-21 18:26:54.197000][INFO ]send_syn_buffer OK
+[2021-02-21 18:26:54.287000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613730469856 local_base_timer_=1613730414197 first_rto=90 sys_server_time_stamp=55614, sys_client_time_stamp=-55614
+[2021-02-21 18:26:55.152000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=2KB945/s Overall Recv=2KB715/s Bandwidth=512KB0/s
+[2021-02-21 18:26:56.924000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB231/s Overall Recv=1020/s Bandwidth=512KB0/s
+[2021-02-21 18:28:13.655000][INFO ]********
+[2021-02-21 18:28:13.657000][INFO ]harq_manager init
+[2021-02-21 18:28:13.658000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:28:13.658000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:28:13.658000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:28:13.659000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:28:13.661000][INFO ]harq_manager init local_port=14404
+[2021-02-21 18:28:13.661000][INFO ]Set Fd Attribute Success fd=272 port=14404 bind_ip=0.0.0.0
+[2021-02-21 18:28:13.661000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=272
+[2021-02-21 18:28:13.661000][INFO ]Bind fd Success fd=272
+[2021-02-21 18:28:13.663000][INFO ]Create recv_channel OK
+[2021-02-21 18:28:13.664000][INFO ]Create recv_rate OK
+[2021-02-21 18:28:13.664000][INFO ]Create send_rate OK
+[2021-02-21 18:28:13.665000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:28:13.666000][INFO ]Create send_channel OK
+[2021-02-21 18:28:13.667000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:28:13.674000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:28:13.679000][INFO ]Create rudp_group OK
+[2021-02-21 18:28:13.684000][INFO ]Create frames_class OK
+[2021-02-21 18:28:13.694000][INFO ]Create protocol_thread OK
+[2021-02-21 18:28:13.696000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:28:13.709000][INFO ]Create send_thread OK fd=272 get_max_bandwidth=10485760
+[2021-02-21 18:28:13.711000][INFO ]send_syn_buffer OK
+[2021-02-21 18:28:13.765000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613730549338 local_base_timer_=1613730493711 first_rto=54 sys_server_time_stamp=55600, sys_client_time_stamp=-55600
+[2021-02-21 18:28:14.657000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB431/s Overall Recv=3KB201/s Bandwidth=512KB0/s
+[2021-02-21 18:28:52.889000][INFO ]********
+[2021-02-21 18:28:52.890000][INFO ]harq_manager init
+[2021-02-21 18:28:52.891000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:28:52.891000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:28:52.891000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:28:52.891000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:28:52.894000][INFO ]harq_manager init local_port=30077
+[2021-02-21 18:28:52.894000][INFO ]Set Fd Attribute Success fd=296 port=30077 bind_ip=0.0.0.0
+[2021-02-21 18:28:52.894000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=296
+[2021-02-21 18:28:52.895000][INFO ]Bind fd Success fd=296
+[2021-02-21 18:28:52.896000][INFO ]Create recv_channel OK
+[2021-02-21 18:28:52.897000][INFO ]Create recv_rate OK
+[2021-02-21 18:28:52.897000][INFO ]Create send_rate OK
+[2021-02-21 18:28:52.897000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:28:52.898000][INFO ]Create send_channel OK
+[2021-02-21 18:28:52.899000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:28:52.905000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:28:52.910000][INFO ]Create rudp_group OK
+[2021-02-21 18:28:52.916000][INFO ]Create frames_class OK
+[2021-02-21 18:28:52.919000][INFO ]Create protocol_thread OK
+[2021-02-21 18:28:52.921000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:28:52.929000][INFO ]Create send_thread OK fd=296 get_max_bandwidth=10485760
+[2021-02-21 18:28:52.930000][INFO ]send_syn_buffer OK
+[2021-02-21 18:28:52.999000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613730588575 local_base_timer_=1613730532930 first_rto=69 sys_server_time_stamp=55610, sys_client_time_stamp=-55610
+[2021-02-21 18:28:53.889000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB91/s Overall Recv=3KB31/s Bandwidth=512KB0/s
+[2021-02-21 18:28:54.889000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=1KB741/s Overall Recv=1KB506/s Bandwidth=512KB0/s
+[2021-02-21 18:28:55.891000][INFO ]Handle=1001 Local_RTO=33 Remote_RTO=0 Overall Send=511KB620/s Overall Recv=23KB512/s Bandwidth=512KB0/s
+[2021-02-21 18:28:56.893000][INFO ]Handle=1001 Local_RTO=28 Remote_RTO=2 Overall Send=511KB871/s Overall Recv=8KB42/s Bandwidth=512KB0/s
+[2021-02-21 18:28:57.893000][INFO ]Handle=1001 Local_RTO=29 Remote_RTO=2 Overall Send=563KB110/s Overall Recv=12KB654/s Bandwidth=563KB204/s
+[2021-02-21 18:28:58.894000][INFO ]Handle=1001 Local_RTO=38 Remote_RTO=2 Overall Send=563KB107/s Overall Recv=9KB78/s Bandwidth=563KB204/s
+[2021-02-21 18:28:59.895000][INFO ]Handle=1001 Local_RTO=38 Remote_RTO=2 Overall Send=619KB450/s Overall Recv=9KB300/s Bandwidth=619KB531/s
+[2021-02-21 18:29:00.895000][INFO ]Handle=1001 Local_RTO=39 Remote_RTO=2 Overall Send=619KB511/s Overall Recv=13KB700/s Bandwidth=619KB531/s
+[2021-02-21 18:29:01.895000][INFO ]Handle=1001 Local_RTO=36 Remote_RTO=2 Overall Send=619KB527/s Overall Recv=8KB935/s Bandwidth=619KB531/s
+[2021-02-21 18:29:02.897000][INFO ]Handle=1001 Local_RTO=35 Remote_RTO=2 Overall Send=619KB435/s Overall Recv=116KB373/s Bandwidth=619KB531/s
+[2021-02-21 18:29:03.897000][INFO ]Handle=1001 Local_RTO=41 Remote_RTO=2 Overall Send=681KB344/s Overall Recv=11KB367/s Bandwidth=681KB481/s
+[2021-02-21 18:29:04.898000][INFO ]Handle=1001 Local_RTO=38 Remote_RTO=16 Overall Send=681KB451/s Overall Recv=14KB299/s Bandwidth=681KB481/s
+[2021-02-21 18:29:05.898000][INFO ]Handle=1001 Local_RTO=40 Remote_RTO=15 Overall Send=749KB555/s Overall Recv=9KB605/s Bandwidth=749KB631/s
+[2021-02-21 18:29:06.899000][INFO ]Handle=1001 Local_RTO=30 Remote_RTO=15 Overall Send=824KB591/s Overall Recv=16KB785/s Bandwidth=824KB591/s
+[2021-02-21 18:29:07.899000][INFO ]Handle=1001 Local_RTO=43 Remote_RTO=44 Overall Send=906KB950/s Overall Recv=16KB140/s Bandwidth=907KB35/s
+[2021-02-21 18:29:08.900000][INFO ]Handle=1001 Local_RTO=39 Remote_RTO=71 Overall Send=997KB737/s Overall Recv=11KB986/s Bandwidth=997KB755/s
+[2021-02-21 18:29:09.901000][INFO ]Handle=1001 Local_RTO=59 Remote_RTO=71 Overall Send=1MB73KB446/s Overall Recv=17KB531/s Bandwidth=1MB73KB523/s
+[2021-02-21 18:29:10.902000][INFO ]Handle=1001 Local_RTO=44 Remote_RTO=71 Overall Send=1MB183KB166/s Overall Recv=51KB554/s Bandwidth=1MB183KB268/s
+[2021-02-21 18:29:11.904000][INFO ]Handle=1001 Local_RTO=50 Remote_RTO=8 Overall Send=1MB183KB261/s Overall Recv=30KB834/s Bandwidth=1MB183KB268/s
+[2021-02-21 18:29:12.908000][INFO ]Handle=1001 Local_RTO=39 Remote_RTO=8 Overall Send=841KB803/s Overall Recv=18KB537/s Bandwidth=841KB964/s
+[2021-02-21 18:29:13.911000][INFO ]Handle=1001 Local_RTO=39 Remote_RTO=1500 Overall Send=841KB358/s Overall Recv=15KB480/s Bandwidth=841KB964/s
+[2021-02-21 18:29:14.915000][INFO ]Handle=1001 Local_RTO=30 Remote_RTO=1500 Overall Send=575KB280/s Overall Recv=13KB618/s Bandwidth=575KB499/s
+[2021-02-21 18:29:15.923000][INFO ]Handle=1001 Local_RTO=43 Remote_RTO=1500 Overall Send=633KB0/s Overall Recv=8KB565/s Bandwidth=633KB36/s
+[2021-02-21 18:29:16.927000][INFO ]Handle=1001 Local_RTO=38 Remote_RTO=986 Overall Send=632KB685/s Overall Recv=14KB172/s Bandwidth=633KB36/s
+[2021-02-21 18:29:17.931000][INFO ]Handle=1001 Local_RTO=32 Remote_RTO=557 Overall Send=696KB235/s Overall Recv=9KB513/s Bandwidth=696KB346/s
+[2021-02-21 18:29:18.935000][INFO ]Handle=1001 Local_RTO=38 Remote_RTO=557 Overall Send=765KB620/s Overall Recv=14KB964/s Bandwidth=765KB995/s
+[2021-02-21 18:29:19.940000][INFO ]Handle=1001 Local_RTO=33 Remote_RTO=306 Overall Send=842KB575/s Overall Recv=11KB459/s Bandwidth=842KB582/s
+[2021-02-21 18:29:20.945000][INFO ]Handle=1001 Local_RTO=44 Remote_RTO=306 Overall Send=926KB620/s Overall Recv=16KB535/s Bandwidth=926KB845/s
+[2021-02-21 18:29:21.950000][INFO ]Handle=1001 Local_RTO=39 Remote_RTO=162 Overall Send=1019KB450/s Overall Recv=17KB688/s Bandwidth=1019KB519/s
+[2021-02-21 18:29:22.954000][INFO ]Handle=1001 Local_RTO=43 Remote_RTO=80 Overall Send=1MB97KB434/s Overall Recv=39KB763/s Bandwidth=1MB97KB468/s
+[2021-02-21 18:29:23.957000][INFO ]Handle=1001 Local_RTO=49 Remote_RTO=80 Overall Send=1MB209KB577/s Overall Recv=14KB152/s Bandwidth=1MB209KB617/s
+[2021-02-21 18:29:24.961000][INFO ]Handle=1001 Local_RTO=40 Remote_RTO=70 Overall Send=1MB209KB571/s Overall Recv=45KB941/s Bandwidth=1MB209KB617/s
+[2021-02-21 18:29:25.967000][INFO ]Handle=1001 Local_RTO=31 Remote_RTO=48 Overall Send=688KB312/s Overall Recv=14KB148/s Bandwidth=688KB375/s
+[2021-02-21 18:29:26.972000][INFO ]Handle=1001 Local_RTO=28 Remote_RTO=86 Overall Send=688KB227/s Overall Recv=10KB79/s Bandwidth=688KB375/s
+[2021-02-21 18:29:27.975000][INFO ]Handle=1001 Local_RTO=38 Remote_RTO=86 Overall Send=550KB240/s Overall Recv=29KB905/s Bandwidth=550KB244/s
+[2021-02-21 18:29:28.978000][INFO ]Handle=1001 Local_RTO=29 Remote_RTO=83 Overall Send=605KB259/s Overall Recv=8KB199/s Bandwidth=605KB268/s
+[2021-02-21 18:29:29.981000][INFO ]Handle=1001 Local_RTO=32 Remote_RTO=83 Overall Send=665KB804/s Overall Recv=13KB59/s Bandwidth=665KB806/s
+[2021-02-21 18:29:30.987000][INFO ]Handle=1001 Local_RTO=41 Remote_RTO=164 Overall Send=732KB354/s Overall Recv=9KB488/s Bandwidth=732KB374/s
+[2021-02-21 18:29:31.991000][INFO ]Handle=1001 Local_RTO=43 Remote_RTO=164 Overall Send=805KB493/s Overall Recv=14KB805/s Bandwidth=805KB616/s
+[2021-02-21 18:29:32.995000][INFO ]Handle=1001 Local_RTO=42 Remote_RTO=112 Overall Send=886KB141/s Overall Recv=31KB1007/s Bandwidth=886KB165/s
+[2021-02-21 18:29:33.999000][INFO ]Handle=1001 Local_RTO=32 Remote_RTO=23 Overall Send=974KB720/s Overall Recv=11KB278/s Bandwidth=974KB795/s
+[2021-02-21 18:29:35.007000][INFO ]Handle=1001 Local_RTO=28 Remote_RTO=23 Overall Send=1MB48KB94/s Overall Recv=17KB789/s Bandwidth=1MB48KB260/s
+[2021-02-21 18:29:36.010000][INFO ]Handle=1001 Local_RTO=36 Remote_RTO=34 Overall Send=1MB155KB434/s Overall Recv=19KB384/s Bandwidth=1MB155KB490/s
+[2021-02-21 18:29:37.014000][INFO ]Handle=1001 Local_RTO=33 Remote_RTO=35 Overall Send=1MB273KB268/s Overall Recv=19KB775/s Bandwidth=1MB273KB436/s
+[2021-02-21 18:29:38.018000][INFO ]Handle=1001 Local_RTO=48 Remote_RTO=34 Overall Send=1MB403KB98/s Overall Recv=20KB751/s Bandwidth=1MB403KB172/s
+[2021-02-21 18:29:39.025000][INFO ]Handle=1001 Local_RTO=38 Remote_RTO=21 Overall Send=1MB545KB737/s Overall Recv=89KB574/s Bandwidth=1MB545KB906/s
+[2021-02-21 18:29:40.030000][INFO ]Handle=1001 Local_RTO=28 Remote_RTO=22 Overall Send=934KB46/s Overall Recv=19KB80/s Bandwidth=934KB65/s
+[2021-02-21 18:29:41.036000][INFO ]Handle=1001 Local_RTO=39 Remote_RTO=17 Overall Send=934KB49/s Overall Recv=105KB138/s Bandwidth=934KB65/s
+[2021-02-21 18:29:42.041000][INFO ]Handle=1001 Local_RTO=41 Remote_RTO=21 Overall Send=934KB7/s Overall Recv=10KB888/s Bandwidth=934KB65/s
+[2021-02-21 18:29:43.046000][INFO ]Handle=1001 Local_RTO=42 Remote_RTO=27 Overall Send=933KB944/s Overall Recv=15KB906/s Bandwidth=934KB65/s
+[2021-02-21 18:29:44.053000][INFO ]Handle=1001 Local_RTO=33 Remote_RTO=51 Overall Send=933KB948/s Overall Recv=15KB745/s Bandwidth=934KB65/s
+[2021-02-21 18:29:45.059000][INFO ]Handle=1001 Local_RTO=44 Remote_RTO=32 Overall Send=934KB57/s Overall Recv=11KB419/s Bandwidth=934KB65/s
+[2021-02-21 18:29:46.063000][INFO ]Handle=1001 Local_RTO=33 Remote_RTO=32 Overall Send=933KB948/s Overall Recv=13KB583/s Bandwidth=934KB65/s
+[2021-02-21 18:29:47.067000][INFO ]Handle=1001 Local_RTO=33 Remote_RTO=20 Overall Send=933KB952/s Overall Recv=16KB750/s Bandwidth=934KB65/s
+[2021-02-21 18:29:48.073000][INFO ]Handle=1001 Local_RTO=41 Remote_RTO=22 Overall Send=934KB41/s Overall Recv=11KB553/s Bandwidth=934KB65/s
+[2021-02-21 18:29:49.078000][INFO ]Handle=1001 Local_RTO=42 Remote_RTO=22 Overall Send=933KB948/s Overall Recv=16KB61/s Bandwidth=934KB65/s
+[2021-02-21 18:29:50.083000][INFO ]Handle=1001 Local_RTO=42 Remote_RTO=32 Overall Send=933KB948/s Overall Recv=15KB745/s Bandwidth=934KB65/s
+[2021-02-21 18:29:51.087000][INFO ]Handle=1001 Local_RTO=41 Remote_RTO=33 Overall Send=934KB53/s Overall Recv=11KB70/s Bandwidth=934KB65/s
+[2021-02-21 18:29:52.094000][INFO ]Handle=1001 Local_RTO=29 Remote_RTO=33 Overall Send=933KB948/s Overall Recv=13KB923/s Bandwidth=934KB65/s
+[2021-02-21 18:29:53.098000][INFO ]Handle=1001 Local_RTO=34 Remote_RTO=33 Overall Send=934KB62/s Overall Recv=51KB639/s Bandwidth=934KB65/s
+[2021-02-21 18:29:54.101000][INFO ]Handle=1001 Local_RTO=45 Remote_RTO=22 Overall Send=934KB16/s Overall Recv=16KB571/s Bandwidth=934KB65/s
+[2021-02-21 18:29:55.106000][INFO ]Handle=1001 Local_RTO=36 Remote_RTO=44 Overall Send=934KB49/s Overall Recv=10KB575/s Bandwidth=934KB65/s
+[2021-02-21 18:29:56.113000][INFO ]Handle=1001 Local_RTO=39 Remote_RTO=44 Overall Send=934KB57/s Overall Recv=53KB918/s Bandwidth=934KB65/s
+[2021-02-21 18:29:57.117000][INFO ]Handle=1001 Local_RTO=46 Remote_RTO=44 Overall Send=933KB1017/s Overall Recv=49KB532/s Bandwidth=934KB65/s
+[2021-02-21 18:29:58.121000][INFO ]Handle=1001 Local_RTO=82 Remote_RTO=49 Overall Send=9MB1023KB1017/s Overall Recv=174KB765/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:29:59.126000][INFO ]Handle=1001 Local_RTO=34 Remote_RTO=172 Overall Send=9MB1023KB1020/s Overall Recv=133KB366/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:00.131000][INFO ]Handle=1001 Local_RTO=27 Remote_RTO=34 Overall Send=9MB1023KB988/s Overall Recv=140KB187/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:01.135000][INFO ]Handle=1001 Local_RTO=32 Remote_RTO=34 Overall Send=9MB1023KB944/s Overall Recv=296KB237/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:02.139000][INFO ]Handle=1001 Local_RTO=15 Remote_RTO=38 Overall Send=9MB1023KB1022/s Overall Recv=332KB181/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:03.143000][INFO ]Handle=1001 Local_RTO=23 Remote_RTO=210 Overall Send=9MB1023KB1023/s Overall Recv=145KB970/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:04.148000][INFO ]Handle=1001 Local_RTO=16 Remote_RTO=162 Overall Send=9MB1023KB990/s Overall Recv=127KB793/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:05.152000][INFO ]Handle=1001 Local_RTO=26 Remote_RTO=204 Overall Send=9MB1023KB981/s Overall Recv=154KB698/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:06.157000][INFO ]Handle=1001 Local_RTO=37 Remote_RTO=98 Overall Send=9MB1023KB732/s Overall Recv=141KB321/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:07.161000][INFO ]Handle=1001 Local_RTO=41 Remote_RTO=98 Overall Send=9MB1023KB980/s Overall Recv=174KB685/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:08.165000][INFO ]Handle=1001 Local_RTO=40 Remote_RTO=374 Overall Send=9MB1023KB994/s Overall Recv=145KB900/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:09.168000][INFO ]Handle=1001 Local_RTO=49 Remote_RTO=655 Overall Send=9MB1023KB691/s Overall Recv=126KB902/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:10.172000][INFO ]Handle=1001 Local_RTO=29 Remote_RTO=655 Overall Send=10MB0KB0/s Overall Recv=133KB668/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:11.177000][INFO ]Handle=1001 Local_RTO=50 Remote_RTO=24 Overall Send=9MB1023KB1002/s Overall Recv=133KB789/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:12.183000][INFO ]Handle=1001 Local_RTO=38 Remote_RTO=24 Overall Send=9MB1023KB868/s Overall Recv=260KB252/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:13.188000][INFO ]Handle=1001 Local_RTO=40 Remote_RTO=24 Overall Send=9MB1023KB970/s Overall Recv=532KB718/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:14.192000][INFO ]Handle=1001 Local_RTO=75 Remote_RTO=48 Overall Send=9MB1023KB923/s Overall Recv=267KB84/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:15.195000][INFO ]Handle=1001 Local_RTO=42 Remote_RTO=20 Overall Send=9MB1023KB988/s Overall Recv=242KB968/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:16.199000][INFO ]Handle=1001 Local_RTO=28 Remote_RTO=41 Overall Send=9MB1023KB1016/s Overall Recv=452KB868/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:17.204000][INFO ]Handle=1001 Local_RTO=25 Remote_RTO=63 Overall Send=9MB1023KB1016/s Overall Recv=237KB771/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:30:18.209000][INFO ]Handle=1001 Local_RTO=25 Remote_RTO=321 Overall Send=2MB930KB506/s Overall Recv=44KB958/s Bandwidth=2MB930KB813/s
+[2021-02-21 18:30:19.213000][INFO ]Handle=1001 Local_RTO=31 Remote_RTO=186 Overall Send=2MB217KB450/s Overall Recv=25KB820/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:20.219000][INFO ]Handle=1001 Local_RTO=30 Remote_RTO=186 Overall Send=2MB217KB600/s Overall Recv=33KB743/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:21.226000][INFO ]Handle=1001 Local_RTO=41 Remote_RTO=58 Overall Send=2MB217KB620/s Overall Recv=70KB967/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:22.231000][INFO ]Handle=1001 Local_RTO=73 Remote_RTO=39 Overall Send=2MB217KB552/s Overall Recv=27KB284/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:23.236000][INFO ]Handle=1001 Local_RTO=77 Remote_RTO=95 Overall Send=2MB217KB487/s Overall Recv=31KB798/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:24.244000][INFO ]Handle=1001 Local_RTO=49 Remote_RTO=52 Overall Send=2MB217KB491/s Overall Recv=30KB811/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:25.251000][INFO ]Handle=1001 Local_RTO=60 Remote_RTO=27 Overall Send=2MB217KB621/s Overall Recv=99KB535/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:26.259000][INFO ]Handle=1001 Local_RTO=68 Remote_RTO=9 Overall Send=2MB217KB537/s Overall Recv=101KB410/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:27.265000][INFO ]Handle=1001 Local_RTO=67 Remote_RTO=20 Overall Send=2MB217KB503/s Overall Recv=115KB618/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:28.270000][INFO ]Handle=1001 Local_RTO=65 Remote_RTO=144 Overall Send=2MB217KB592/s Overall Recv=40KB378/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:29.276000][INFO ]Handle=1001 Local_RTO=58 Remote_RTO=89 Overall Send=2MB217KB602/s Overall Recv=26KB816/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:30.284000][INFO ]Handle=1001 Local_RTO=57 Remote_RTO=89 Overall Send=2MB217KB528/s Overall Recv=65KB529/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:31.287000][INFO ]Handle=1001 Local_RTO=71 Remote_RTO=89 Overall Send=2MB217KB597/s Overall Recv=31KB798/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:32.291000][INFO ]Handle=1001 Local_RTO=58 Remote_RTO=113 Overall Send=2MB217KB575/s Overall Recv=39KB243/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:33.294000][INFO ]Handle=1001 Local_RTO=86 Remote_RTO=113 Overall Send=2MB217KB501/s Overall Recv=31KB977/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:34.300000][INFO ]Handle=1001 Local_RTO=56 Remote_RTO=90 Overall Send=2MB217KB556/s Overall Recv=31KB872/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:35.304000][INFO ]Handle=1001 Local_RTO=76 Remote_RTO=90 Overall Send=2MB217KB555/s Overall Recv=26KB751/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:36.307000][INFO ]Handle=1001 Local_RTO=75 Remote_RTO=58 Overall Send=2MB217KB491/s Overall Recv=31KB127/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:37.312000][INFO ]Handle=1001 Local_RTO=60 Remote_RTO=24 Overall Send=2MB217KB571/s Overall Recv=157KB873/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:38.318000][INFO ]Handle=1001 Local_RTO=76 Remote_RTO=33 Overall Send=2MB217KB465/s Overall Recv=56KB2/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:39.322000][INFO ]Handle=1001 Local_RTO=68 Remote_RTO=52 Overall Send=2MB217KB583/s Overall Recv=80KB719/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:40.325000][INFO ]Handle=1001 Local_RTO=84 Remote_RTO=60 Overall Send=2MB217KB603/s Overall Recv=31KB619/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:41.330000][INFO ]Handle=1001 Local_RTO=61 Remote_RTO=73 Overall Send=2MB217KB491/s Overall Recv=31KB977/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:42.336000][INFO ]Handle=1001 Local_RTO=61 Remote_RTO=38 Overall Send=2MB217KB571/s Overall Recv=64KB792/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:43.340000][INFO ]Handle=1001 Local_RTO=62 Remote_RTO=60 Overall Send=2MB217KB593/s Overall Recv=31KB959/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:44.346000][INFO ]Handle=1001 Local_RTO=95 Remote_RTO=59 Overall Send=2MB217KB625/s Overall Recv=67KB12/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:45.350000][INFO ]Handle=1001 Local_RTO=65 Remote_RTO=74 Overall Send=2MB217KB534/s Overall Recv=26KB288/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:46.360000][INFO ]Handle=1001 Local_RTO=67 Remote_RTO=57 Overall Send=2MB217KB585/s Overall Recv=32KB18/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:47.368000][INFO ]Handle=1001 Local_RTO=81 Remote_RTO=57 Overall Send=2MB217KB481/s Overall Recv=82KB333/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:48.372000][INFO ]Handle=1001 Local_RTO=83 Remote_RTO=65 Overall Send=2MB217KB558/s Overall Recv=26KB789/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:49.378000][INFO ]Handle=1001 Local_RTO=69 Remote_RTO=71 Overall Send=2MB217KB585/s Overall Recv=31KB702/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:50.385000][INFO ]Handle=1001 Local_RTO=77 Remote_RTO=71 Overall Send=2MB217KB481/s Overall Recv=73KB93/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:51.388000][INFO ]Handle=1001 Local_RTO=89 Remote_RTO=72 Overall Send=2MB217KB472/s Overall Recv=26KB458/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:52.392000][INFO ]Handle=1001 Local_RTO=71 Remote_RTO=163 Overall Send=2MB217KB491/s Overall Recv=31KB977/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:53.397000][INFO ]Handle=1001 Local_RTO=65 Remote_RTO=65 Overall Send=2MB217KB575/s Overall Recv=74KB154/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:54.405000][INFO ]Handle=1001 Local_RTO=66 Remote_RTO=241 Overall Send=2MB217KB580/s Overall Recv=35KB83/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:55.412000][INFO ]Handle=1001 Local_RTO=73 Remote_RTO=241 Overall Send=2MB217KB477/s Overall Recv=31KB241/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:56.418000][INFO ]Handle=1001 Local_RTO=59 Remote_RTO=93 Overall Send=2MB217KB575/s Overall Recv=65KB764/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:57.423000][INFO ]Handle=1001 Local_RTO=62 Remote_RTO=92 Overall Send=2MB217KB615/s Overall Recv=31KB863/s Bandwidth=2MB217KB625/s
+[2021-02-21 18:30:58.429000][INFO ]Handle=1001 Local_RTO=69 Remote_RTO=55 Overall Send=2MB444KB135/s Overall Recv=28KB632/s Bandwidth=2MB444KB175/s
+[2021-02-21 18:30:59.436000][INFO ]Handle=1001 Local_RTO=23 Remote_RTO=55 Overall Send=9MB1023KB868/s Overall Recv=271KB156/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:00.440000][INFO ]Handle=1001 Local_RTO=13 Remote_RTO=62 Overall Send=9MB1023KB978/s Overall Recv=179KB756/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:01.445000][INFO ]Handle=1001 Local_RTO=32 Remote_RTO=240 Overall Send=9MB1023KB999/s Overall Recv=150KB70/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:02.452000][INFO ]Handle=1001 Local_RTO=21 Remote_RTO=240 Overall Send=9MB1023KB1023/s Overall Recv=142KB49/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:03.457000][INFO ]Handle=1001 Local_RTO=23 Remote_RTO=72 Overall Send=10MB0KB0/s Overall Recv=163KB125/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:04.462000][INFO ]Handle=1001 Local_RTO=28 Remote_RTO=275 Overall Send=9MB1023KB1017/s Overall Recv=129KB40/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:05.466000][INFO ]Handle=1001 Local_RTO=15 Remote_RTO=1261 Overall Send=9MB1023KB999/s Overall Recv=133KB384/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:06.470000][INFO ]Handle=1001 Local_RTO=15 Remote_RTO=334 Overall Send=9MB1023KB875/s Overall Recv=132KB793/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:07.474000][INFO ]Handle=1001 Local_RTO=52 Remote_RTO=334 Overall Send=10MB0KB0/s Overall Recv=129KB1004/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:08.477000][INFO ]Handle=1001 Local_RTO=35 Remote_RTO=213 Overall Send=9MB1023KB994/s Overall Recv=140KB357/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:09.482000][INFO ]Handle=1001 Local_RTO=88 Remote_RTO=207 Overall Send=10MB0KB0/s Overall Recv=139KB1009/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:10.487000][INFO ]Handle=1001 Local_RTO=27 Remote_RTO=284 Overall Send=9MB1023KB927/s Overall Recv=140KB462/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:11.492000][INFO ]Handle=1001 Local_RTO=65 Remote_RTO=284 Overall Send=10MB0KB0/s Overall Recv=137KB195/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:12.494000][INFO ]Handle=1001 Local_RTO=75 Remote_RTO=249 Overall Send=9MB1023KB980/s Overall Recv=128KB554/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:13.497000][INFO ]Handle=1001 Local_RTO=59 Remote_RTO=199 Overall Send=9MB1023KB890/s Overall Recv=132KB388/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:14.501000][INFO ]Handle=1001 Local_RTO=34 Remote_RTO=137 Overall Send=9MB1023KB935/s Overall Recv=145KB155/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:15.505000][INFO ]Handle=1001 Local_RTO=15 Remote_RTO=1477 Overall Send=9MB1023KB811/s Overall Recv=133KB133/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:16.511000][INFO ]Handle=1001 Local_RTO=15 Remote_RTO=1477 Overall Send=10MB0KB0/s Overall Recv=133KB668/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:17.515000][INFO ]Handle=1001 Local_RTO=54 Remote_RTO=858 Overall Send=9MB1023KB1019/s Overall Recv=132KB623/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:18.520000][INFO ]Handle=1001 Local_RTO=41 Remote_RTO=215 Overall Send=9MB1023KB766/s Overall Recv=131KB255/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:19.524000][INFO ]Handle=1001 Local_RTO=25 Remote_RTO=215 Overall Send=10MB0KB0/s Overall Recv=309KB320/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:20.529000][INFO ]Handle=1001 Local_RTO=26 Remote_RTO=114 Overall Send=9MB1023KB1021/s Overall Recv=198KB96/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:21.534000][INFO ]Handle=1001 Local_RTO=14 Remote_RTO=184 Overall Send=9MB1023KB946/s Overall Recv=146KB14/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:22.538000][INFO ]Handle=1001 Local_RTO=38 Remote_RTO=735 Overall Send=9MB1023KB945/s Overall Recv=137KB761/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:23.542000][INFO ]Handle=1001 Local_RTO=27 Remote_RTO=773 Overall Send=9MB1023KB1019/s Overall Recv=128KB449/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:31:24.546000][INFO ]Handle=1001 Local_RTO=21 Remote_RTO=305 Overall Send=6MB737KB443/s Overall Recv=94KB368/s Bandwidth=6MB737KB470/s
+[2021-02-21 18:31:25.550000][INFO ]Handle=1001 Local_RTO=33 Remote_RTO=305 Overall Send=7MB401KB618/s Overall Recv=107KB972/s Bandwidth=7MB401KB619/s
+[2021-02-21 18:31:26.555000][INFO ]Handle=1001 Local_RTO=91 Remote_RTO=250 Overall Send=7MB401KB505/s Overall Recv=124KB468/s Bandwidth=7MB401KB619/s
+[2021-02-21 18:31:27.558000][INFO ]Handle=1001 Local_RTO=64 Remote_RTO=136 Overall Send=5MB541KB611/s Overall Recv=71KB991/s Bandwidth=5MB541KB648/s
+[2021-02-21 18:31:28.563000][INFO ]Handle=1001 Local_RTO=75 Remote_RTO=65 Overall Send=6MB83KB745/s Overall Recv=144KB837/s Bandwidth=6MB83KB815/s
+[2021-02-21 18:31:29.568000][INFO ]Handle=1001 Local_RTO=81 Remote_RTO=124 Overall Send=3MB987KB788/s Overall Recv=55KB734/s Bandwidth=3MB987KB892/s
+[2021-02-21 18:31:30.572000][INFO ]Handle=1001 Local_RTO=87 Remote_RTO=115 Overall Send=4MB369KB745/s Overall Recv=81KB184/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:31.576000][INFO ]Handle=1001 Local_RTO=63 Remote_RTO=115 Overall Send=4MB369KB878/s Overall Recv=59KB641/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:32.581000][INFO ]Handle=1001 Local_RTO=78 Remote_RTO=501 Overall Send=4MB369KB871/s Overall Recv=61KB816/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:33.585000][INFO ]Handle=1001 Local_RTO=72 Remote_RTO=660 Overall Send=4MB369KB758/s Overall Recv=56KB541/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:34.589000][INFO ]Handle=1001 Local_RTO=97 Remote_RTO=107 Overall Send=4MB369KB710/s Overall Recv=55KB650/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:35.595000][INFO ]Handle=1001 Local_RTO=110 Remote_RTO=19 Overall Send=4MB369KB878/s Overall Recv=60KB820/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:36.600000][INFO ]Handle=1001 Local_RTO=109 Remote_RTO=19 Overall Send=4MB369KB723/s Overall Recv=232KB564/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:37.604000][INFO ]Handle=1001 Local_RTO=119 Remote_RTO=19 Overall Send=4MB369KB738/s Overall Recv=122KB790/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:38.609000][INFO ]Handle=1001 Local_RTO=102 Remote_RTO=101 Overall Send=4MB369KB873/s Overall Recv=119KB734/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:39.614000][INFO ]Handle=1001 Local_RTO=63 Remote_RTO=86 Overall Send=4MB369KB844/s Overall Recv=81KB175/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:40.618000][INFO ]Handle=1001 Local_RTO=75 Remote_RTO=115 Overall Send=4MB369KB878/s Overall Recv=81KB308/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:41.622000][INFO ]Handle=1001 Local_RTO=141 Remote_RTO=143 Overall Send=4MB369KB876/s Overall Recv=60KB876/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:42.628000][INFO ]Handle=1001 Local_RTO=96 Remote_RTO=143 Overall Send=4MB369KB873/s Overall Recv=78KB156/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:43.631000][INFO ]Handle=1001 Local_RTO=78 Remote_RTO=36 Overall Send=4MB369KB872/s Overall Recv=311KB475/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:44.637000][INFO ]Handle=1001 Local_RTO=60 Remote_RTO=25 Overall Send=4MB369KB867/s Overall Recv=165KB619/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:45.641000][INFO ]Handle=1001 Local_RTO=122 Remote_RTO=15 Overall Send=4MB369KB805/s Overall Recv=239KB667/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:46.645000][INFO ]Handle=1001 Local_RTO=63 Remote_RTO=33 Overall Send=4MB369KB828/s Overall Recv=156KB228/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:47.651000][INFO ]Handle=1001 Local_RTO=109 Remote_RTO=38 Overall Send=4MB369KB754/s Overall Recv=280KB794/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:48.656000][INFO ]Handle=1001 Local_RTO=64 Remote_RTO=43 Overall Send=4MB369KB735/s Overall Recv=198KB273/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:49.661000][INFO ]Handle=1001 Local_RTO=96 Remote_RTO=56 Overall Send=4MB369KB873/s Overall Recv=60KB335/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:50.664000][INFO ]Handle=1001 Local_RTO=72 Remote_RTO=56 Overall Send=4MB369KB727/s Overall Recv=144KB969/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:51.670000][INFO ]Handle=1001 Local_RTO=68 Remote_RTO=123 Overall Send=4MB369KB714/s Overall Recv=68KB523/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:52.674000][INFO ]Handle=1001 Local_RTO=82 Remote_RTO=116 Overall Send=4MB369KB745/s Overall Recv=81KB864/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:53.678000][INFO ]Handle=1001 Local_RTO=106 Remote_RTO=116 Overall Send=4MB369KB771/s Overall Recv=73KB918/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:54.685000][INFO ]Handle=1001 Local_RTO=58 Remote_RTO=630 Overall Send=4MB369KB477/s Overall Recv=60KB192/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:55.694000][INFO ]Handle=1001 Local_RTO=56 Remote_RTO=98 Overall Send=4MB369KB710/s Overall Recv=56KB306/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:56.701000][INFO ]Handle=1001 Local_RTO=78 Remote_RTO=98 Overall Send=4MB369KB860/s Overall Recv=61KB71/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:57.707000][INFO ]Handle=1001 Local_RTO=81 Remote_RTO=34 Overall Send=4MB369KB745/s Overall Recv=157KB494/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:58.713000][INFO ]Handle=1001 Local_RTO=103 Remote_RTO=107 Overall Send=4MB369KB845/s Overall Recv=68KB854/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:31:59.717000][INFO ]Handle=1001 Local_RTO=78 Remote_RTO=62 Overall Send=4MB369KB745/s Overall Recv=145KB690/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:32:00.721000][INFO ]Handle=1001 Local_RTO=92 Remote_RTO=62 Overall Send=4MB369KB758/s Overall Recv=56KB109/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:32:01.728000][INFO ]Handle=1001 Local_RTO=55 Remote_RTO=38 Overall Send=4MB369KB741/s Overall Recv=144KB378/s Bandwidth=4MB369KB878/s
+[2021-02-21 18:32:02.739000][INFO ]Handle=1001 Local_RTO=83 Remote_RTO=38 Overall Send=4MB816KB450/s Overall Recv=141KB8/s Bandwidth=4MB816KB453/s
+[2021-02-21 18:32:03.744000][INFO ]Handle=1001 Local_RTO=24 Remote_RTO=51 Overall Send=9MB1023KB976/s Overall Recv=190KB1013/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:04.748000][INFO ]Handle=1001 Local_RTO=29 Remote_RTO=539 Overall Send=10MB0KB0/s Overall Recv=137KB578/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:05.753000][INFO ]Handle=1001 Local_RTO=36 Remote_RTO=684 Overall Send=9MB1023KB1019/s Overall Recv=132KB113/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:06.759000][INFO ]Handle=1001 Local_RTO=26 Remote_RTO=684 Overall Send=10MB0KB0/s Overall Recv=280KB575/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:07.763000][INFO ]Handle=1001 Local_RTO=23 Remote_RTO=126 Overall Send=9MB1023KB1021/s Overall Recv=153KB819/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:08.767000][INFO ]Handle=1001 Local_RTO=12 Remote_RTO=343 Overall Send=9MB1023KB1016/s Overall Recv=136KB558/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:09.773000][INFO ]Handle=1001 Local_RTO=23 Remote_RTO=485 Overall Send=9MB1023KB766/s Overall Recv=129KB380/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:10.776000][INFO ]Handle=1001 Local_RTO=23 Remote_RTO=485 Overall Send=10MB0KB0/s Overall Recv=132KB502/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:11.781000][INFO ]Handle=1001 Local_RTO=22 Remote_RTO=805 Overall Send=9MB1023KB1006/s Overall Recv=133KB789/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:12.785000][INFO ]Handle=1001 Local_RTO=25 Remote_RTO=462 Overall Send=9MB1023KB734/s Overall Recv=127KB728/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:13.789000][INFO ]Handle=1001 Local_RTO=23 Remote_RTO=462 Overall Send=10MB0KB0/s Overall Recv=133KB668/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:14.794000][INFO ]Handle=1001 Local_RTO=170 Remote_RTO=1267 Overall Send=9MB1023KB1019/s Overall Recv=126KB131/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:15.802000][INFO ]Handle=1001 Local_RTO=17 Remote_RTO=1267 Overall Send=9MB1023KB126/s Overall Recv=131KB870/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:16.807000][INFO ]Handle=1001 Local_RTO=25 Remote_RTO=514 Overall Send=9MB1023KB1021/s Overall Recv=132KB227/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:17.813000][INFO ]Handle=1001 Local_RTO=26 Remote_RTO=548 Overall Send=9MB1023KB1019/s Overall Recv=137KB996/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:18.817000][INFO ]Handle=1001 Local_RTO=25 Remote_RTO=548 Overall Send=9MB1023KB1016/s Overall Recv=403KB155/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:19.821000][INFO ]Handle=1001 Local_RTO=12 Remote_RTO=222 Overall Send=9MB1023KB1006/s Overall Recv=151KB61/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:20.824000][INFO ]Handle=1001 Local_RTO=38 Remote_RTO=416 Overall Send=9MB1023KB1016/s Overall Recv=127KB388/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:21.829000][INFO ]Handle=1001 Local_RTO=36 Remote_RTO=1358 Overall Send=9MB1023KB802/s Overall Recv=137KB591/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:22.833000][INFO ]Handle=1001 Local_RTO=29 Remote_RTO=1358 Overall Send=10MB0KB0/s Overall Recv=131KB506/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:23.840000][INFO ]Handle=1001 Local_RTO=25 Remote_RTO=173 Overall Send=9MB1023KB992/s Overall Recv=140KB560/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:24.846000][INFO ]Handle=1001 Local_RTO=15 Remote_RTO=468 Overall Send=9MB1023KB1017/s Overall Recv=135KB36/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:25.852000][INFO ]Handle=1001 Local_RTO=18 Remote_RTO=515 Overall Send=9MB1023KB631/s Overall Recv=133KB554/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:26.857000][INFO ]Handle=1001 Local_RTO=35 Remote_RTO=515 Overall Send=10MB0KB0/s Overall Recv=153KB716/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:27.863000][INFO ]Handle=1001 Local_RTO=34 Remote_RTO=337 Overall Send=9MB1023KB1006/s Overall Recv=136KB490/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:28.868000][INFO ]Handle=1001 Local_RTO=27 Remote_RTO=153 Overall Send=9MB1023KB988/s Overall Recv=154KB395/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:29.873000][INFO ]Handle=1001 Local_RTO=24 Remote_RTO=461 Overall Send=9MB1023KB994/s Overall Recv=129KB720/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:30.878000][INFO ]Handle=1001 Local_RTO=23 Remote_RTO=598 Overall Send=9MB1023KB777/s Overall Recv=134KB890/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:31.883000][INFO ]Handle=1001 Local_RTO=17 Remote_RTO=598 Overall Send=10MB0KB0/s Overall Recv=127KB1012/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:32.888000][INFO ]Handle=1001 Local_RTO=22 Remote_RTO=765 Overall Send=9MB1023KB1019/s Overall Recv=132KB283/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:33.893000][INFO ]Handle=1001 Local_RTO=28 Remote_RTO=869 Overall Send=9MB1023KB721/s Overall Recv=133KB44/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:34.899000][INFO ]Handle=1001 Local_RTO=24 Remote_RTO=869 Overall Send=10MB0KB0/s Overall Recv=127KB502/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:35.903000][INFO ]Handle=1001 Local_RTO=43 Remote_RTO=793 Overall Send=9MB1023KB1019/s Overall Recv=134KB445/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:36.908000][INFO ]Handle=1001 Local_RTO=66 Remote_RTO=254 Overall Send=9MB1023KB981/s Overall Recv=140KB292/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:37.912000][INFO ]Handle=1001 Local_RTO=39 Remote_RTO=254 Overall Send=10MB0KB0/s Overall Recv=375KB767/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:38.915000][INFO ]Handle=1001 Local_RTO=25 Remote_RTO=22 Overall Send=9MB1023KB958/s Overall Recv=247KB312/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:39.919000][INFO ]Handle=1001 Local_RTO=55 Remote_RTO=198 Overall Send=9MB1023KB1016/s Overall Recv=131KB931/s Bandwidth=10MB0KB0/s
+[2021-02-21 18:32:40.923000][INFO ]Handle=1001 Local_RTO=24 Remote_RTO=205 Overall Send=7MB715KB136/s Overall Recv=107KB28/s Bandwidth=7MB715KB136/s
+[2021-02-21 18:32:41.929000][INFO ]Handle=1001 Local_RTO=30 Remote_RTO=205 Overall Send=8MB479KB449/s Overall Recv=110KB199/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:42.932000][INFO ]Handle=1001 Local_RTO=25 Remote_RTO=589 Overall Send=8MB479KB451/s Overall Recv=110KB94/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:43.936000][INFO ]Handle=1001 Local_RTO=24 Remote_RTO=900 Overall Send=8MB479KB451/s Overall Recv=115KB944/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:44.940000][INFO ]Handle=1001 Local_RTO=23 Remote_RTO=810 Overall Send=8MB478KB992/s Overall Recv=108KB668/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:45.944000][INFO ]Handle=1001 Local_RTO=108 Remote_RTO=389 Overall Send=8MB479KB451/s Overall Recv=138KB431/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:46.948000][INFO ]Handle=1001 Local_RTO=11 Remote_RTO=389 Overall Send=8MB479KB450/s Overall Recv=171KB240/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:47.952000][INFO ]Handle=1001 Local_RTO=71 Remote_RTO=73 Overall Send=8MB479KB452/s Overall Recv=148KB547/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:48.958000][INFO ]Handle=1001 Local_RTO=23 Remote_RTO=634 Overall Send=8MB479KB443/s Overall Recv=109KB834/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:49.963000][INFO ]Handle=1001 Local_RTO=48 Remote_RTO=584 Overall Send=8MB479KB419/s Overall Recv=114KB438/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:50.967000][INFO ]Handle=1001 Local_RTO=67 Remote_RTO=335 Overall Send=8MB479KB60/s Overall Recv=108KB93/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:51.973000][INFO ]Handle=1001 Local_RTO=59 Remote_RTO=120 Overall Send=8MB479KB411/s Overall Recv=139KB146/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:52.977000][INFO ]Handle=1001 Local_RTO=34 Remote_RTO=300 Overall Send=8MB479KB60/s Overall Recv=109KB769/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:53.980000][INFO ]Handle=1001 Local_RTO=22 Remote_RTO=525 Overall Send=8MB479KB451/s Overall Recv=113KB612/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:54.985000][INFO ]Handle=1001 Local_RTO=33 Remote_RTO=476 Overall Send=8MB479KB420/s Overall Recv=108KB782/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:55.990000][INFO ]Handle=1001 Local_RTO=28 Remote_RTO=559 Overall Send=8MB479KB415/s Overall Recv=115KB264/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:56.995000][INFO ]Handle=1001 Local_RTO=56 Remote_RTO=368 Overall Send=8MB479KB413/s Overall Recv=110KB264/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:58.000000][INFO ]Handle=1001 Local_RTO=23 Remote_RTO=368 Overall Send=8MB479KB456/s Overall Recv=113KB717/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:32:59.004000][INFO ]Handle=1001 Local_RTO=21 Remote_RTO=822 Overall Send=8MB478KB1010/s Overall Recv=109KB834/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:33:00.007000][INFO ]Handle=1001 Local_RTO=24 Remote_RTO=476 Overall Send=8MB479KB451/s Overall Recv=112KB426/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:33:01.012000][INFO ]Handle=1001 Local_RTO=23 Remote_RTO=704 Overall Send=8MB479KB422/s Overall Recv=113KB952/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:33:02.016000][INFO ]Handle=1001 Local_RTO=25 Remote_RTO=593 Overall Send=8MB479KB453/s Overall Recv=110KB94/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:33:03.022000][INFO ]Handle=1001 Local_RTO=36 Remote_RTO=331 Overall Send=8MB479KB416/s Overall Recv=114KB98/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:33:04.025000][INFO ]Handle=1001 Local_RTO=34 Remote_RTO=331 Overall Send=8MB479KB368/s Overall Recv=108KB377/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:33:05.030000][INFO ]Handle=1001 Local_RTO=27 Remote_RTO=351 Overall Send=8MB479KB201/s Overall Recv=117KB312/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:33:06.035000][INFO ]Handle=1001 Local_RTO=69 Remote_RTO=515 Overall Send=8MB479KB451/s Overall Recv=109KB98/s Bandwidth=8MB479KB456/s
+[2021-02-21 18:33:07.040000][INFO ]Handle=1001 Local_RTO=20 Remote_RTO=372 Overall Send=5MB34KB422/s Overall Recv=69KB525/s Bandwidth=5MB34KB444/s
+[2021-02-21 18:33:08.045000][INFO ]Handle=1001 Local_RTO=77 Remote_RTO=44 Overall Send=5MB66KB444/s Overall Recv=68KB307/s Bandwidth=5MB66KB444/s
+[2021-02-21 18:33:09.052000][INFO ]Handle=1001 Local_RTO=85 Remote_RTO=44 Overall Send=5MB98KB440/s Overall Recv=169KB360/s Bandwidth=5MB98KB444/s
+[2021-02-21 18:33:10.057000][INFO ]Handle=1001 Local_RTO=95 Remote_RTO=65 Overall Send=5MB98KB436/s Overall Recv=98KB479/s Bandwidth=5MB98KB444/s
+[2021-02-21 18:33:11.062000][INFO ]Handle=1001 Local_RTO=39 Remote_RTO=16 Overall Send=5MB130KB419/s Overall Recv=75KB660/s Bandwidth=5MB130KB444/s
+[2021-02-21 18:33:12.068000][INFO ]Handle=1001 Local_RTO=27 Remote_RTO=16 Overall Send=5MB162KB375/s Overall Recv=324KB58/s Bandwidth=5MB162KB444/s
+[2021-02-21 18:33:13.073000][INFO ]Handle=1001 Local_RTO=40 Remote_RTO=32 Overall Send=5MB162KB409/s Overall Recv=213KB795/s Bandwidth=5MB162KB444/s
+[2021-02-21 18:33:14.079000][INFO ]Handle=1001 Local_RTO=44 Remote_RTO=33 Overall Send=5MB194KB399/s Overall Recv=81KB1020/s Bandwidth=5MB194KB444/s
+[2021-02-21 18:33:15.086000][INFO ]Handle=1001 Local_RTO=55 Remote_RTO=1104 Overall Send=3MB704KB898/s Overall Recv=45KB457/s Bandwidth=3MB705KB155/s
+[2021-02-21 18:33:16.090000][INFO ]Handle=1001 Local_RTO=57 Remote_RTO=189 Overall Send=4MB58KB710/s Overall Recv=53KB409/s Bandwidth=4MB58KB887/s
+[2021-02-21 18:33:17.097000][INFO ]Handle=1001 Local_RTO=52 Remote_RTO=189 Overall Send=4MB474KB350/s Overall Recv=61KB846/s Bandwidth=4MB474KB361/s
+[2021-02-21 18:33:18.101000][INFO ]Handle=1001 Local_RTO=20 Remote_RTO=28 Overall Send=4MB474KB321/s Overall Recv=117KB210/s Bandwidth=4MB474KB361/s
+[2021-02-21 18:33:19.106000][INFO ]Handle=1001 Local_RTO=55 Remote_RTO=43 Overall Send=3MB284KB818/s Overall Recv=57KB600/s Bandwidth=3MB284KB862/s
+[2021-02-21 18:33:20.111000][INFO ]Handle=1001 Local_RTO=94 Remote_RTO=389 Overall Send=3MB620KB532/s Overall Recv=54KB325/s Bandwidth=3MB620KB538/s
+[2021-02-21 18:33:21.116000][INFO ]Handle=1001 Local_RTO=124 Remote_RTO=703 Overall Send=3MB989KB776/s Overall Recv=52KB321/s Bandwidth=3MB989KB796/s
+[2021-02-21 18:33:22.119000][INFO ]Handle=1001 Local_RTO=44 Remote_RTO=703 Overall Send=2MB970KB90/s Overall Recv=37KB874/s Bandwidth=2MB970KB115/s
+[2021-02-21 18:33:23.124000][INFO ]Handle=1001 Local_RTO=65 Remote_RTO=53 Overall Send=2MB970KB46/s Overall Recv=38KB821/s Bandwidth=2MB970KB115/s
+[2021-02-21 18:33:24.129000][INFO ]Handle=1001 Local_RTO=98 Remote_RTO=22 Overall Send=3MB247KB876/s Overall Recv=46KB53/s Bandwidth=3MB247KB945/s
+[2021-02-21 18:43:09.273000][INFO ]********
+[2021-02-21 18:43:09.274000][INFO ]harq_manager init
+[2021-02-21 18:43:09.274000][INFO ]harq_manager begin_client remote_ip=10.10.50.136 remote_port=41002 bind_ip=0.0.0.0
+[2021-02-21 18:43:09.275000][INFO ]Set linker_ptr->set_start_bandwidth 524288
+[2021-02-21 18:43:09.275000][INFO ]Set linker_ptr->set_max_bandwidth 10485760
+[2021-02-21 18:43:09.275000][INFO ]Create linker_ptr->init OK
+[2021-02-21 18:43:09.278000][INFO ]harq_manager init local_port=17445
+[2021-02-21 18:43:09.278000][INFO ]Set Fd Attribute Success fd=272 port=17445 bind_ip=0.0.0.0
+[2021-02-21 18:43:09.278000][INFO ]Set Fd SIO_UDP_CONNRESET Success fd=272
+[2021-02-21 18:43:09.279000][INFO ]Bind fd Success fd=272
+[2021-02-21 18:43:09.281000][INFO ]Create recv_channel OK
+[2021-02-21 18:43:09.281000][INFO ]Create recv_rate OK
+[2021-02-21 18:43:09.281000][INFO ]Create send_rate OK
+[2021-02-21 18:43:09.282000][INFO ]Create send_channel_ OK Start Threhold=524288 Max Threhold=10485760
+[2021-02-21 18:43:09.283000][INFO ]Create send_channel OK
+[2021-02-21 18:43:09.284000][INFO ]Init Fec Decoder Count=1
+[2021-02-21 18:43:09.289000][INFO ]Init Fec Decoder OK
+[2021-02-21 18:43:09.291000][INFO ]Create rudp_group OK
+[2021-02-21 18:43:09.295000][INFO ]Create frames_class OK
+[2021-02-21 18:43:09.298000][INFO ]Create protocol_thread OK
+[2021-02-21 18:43:09.300000][INFO ]check_send_flow init max_bandwidth_=10485760 max_bandwidth_2=10485760
+[2021-02-21 18:43:09.304000][INFO ]Create send_thread OK fd=272 get_max_bandwidth=10485760
+[2021-02-21 18:43:09.306000][INFO ]send_syn_buffer OK
+[2021-02-21 18:43:09.365000][INFO ]handle_ack_syn_protocol remote_base_timer_=1613731444924 local_base_timer_=1613731389306 first_rto=59 sys_server_time_stamp=55588, sys_client_time_stamp=-55588
+[2021-02-21 18:43:10.274000][INFO ]Handle=1001 Local_RTO=2 Remote_RTO=0 Overall Send=3KB431/s Overall Recv=3KB201/s Bandwidth=512KB0/s
+[2021-02-21 18:43:11.279000][INFO ]Handle=1001 Local_RTO=34 Remote_RTO=0 Overall Send=511KB616/s Overall Recv=10KB1000/s Bandwidth=512KB0/s
+[2021-02-21 18:43:12.280000][INFO ]Handle=1001 Local_RTO=32 Remote_RTO=0 Overall Send=511KB915/s Overall Recv=4KB738/s Bandwidth=512KB0/s
+[2021-02-21 18:43:13.282000][INFO ]Handle=1001 Local_RTO=27 Remote_RTO=2 Overall Send=511KB956/s Overall Recv=12KB717/s Bandwidth=512KB0/s
+[2021-02-21 18:43:14.285000][INFO ]Handle=1001 Local_RTO=39 Remote_RTO=2 Overall Send=563KB110/s Overall Recv=7KB994/s Bandwidth=563KB204/s
+[2021-02-21 18:43:15.288000][INFO ]Handle=1001 Local_RTO=29 Remote_RTO=2 Overall Send=563KB171/s Overall Recv=8KB706/s Bandwidth=563KB204/s
+[2021-02-21 18:43:16.290000][INFO ]Handle=1001 Local_RTO=27 Remote_RTO=2 Overall Send=563KB62/s Overall Recv=13KB592/s Bandwidth=563KB204/s
+[2021-02-21 18:43:17.291000][INFO ]Handle=1001 Local_RTO=30 Remote_RTO=2 Overall Send=619KB495/s Overall Recv=8KB644/s Bandwidth=619KB531/s
+[2021-02-21 18:43:18.292000][INFO ]Handle=1001 Local_RTO=31 Remote_RTO=2 Overall Send=619KB511/s Overall Recv=116KB713/s Bandwidth=619KB531/s
+[2021-02-21 18:43:19.292000][INFO ]Handle=1001 Local_RTO=39 Remote_RTO=8 Overall Send=619KB470/s Overall Recv=10KB784/s Bandwidth=619KB531/s
+[2021-02-21 18:43:20.294000][INFO ]Handle=1001 Local_RTO=42 Remote_RTO=12 Overall Send=619KB500/s Overall Recv=130KB607/s Bandwidth=619KB531/s
+[2021-02-21 18:43:21.296000][INFO ]Handle=1001 Local_RTO=36 Remote_RTO=2 Overall Send=619KB406/s Overall Recv=12KB120/s Bandwidth=619KB531/s
+[2021-02-21 18:43:22.299000][INFO ]Handle=1001 Local_RTO=34 Remote_RTO=76 Overall Send=681KB390/s Overall Recv=13KB587/s Bandwidth=681KB481/s
+[2021-02-21 18:43:23.300000][INFO ]Handle=1001 Local_RTO=40 Remote_RTO=33 Overall Send=681KB401/s Overall Recv=9KB199/s Bandwidth=681KB481/s
+[2021-02-21 18:43:24.302000][INFO ]Handle=1001 Local_RTO=45 Remote_RTO=33 Overall Send=749KB608/s Overall Recv=14KB113/s Bandwidth=749KB631/s
+[2021-02-21 18:43:25.303000][INFO ]Handle=1001 Local_RTO=36 Remote_RTO=20 Overall Send=824KB563/s Overall Recv=9KB448/s Bandwidth=824KB591/s
+[2021-02-21 18:43:26.306000][INFO ]Handle=1001 Local_RTO=29 Remote_RTO=20 Overall Send=906KB899/s Overall Recv=94KB127/s Bandwidth=907KB35/s
+[2021-02-21 18:43:27.306000][INFO ]Handle=1001 Local_RTO=40 Remote_RTO=20 Overall Send=997KB728/s Overall Recv=44KB473/s Bandwidth=997KB755/s
+[2021-02-21 18:43:28.306000][INFO ]Handle=1001 Local_RTO=30 Remote_RTO=41 Overall Send=997KB736/s Overall Recv=9KB182/s Bandwidth=997KB755/s
+[2021-02-21 18:43:29.308000][INFO ]Handle=1001 Local_RTO=44 Remote_RTO=41 Overall Send=707KB485/s Overall Recv=14KB925/s Bandwidth=707KB528/s
+[2021-02-21 18:43:30.312000][INFO ]Handle=1001 Local_RTO=42 Remote_RTO=34 Overall Send=778KB272/s Overall Recv=12KB561/s Bandwidth=778KB273/s
+[2021-02-21 18:43:31.318000][INFO ]Handle=1001 Local_RTO=36 Remote_RTO=41 Overall Send=856KB53/s Overall Recv=12KB724/s Bandwidth=856KB95/s
+[2021-02-21 18:43:32.322000][INFO ]Handle=1001 Local_RTO=33 Remote_RTO=41 Overall Send=941KB672/s Overall Recv=60KB261/s Bandwidth=941KB718/s
+[2021-02-21 18:43:33.327000][INFO ]Handle=1001 Local_RTO=21 Remote_RTO=76 Overall Send=941KB658/s Overall Recv=21KB8/s Bandwidth=941KB718/s
+[2021-02-21 18:43:34.330000][INFO ]Handle=1001 Local_RTO=36 Remote_RTO=154 Overall Send=1MB11KB741/s Overall Recv=14KB305/s Bandwidth=1MB11KB892/s
+[2021-02-21 18:43:35.334000][INFO ]Handle=1001 Local_RTO=38 Remote_RTO=154 Overall Send=1MB115KB434/s Overall Recv=26KB818/s Bandwidth=1MB115KB469/s
+[2021-02-21 18:43:36.339000][INFO ]Handle=1001 Local_RTO=47 Remote_RTO=479 Overall Send=1MB229KB42/s Overall Recv=17KB745/s Bandwidth=1MB229KB413/s

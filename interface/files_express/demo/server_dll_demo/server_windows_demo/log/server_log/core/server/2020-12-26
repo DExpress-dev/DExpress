@@ -1,0 +1,1066 @@
+[2020-13-27 15:50:24.086000][INFO ]******** 
+
+[2020-13-27 15:50:24.091000][INFO ]Start RUDP Server Params ---->
+ 				bind_ip=0.0.0.0
+ 				listen_port=41002
+ 				delay=0
+ 				delay_interval=2000
+ 				max_threhold=0
+
+[2020-13-27 15:50:24.091000][INFO ]harq_manager::create_fd port=41002
+[2020-13-27 15:50:24.092000][INFO ]Create fd=204 port=41002
+[2020-13-27 15:50:24.092000][INFO ]Set Fd Attribute Success fd=204
+[2020-13-27 15:50:24.092000][INFO ]Bind fd Success fd=204
+[2020-13-27 15:50:24.100000][INFO ]harq_manager::create_fd port=41002
+[2020-13-27 15:50:24.100000][INFO ]Create fd=224 port=41002
+[2020-13-27 15:50:24.100000][INFO ]Set Fd Attribute Success fd=224
+[2020-13-27 15:50:24.101000][INFO ]Bind fd Success fd=224
+[2020-13-27 15:50:24.109000][INFO ]harq_manager::create_fd port=41002
+[2020-13-27 15:50:24.110000][INFO ]Create fd=180 port=41002
+[2020-13-27 15:50:24.111000][INFO ]Set Fd Attribute Success fd=180
+[2020-13-27 15:50:24.112000][INFO ]Bind fd Success fd=180
+[2020-13-27 15:50:24.122000][INFO ]harq_manager::create_fd port=41002
+[2020-13-27 15:50:24.124000][INFO ]Create fd=244 port=41002
+[2020-13-27 15:50:24.126000][INFO ]Set Fd Attribute Success fd=244
+[2020-13-27 15:50:24.127000][INFO ]Bind fd Success fd=244
+[2020-13-27 15:50:24.138000][INFO ]Create Work Thread Success
+[2020-13-27 15:50:24.143000][INFO ]Start Server Finished
+[2020-13-27 15:52:59.580000][INFO ]New Linker Object IP 127.0.0.1 Port 37469
+[2020-13-27 15:52:59.583000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 15:52:59.585000][INFO ]Init Fec Decoder OK
+[2020-13-27 15:52:59.587000][INFO ]Create recv_rate OK
+[2020-13-27 15:52:59.589000][INFO ]Create send_rate OK
+[2020-13-27 15:52:59.595000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 15:52:59.603000][INFO ]Init Fec Math Thread OK
+[2020-13-27 15:52:59.610000][INFO ]Create Linker Object IP 127.0.0.1 Port=37469 Linker Handle 1001
+[2020-13-27 15:52:59.615000][INFO ]syn set_remote_timer header.client_timer_=1608969179573
+[2020-13-27 15:53:00.226000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-13-27 15:53:01.227000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:02.227000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:03.227000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:04.228000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:05.229000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:06.229000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:07.229000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:08.230000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:09.232000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:10.232000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:11.234000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:12.235000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:13.236000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:14.237000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:53:15.238000][INFO ]Disconnect Linker Object linker_handle=1001
+[2020-13-27 15:54:21.430000][INFO ]New Linker Object IP 127.0.0.1 Port 26934
+[2020-13-27 15:54:21.433000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 15:54:21.435000][INFO ]Init Fec Decoder OK
+[2020-13-27 15:54:21.437000][INFO ]Create recv_rate OK
+[2020-13-27 15:54:21.439000][INFO ]Create send_rate OK
+[2020-13-27 15:54:21.443000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 15:54:21.449000][INFO ]Init Fec Math Thread OK
+[2020-13-27 15:54:21.451000][INFO ]Create Linker Object IP 127.0.0.1 Port=26934 Linker Handle 1002
+[2020-13-27 15:54:21.452000][INFO ]syn set_remote_timer header.client_timer_=1608969261420
+[2020-13-27 15:54:22.181000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-13-27 15:54:23.182000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:54:24.183000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:54:25.184000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:54:26.185000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:54:27.185000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:54:28.186000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:54:29.186000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:54:30.190000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=117/s Bandwidth=524288
+[2020-13-27 15:54:31.190000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:54:32.191000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:54:33.191000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:54:34.192000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:54:35.193000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:54:36.193000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 15:54:37.197000][INFO ]Disconnect Linker Object linker_handle=1002
+[2020-13-27 16:05:26.292000][INFO ]New Linker Object IP 127.0.0.1 Port 11982
+[2020-13-27 16:05:26.296000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 16:05:26.301000][INFO ]Init Fec Decoder OK
+[2020-13-27 16:05:26.303000][INFO ]Create recv_rate OK
+[2020-13-27 16:05:26.304000][INFO ]Create send_rate OK
+[2020-13-27 16:05:26.308000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 16:05:26.316000][INFO ]Init Fec Math Thread OK
+[2020-13-27 16:05:26.318000][INFO ]Create Linker Object IP 127.0.0.1 Port=11982 Linker Handle 1003
+[2020-13-27 16:05:26.319000][INFO ]syn set_remote_timer header.client_timer_=1608969926290
+[2020-13-27 16:05:26.486000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-13-27 16:05:27.487000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:28.488000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:29.489000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:30.489000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:31.489000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:32.490000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:33.490000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:34.491000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:35.491000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:36.492000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:37.493000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:38.494000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:39.494000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:40.496000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:05:41.497000][INFO ]Disconnect Linker Object linker_handle=1003
+[2020-13-27 16:08:19.175000][INFO ]New Linker Object IP 127.0.0.1 Port 30192
+[2020-13-27 16:08:19.180000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 16:08:19.182000][INFO ]Init Fec Decoder OK
+[2020-13-27 16:08:19.185000][INFO ]Create recv_rate OK
+[2020-13-27 16:08:19.187000][INFO ]Create send_rate OK
+[2020-13-27 16:08:19.190000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 16:08:19.196000][INFO ]Init Fec Math Thread OK
+[2020-13-27 16:08:19.198000][INFO ]Create Linker Object IP 127.0.0.1 Port=30192 Linker Handle 1004
+[2020-13-27 16:08:19.200000][INFO ]syn set_remote_timer header.client_timer_=1608970099167
+[2020-13-27 16:08:19.486000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-13-27 16:08:20.486000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:21.487000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:22.488000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:23.489000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:24.489000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:25.490000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:26.490000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:27.491000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:28.492000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:29.493000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:30.493000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:31.494000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:32.494000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:33.495000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:08:34.495000][INFO ]Disconnect Linker Object linker_handle=1004
+[2020-13-27 16:08:58.180000][INFO ]New Linker Object IP 127.0.0.1 Port 11170
+[2020-13-27 16:08:58.184000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 16:08:58.186000][INFO ]Init Fec Decoder OK
+[2020-13-27 16:08:58.190000][INFO ]Create recv_rate OK
+[2020-13-27 16:08:58.192000][INFO ]Create send_rate OK
+[2020-13-27 16:08:58.196000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 16:08:58.203000][INFO ]Init Fec Math Thread OK
+[2020-13-27 16:08:58.208000][INFO ]Create Linker Object IP 127.0.0.1 Port=11170 Linker Handle 1005
+[2020-13-27 16:08:58.208000][INFO ]syn set_remote_timer header.client_timer_=1608970138177
+[2020-13-27 16:08:58.422000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-13-27 16:08:59.422000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:00.422000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:01.423000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:02.423000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:03.424000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:04.425000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:05.425000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:06.425000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:07.427000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:08.428000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:09.428000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:10.428000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:11.429000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:12.429000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:09:13.430000][INFO ]Disconnect Linker Object linker_handle=1005
+[2020-13-27 16:11:22.199000][INFO ]New Linker Object IP 127.0.0.1 Port 33939
+[2020-13-27 16:11:22.202000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 16:11:22.204000][INFO ]Init Fec Decoder OK
+[2020-13-27 16:11:22.208000][INFO ]Create recv_rate OK
+[2020-13-27 16:11:22.210000][INFO ]Create send_rate OK
+[2020-13-27 16:11:22.214000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 16:11:22.221000][INFO ]Init Fec Math Thread OK
+[2020-13-27 16:11:22.223000][INFO ]Create Linker Object IP 127.0.0.1 Port=33939 Linker Handle 1006
+[2020-13-27 16:11:22.228000][INFO ]syn set_remote_timer header.client_timer_=1608970282197
+[2020-13-27 16:11:22.408000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-13-27 16:11:23.409000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:24.409000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:25.410000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:26.410000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:27.411000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:28.412000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:29.413000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:30.414000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:31.415000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:32.415000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:33.416000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:34.418000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:35.418000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:36.418000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:11:37.419000][INFO ]Disconnect Linker Object linker_handle=1006
+[2020-13-27 16:13:32.490000][INFO ]New Linker Object IP 127.0.0.1 Port 40581
+[2020-13-27 16:13:32.493000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 16:13:32.496000][INFO ]Init Fec Decoder OK
+[2020-13-27 16:13:32.498000][INFO ]Create recv_rate OK
+[2020-13-27 16:13:32.500000][INFO ]Create send_rate OK
+[2020-13-27 16:13:32.503000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 16:13:32.508000][INFO ]Init Fec Math Thread OK
+[2020-13-27 16:13:32.512000][INFO ]Create Linker Object IP 127.0.0.1 Port=40581 Linker Handle 1007
+[2020-13-27 16:13:32.518000][INFO ]syn set_remote_timer header.client_timer_=1608970412486
+[2020-13-27 16:13:33.391000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-13-27 16:13:34.391000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:35.392000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:36.392000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:37.393000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:38.393000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:39.393000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:40.394000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:41.395000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:42.396000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:43.398000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:44.399000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:45.399000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:46.400000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:47.401000][INFO ]Handle=1007 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:13:48.401000][INFO ]Disconnect Linker Object linker_handle=1007
+[2020-13-27 16:14:00.410000][INFO ]New Linker Object IP 127.0.0.1 Port 24177
+[2020-13-27 16:14:00.412000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 16:14:00.415000][INFO ]Init Fec Decoder OK
+[2020-13-27 16:14:00.417000][INFO ]Create recv_rate OK
+[2020-13-27 16:14:00.418000][INFO ]Create send_rate OK
+[2020-13-27 16:14:00.421000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 16:14:00.427000][INFO ]Init Fec Math Thread OK
+[2020-13-27 16:14:00.429000][INFO ]Create Linker Object IP 127.0.0.1 Port=24177 Linker Handle 1008
+[2020-13-27 16:14:00.432000][INFO ]syn set_remote_timer header.client_timer_=1608970440400
+[2020-13-27 16:14:01.320000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-13-27 16:14:02.321000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:03.321000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:04.322000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:05.323000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:06.323000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:07.324000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:08.324000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:09.325000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:10.325000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:11.325000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:12.326000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:13.326000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:14.327000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:15.328000][INFO ]Handle=1008 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:14:16.328000][INFO ]Disconnect Linker Object linker_handle=1008
+[2020-13-27 16:15:35.400000][INFO ]New Linker Object IP 127.0.0.1 Port 16982
+[2020-13-27 16:15:35.406000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 16:15:35.408000][INFO ]Init Fec Decoder OK
+[2020-13-27 16:15:35.411000][INFO ]Create recv_rate OK
+[2020-13-27 16:15:35.412000][INFO ]Create send_rate OK
+[2020-13-27 16:15:35.415000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 16:15:35.420000][INFO ]Init Fec Math Thread OK
+[2020-13-27 16:15:35.423000][INFO ]Create Linker Object IP 127.0.0.1 Port=16982 Linker Handle 1009
+[2020-13-27 16:15:35.424000][INFO ]syn set_remote_timer header.client_timer_=1608970535399
+[2020-13-27 16:15:36.281000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-13-27 16:15:37.281000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:38.283000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:39.283000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:40.284000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:41.285000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:42.287000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:43.296000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:44.297000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:45.298000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:46.300000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:47.300000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:48.301000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:49.302000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:50.303000][INFO ]Handle=1009 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:15:51.303000][INFO ]Disconnect Linker Object linker_handle=1009
+[2020-13-27 16:18:39.070000][INFO ]New Linker Object IP 127.0.0.1 Port 21497
+[2020-13-27 16:18:39.076000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 16:18:39.079000][INFO ]Init Fec Decoder OK
+[2020-13-27 16:18:39.082000][INFO ]Create recv_rate OK
+[2020-13-27 16:18:39.084000][INFO ]Create send_rate OK
+[2020-13-27 16:18:39.087000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 16:18:39.093000][INFO ]Init Fec Math Thread OK
+[2020-13-27 16:18:39.096000][INFO ]Create Linker Object IP 127.0.0.1 Port=21497 Linker Handle 1010
+[2020-13-27 16:18:39.100000][INFO ]syn set_remote_timer header.client_timer_=1608970719069
+[2020-13-27 16:18:39.298000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-13-27 16:18:40.299000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:41.300000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:42.300000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:43.300000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:44.301000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:45.301000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:46.301000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:47.303000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:48.304000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:49.304000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:50.304000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:51.305000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:52.305000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:53.306000][INFO ]Handle=1010 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:18:54.306000][INFO ]Disconnect Linker Object linker_handle=1010
+[2020-13-27 16:23:45.435000][INFO ]New Linker Object IP 127.0.0.1 Port 24158
+[2020-13-27 16:23:45.442000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 16:23:45.444000][INFO ]Init Fec Decoder OK
+[2020-13-27 16:23:45.446000][INFO ]Create recv_rate OK
+[2020-13-27 16:23:45.447000][INFO ]Create send_rate OK
+[2020-13-27 16:23:45.451000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 16:23:45.457000][INFO ]Init Fec Math Thread OK
+[2020-13-27 16:23:45.460000][INFO ]Create Linker Object IP 127.0.0.1 Port=24158 Linker Handle 1011
+[2020-13-27 16:23:45.461000][INFO ]syn set_remote_timer header.client_timer_=1608971025434
+[2020-13-27 16:23:46.365000][INFO ]Handle=1011 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-13-27 16:23:47.366000][INFO ]Handle=1011 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:23:48.367000][INFO ]Handle=1011 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:23:49.367000][INFO ]Handle=1011 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:23:50.368000][INFO ]Handle=1011 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:23:51.368000][INFO ]Handle=1011 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=117/s Bandwidth=524288
+[2020-13-27 16:23:52.368000][INFO ]Handle=1011 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:23:53.369000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=117/s Bandwidth=12582912
+[2020-13-27 16:23:54.370000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:23:55.371000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:23:56.371000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:23:57.372000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:23:58.372000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:23:59.374000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:24:00.374000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:24:01.374000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:24:02.374000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:24:03.376000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:24:04.378000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:24:05.379000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:24:06.379000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:24:07.380000][INFO ]Handle=1011 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 16:24:08.380000][INFO ]Disconnect Linker Object linker_handle=1011
+[2020-13-27 16:26:03.361000][INFO ]New Linker Object IP 127.0.0.1 Port 11928
+[2020-13-27 16:26:03.368000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 16:26:03.372000][INFO ]Init Fec Decoder OK
+[2020-13-27 16:26:03.379000][INFO ]Create recv_rate OK
+[2020-13-27 16:26:03.381000][INFO ]Create send_rate OK
+[2020-13-27 16:26:03.387000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 16:26:03.398000][INFO ]Init Fec Math Thread OK
+[2020-13-27 16:26:03.402000][INFO ]Create Linker Object IP 127.0.0.1 Port=11928 Linker Handle 1012
+[2020-13-27 16:26:03.403000][INFO ]syn set_remote_timer header.client_timer_=1608971163359
+[2020-13-27 16:26:04.348000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-13-27 16:26:05.351000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:26:06.353000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:26:07.358000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:26:08.361000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:26:09.365000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:26:10.367000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:26:11.372000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:26:12.377000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:26:13.383000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:26:14.387000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:26:15.391000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:26:16.395000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:26:17.398000][INFO ]Handle=1012 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:26:18.402000][INFO ]Disconnect Linker Object linker_handle=1012
+[2020-13-27 16:27:47.707000][INFO ]New Linker Object IP 127.0.0.1 Port 28844
+[2020-13-27 16:27:47.715000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 16:27:47.720000][INFO ]Init Fec Decoder OK
+[2020-13-27 16:27:47.725000][INFO ]Create recv_rate OK
+[2020-13-27 16:27:47.728000][INFO ]Create send_rate OK
+[2020-13-27 16:27:47.733000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 16:27:47.741000][INFO ]Init Fec Math Thread OK
+[2020-13-27 16:27:47.745000][INFO ]Create Linker Object IP 127.0.0.1 Port=28844 Linker Handle 1013
+[2020-13-27 16:27:47.749000][INFO ]syn set_remote_timer header.client_timer_=1608971267700
+[2020-13-27 16:27:48.363000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=400/s Bandwidth=524288
+[2020-13-27 16:27:49.366000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:27:50.369000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:27:51.373000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:27:52.377000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:27:53.381000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=272/s Bandwidth=524288
+[2020-13-27 16:27:54.384000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:27:55.386000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:27:56.389000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:27:57.392000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:27:58.397000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:27:59.399000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:00.401000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:01.405000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:02.408000][INFO ]Handle=1013 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:03.412000][INFO ]Disconnect Linker Object linker_handle=1013
+[2020-13-27 16:28:07.638000][INFO ]New Linker Object IP 127.0.0.1 Port 24446
+[2020-13-27 16:28:07.648000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 16:28:07.653000][INFO ]Init Fec Decoder OK
+[2020-13-27 16:28:07.660000][INFO ]Create recv_rate OK
+[2020-13-27 16:28:07.663000][INFO ]Create send_rate OK
+[2020-13-27 16:28:07.668000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 16:28:07.675000][INFO ]Init Fec Math Thread OK
+[2020-13-27 16:28:07.680000][INFO ]Create Linker Object IP 127.0.0.1 Port=24446 Linker Handle 1014
+[2020-13-27 16:28:07.684000][INFO ]syn set_remote_timer header.client_timer_=1608971287630
+[2020-13-27 16:28:08.322000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-13-27 16:28:09.325000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:10.327000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:11.330000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:12.333000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:13.339000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:14.342000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:15.345000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:16.348000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:17.352000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:18.355000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:19.358000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:20.361000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:21.368000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:22.372000][INFO ]Handle=1014 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-27 16:28:23.378000][INFO ]Disconnect Linker Object linker_handle=1014
+[2020-13-25 16:45:12.054000][INFO ]******** 
+
+[2020-12-25 16:45:12.059000][INFO ]Start RUDP Server Params ---->
+ 				bind_ip=0.0.0.0
+ 				listen_port=41002
+ 				delay=0
+ 				delay_interval=2000
+ 				max_threhold=0
+
+[2020-12-25 16:45:12.059000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 16:45:12.060000][INFO ]Create fd=216 port=41002
+[2020-12-25 16:45:12.060000][INFO ]Set Fd Attribute Success fd=216
+[2020-12-25 16:45:12.060000][INFO ]Bind fd Success fd=216
+[2020-13-25 16:45:12.067000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 16:45:12.067000][INFO ]Create fd=240 port=41002
+[2020-12-25 16:45:12.068000][INFO ]Set Fd Attribute Success fd=240
+[2020-12-25 16:45:12.068000][INFO ]Bind fd Success fd=240
+[2020-13-25 16:45:12.074000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 16:45:12.076000][INFO ]Create fd=268 port=41002
+[2020-12-25 16:45:12.078000][INFO ]Set Fd Attribute Success fd=268
+[2020-12-25 16:45:12.079000][INFO ]Bind fd Success fd=268
+[2020-13-25 16:45:12.089000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 16:45:12.090000][INFO ]Create fd=292 port=41002
+[2020-12-25 16:45:12.092000][INFO ]Set Fd Attribute Success fd=292
+[2020-12-25 16:45:12.095000][INFO ]Bind fd Success fd=292
+[2020-13-25 16:45:12.103000][INFO ]Create Work Thread Success
+[2020-12-25 16:45:12.105000][INFO ]Start Server Finished
+[2020-13-25 16:45:30.870000][INFO ]New Linker Object IP 127.0.0.1 Port 29811
+[2020-12-25 16:45:30.872000][INFO ]Init Fec Decoder Count=2
+[2020-12-25 16:45:30.874000][INFO ]Init Fec Decoder OK
+[2020-13-25 16:45:30.876000][INFO ]Create recv_rate OK
+[2020-12-25 16:45:30.877000][INFO ]Create send_rate OK
+[2020-12-25 16:45:30.882000][INFO ]Init Fec Math Thread Count=4
+[2020-12-25 16:45:30.885000][INFO ]Init Fec Math Thread OK
+[2020-13-25 16:45:30.887000][INFO ]Create Linker Object IP 127.0.0.1 Port=29811 Linker Handle 1001
+[2020-13-25 16:45:30.888000][INFO ]syn set_remote_timer header.client_timer_=1608972330860
+[2020-13-25 16:45:31.113000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-12-25 16:45:32.114000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 16:45:33.115000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 16:45:34.116000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 16:45:35.118000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 16:45:36.119000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 16:45:37.121000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 16:45:38.123000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 16:45:39.125000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 16:45:40.125000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 16:45:41.133000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 16:45:42.138000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 16:45:43.144000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 16:45:44.153000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 16:45:45.158000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-25 16:45:46.165000][INFO ]Disconnect Linker Object linker_handle=1001
+[2020-13-25 16:49:34.556000][INFO ]******** 
+
+[2020-12-25 16:49:34.561000][INFO ]Start RUDP Server Params ---->
+ 				bind_ip=0.0.0.0
+ 				listen_port=41002
+ 				delay=0
+ 				delay_interval=2000
+ 				max_threhold=0
+
+[2020-12-25 16:49:34.561000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 16:49:34.561000][INFO ]Create fd=156 port=41002
+[2020-12-25 16:49:34.562000][INFO ]Set Fd Attribute Success fd=156
+[2020-12-25 16:49:34.562000][INFO ]Bind fd Success fd=156
+[2020-13-25 16:49:34.569000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 16:49:34.570000][INFO ]Create fd=244 port=41002
+[2020-12-25 16:49:34.570000][INFO ]Set Fd Attribute Success fd=244
+[2020-12-25 16:49:34.571000][INFO ]Bind fd Success fd=244
+[2020-13-25 16:49:34.579000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 16:49:34.580000][INFO ]Create fd=264 port=41002
+[2020-12-25 16:49:34.582000][INFO ]Set Fd Attribute Success fd=264
+[2020-12-25 16:49:34.584000][INFO ]Bind fd Success fd=264
+[2020-13-25 16:49:34.592000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 16:49:34.593000][INFO ]Create fd=288 port=41002
+[2020-12-25 16:49:34.595000][INFO ]Set Fd Attribute Success fd=288
+[2020-12-25 16:49:34.597000][INFO ]Bind fd Success fd=288
+[2020-13-25 16:49:34.606000][INFO ]Create Work Thread Success
+[2020-12-25 16:49:34.609000][INFO ]Start Server Finished
+[2020-13-25 17:06:20.900000][INFO ]New Linker Object IP 127.0.0.1 Port 15313
+[2020-12-25 17:06:20.910000][INFO ]Init Fec Decoder Count=2
+[2020-12-25 17:06:20.913000][INFO ]Init Fec Decoder OK
+[2020-13-25 17:06:20.916000][INFO ]Create recv_rate OK
+[2020-12-25 17:06:20.918000][INFO ]Create send_rate OK
+[2020-12-25 17:06:20.924000][INFO ]Init Fec Math Thread Count=4
+[2020-12-25 17:06:20.929000][INFO ]Init Fec Math Thread OK
+[2020-13-25 17:06:20.932000][INFO ]Create Linker Object IP 127.0.0.1 Port=15313 Linker Handle 1001
+[2020-13-25 17:06:20.934000][INFO ]syn set_remote_timer header.client_timer_=1608973580896
+[2020-13-25 17:06:21.178000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-12-25 17:06:22.181000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:06:23.183000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:06:24.190000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:06:25.193000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:06:26.195000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=117/s Bandwidth=524288
+[2020-12-25 17:06:27.199000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:06:28.203000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:06:29.206000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:06:30.209000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:06:31.211000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=117/s Bandwidth=12582912
+[2020-12-25 17:06:32.213000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:33.216000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:34.217000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=117/s Bandwidth=12582912
+[2020-12-25 17:06:35.220000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:36.223000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:37.226000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:38.230000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:39.233000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:40.237000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:41.241000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:42.245000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:43.247000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:44.250000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:45.253000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:46.257000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:47.259000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-12-25 17:06:48.262000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-25 17:06:49.272000][INFO ]Disconnect Linker Object linker_handle=1001
+[2020-12-25 17:07:14.025000][INFO ]New Linker Object IP 127.0.0.1 Port 34379
+[2020-12-25 17:07:14.034000][INFO ]Init Fec Decoder Count=2
+[2020-12-25 17:07:14.038000][INFO ]Init Fec Decoder OK
+[2020-13-25 17:07:14.042000][INFO ]Create recv_rate OK
+[2020-12-25 17:07:14.045000][INFO ]Create send_rate OK
+[2020-12-25 17:07:14.052000][INFO ]Init Fec Math Thread Count=4
+[2020-12-25 17:07:14.057000][INFO ]Init Fec Math Thread OK
+[2020-12-25 17:07:14.060000][INFO ]Create Linker Object IP 127.0.0.1 Port=34379 Linker Handle 1002
+[2020-13-25 17:07:14.062000][INFO ]syn set_remote_timer header.client_timer_=1608973634022
+[2020-12-25 17:07:14.195000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-12-25 17:07:15.199000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:07:16.202000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:07:17.206000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:07:18.209000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:07:19.212000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:07:20.215000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:07:21.218000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:07:22.222000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:07:23.225000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:07:24.227000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=117/s Bandwidth=524288
+[2020-12-25 17:07:25.232000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:07:26.234000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:07:27.239000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:07:28.242000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-25 17:07:29.250000][INFO ]Disconnect Linker Object linker_handle=1002
+[2020-12-25 17:08:44.155000][INFO ]New Linker Object IP 127.0.0.1 Port 17531
+[2020-12-25 17:08:44.163000][INFO ]Init Fec Decoder Count=2
+[2020-12-25 17:08:44.167000][INFO ]Init Fec Decoder OK
+[2020-13-25 17:08:44.171000][INFO ]Create recv_rate OK
+[2020-12-25 17:08:44.177000][INFO ]Create send_rate OK
+[2020-12-25 17:08:44.182000][INFO ]Init Fec Math Thread Count=4
+[2020-12-25 17:08:44.187000][INFO ]Init Fec Math Thread OK
+[2020-13-25 17:08:44.191000][INFO ]Create Linker Object IP 127.0.0.1 Port=17531 Linker Handle 1003
+[2020-13-25 17:08:44.192000][INFO ]syn set_remote_timer header.client_timer_=1608973724154
+[2020-12-25 17:08:44.208000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=400/s Bandwidth=524288
+[2020-12-25 17:08:45.212000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=155/s Bandwidth=524288
+[2020-12-25 17:08:46.214000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:08:47.217000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=117/s Bandwidth=524288
+[2020-12-25 17:08:48.221000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:08:49.223000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:08:50.225000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:08:51.229000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:08:52.234000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:08:53.238000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:08:54.242000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:08:55.245000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:08:56.249000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:08:57.252000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:08:58.255000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-25 17:08:59.260000][INFO ]Disconnect Linker Object linker_handle=1003
+[2020-12-25 17:17:09.874000][INFO ]New Linker Object IP 127.0.0.1 Port 24482
+[2020-12-25 17:17:09.881000][INFO ]Init Fec Decoder Count=2
+[2020-12-25 17:17:09.883000][INFO ]Init Fec Decoder OK
+[2020-13-25 17:17:09.889000][INFO ]Create recv_rate OK
+[2020-12-25 17:17:09.892000][INFO ]Create send_rate OK
+[2020-12-25 17:17:09.897000][INFO ]Init Fec Math Thread Count=4
+[2020-12-25 17:17:09.901000][INFO ]Init Fec Math Thread OK
+[2020-13-25 17:17:09.905000][INFO ]Create Linker Object IP 127.0.0.1 Port=24482 Linker Handle 1004
+[2020-13-25 17:17:09.905000][INFO ]syn set_remote_timer header.client_timer_=1608974229872
+[2020-12-25 17:17:10.452000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-12-25 17:17:11.455000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:17:12.458000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:17:13.461000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:17:14.465000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:17:15.470000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:17:16.474000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:17:17.477000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:17:18.479000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:17:19.481000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:17:20.485000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:17:21.488000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:17:22.491000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:17:23.496000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:17:24.499000][INFO ]Handle=1004 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-25 17:17:25.503000][INFO ]Disconnect Linker Object linker_handle=1004
+[2020-12-25 17:17:57.764000][INFO ]New Linker Object IP 127.0.0.1 Port 12020
+[2020-12-25 17:17:57.773000][INFO ]Init Fec Decoder Count=2
+[2020-12-25 17:17:57.777000][INFO ]Init Fec Decoder OK
+[2020-13-25 17:17:57.780000][INFO ]Create recv_rate OK
+[2020-12-25 17:17:57.787000][INFO ]Create send_rate OK
+[2020-12-25 17:17:57.793000][INFO ]Init Fec Math Thread Count=4
+[2020-12-25 17:17:57.801000][INFO ]Init Fec Math Thread OK
+[2020-13-25 17:17:57.806000][INFO ]Create Linker Object IP 127.0.0.1 Port=12020 Linker Handle 1005
+[2020-13-25 17:17:57.807000][INFO ]syn set_remote_timer header.client_timer_=1608974277762
+[2020-12-25 17:17:58.431000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-12-25 17:17:59.434000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:18:00.439000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:18:01.444000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:18:02.448000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:18:03.451000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:18:04.456000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:18:05.462000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:18:06.469000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:18:07.474000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:18:08.479000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:18:09.481000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:18:10.486000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:18:11.489000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:18:12.493000][INFO ]Handle=1005 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-25 17:18:13.499000][INFO ]Disconnect Linker Object linker_handle=1005
+[2020-12-25 17:18:59.529000][INFO ]New Linker Object IP 127.0.0.1 Port 25002
+[2020-12-25 17:18:59.539000][INFO ]Init Fec Decoder Count=2
+[2020-12-25 17:18:59.542000][INFO ]Init Fec Decoder OK
+[2020-13-25 17:18:59.548000][INFO ]Create recv_rate OK
+[2020-12-25 17:18:59.550000][INFO ]Create send_rate OK
+[2020-12-25 17:18:59.556000][INFO ]Init Fec Math Thread Count=4
+[2020-12-25 17:18:59.560000][INFO ]Init Fec Math Thread OK
+[2020-13-25 17:18:59.566000][INFO ]Create Linker Object IP 127.0.0.1 Port=25002 Linker Handle 1006
+[2020-13-25 17:18:59.568000][INFO ]syn set_remote_timer header.client_timer_=1608974339527
+[2020-12-25 17:19:00.445000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-12-25 17:19:01.448000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:19:02.452000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=39/s Bandwidth=524288
+[2020-12-25 17:19:03.455000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:19:04.458000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:19:05.461000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:19:06.465000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:19:07.467000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:19:08.479000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:19:09.482000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:19:10.485000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:19:11.494000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:19:12.499000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:19:13.503000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:19:14.507000][INFO ]Handle=1006 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-25 17:19:15.512000][INFO ]Disconnect Linker Object linker_handle=1006
+[2020-13-25 17:20:29.098000][INFO ]******** 
+
+[2020-12-25 17:20:29.102000][INFO ]Start RUDP Server Params ---->
+ 				bind_ip=0.0.0.0
+ 				listen_port=41002
+ 				delay=0
+ 				delay_interval=2000
+ 				max_threhold=0
+
+[2020-12-25 17:20:29.102000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 17:20:29.103000][INFO ]Create fd=232 port=41002
+[2020-12-25 17:20:29.103000][INFO ]Set Fd Attribute Success fd=232
+[2020-12-25 17:20:29.103000][INFO ]Bind fd Success fd=232
+[2020-13-25 17:20:29.112000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 17:20:29.112000][INFO ]Create fd=236 port=41002
+[2020-12-25 17:20:29.112000][INFO ]Set Fd Attribute Success fd=236
+[2020-12-25 17:20:29.112000][INFO ]Bind fd Success fd=236
+[2020-13-25 17:20:29.118000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 17:20:29.120000][INFO ]Create fd=268 port=41002
+[2020-12-25 17:20:29.121000][INFO ]Set Fd Attribute Success fd=268
+[2020-12-25 17:20:29.122000][INFO ]Bind fd Success fd=268
+[2020-13-25 17:20:29.131000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 17:20:29.132000][INFO ]Create fd=292 port=41002
+[2020-12-25 17:20:29.133000][INFO ]Set Fd Attribute Success fd=292
+[2020-12-25 17:20:29.134000][INFO ]Bind fd Success fd=292
+[2020-13-25 17:20:29.145000][INFO ]Create Work Thread Success
+[2020-12-25 17:20:29.149000][INFO ]Start Server Finished
+[2020-13-25 17:20:34.586000][INFO ]New Linker Object IP 127.0.0.1 Port 19295
+[2020-12-25 17:20:34.599000][INFO ]Init Fec Decoder Count=2
+[2020-12-25 17:20:34.605000][INFO ]Init Fec Decoder OK
+[2020-13-25 17:20:34.609000][INFO ]Create recv_rate OK
+[2020-12-25 17:20:34.615000][INFO ]Create send_rate OK
+[2020-12-25 17:20:34.621000][INFO ]Init Fec Math Thread Count=4
+[2020-12-25 17:20:34.630000][INFO ]Init Fec Math Thread OK
+[2020-13-25 17:20:34.633000][INFO ]Create Linker Object IP 127.0.0.1 Port=19295 Linker Handle 1001
+[2020-13-25 17:20:34.635000][INFO ]syn set_remote_timer header.client_timer_=1608974434576
+[2020-13-25 17:20:35.152000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-12-25 17:20:36.155000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:20:37.159000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:20:38.163000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:20:39.166000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:20:40.170000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=39/s Bandwidth=524288
+[2020-12-25 17:20:41.172000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:20:42.176000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:20:43.178000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:20:44.180000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:20:45.184000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:20:46.188000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:20:47.193000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:20:48.194000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:20:49.196000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-25 17:20:50.197000][INFO ]Disconnect Linker Object linker_handle=1001
+[2020-12-25 17:21:48.715000][INFO ]******** 
+
+[2020-12-25 17:21:48.720000][INFO ]Start RUDP Server Params ---->
+ 				bind_ip=0.0.0.0
+ 				listen_port=41002
+ 				delay=0
+ 				delay_interval=2000
+ 				max_threhold=0
+
+[2020-12-25 17:21:48.721000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 17:21:48.721000][INFO ]Create fd=220 port=41002
+[2020-12-25 17:21:48.721000][INFO ]Set Fd Attribute Success fd=220
+[2020-12-25 17:21:48.722000][INFO ]Bind fd Success fd=220
+[2020-13-25 17:21:48.730000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 17:21:48.730000][INFO ]Create fd=248 port=41002
+[2020-12-25 17:21:48.730000][INFO ]Set Fd Attribute Success fd=248
+[2020-12-25 17:21:48.730000][INFO ]Bind fd Success fd=248
+[2020-13-25 17:21:48.737000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 17:21:48.743000][INFO ]Create fd=264 port=41002
+[2020-12-25 17:21:48.744000][INFO ]Set Fd Attribute Success fd=264
+[2020-12-25 17:21:48.745000][INFO ]Bind fd Success fd=264
+[2020-13-25 17:21:48.753000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 17:21:48.756000][INFO ]Create fd=288 port=41002
+[2020-12-25 17:21:48.757000][INFO ]Set Fd Attribute Success fd=288
+[2020-12-25 17:21:48.760000][INFO ]Bind fd Success fd=288
+[2020-13-25 17:21:48.771000][INFO ]Create Work Thread Success
+[2020-12-25 17:21:48.775000][INFO ]Start Server Finished
+[2020-13-25 17:27:07.006000][INFO ]New Linker Object IP 127.0.0.1 Port 14258
+[2020-12-25 17:27:07.015000][INFO ]Init Fec Decoder Count=2
+[2020-12-25 17:27:07.019000][INFO ]Init Fec Decoder OK
+[2020-13-25 17:27:07.022000][INFO ]Create recv_rate OK
+[2020-12-25 17:27:07.025000][INFO ]Create send_rate OK
+[2020-12-25 17:27:07.033000][INFO ]Init Fec Math Thread Count=4
+[2020-12-25 17:27:07.038000][INFO ]Init Fec Math Thread OK
+[2020-13-25 17:27:07.042000][INFO ]Create Linker Object IP 127.0.0.1 Port=14258 Linker Handle 1001
+[2020-13-25 17:27:07.044000][INFO ]syn set_remote_timer header.client_timer_=1608974826999
+[2020-13-25 17:27:07.970000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-12-25 17:27:08.973000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:09.977000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:10.980000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:11.982000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:12.986000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:13.989000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:14.993000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:15.995000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:16.998000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:18.001000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:18.005000][INFO ]New Linker Object IP 127.0.0.1 Port 11580
+[2020-12-25 17:27:18.013000][INFO ]Init Fec Decoder Count=2
+[2020-12-25 17:27:18.017000][INFO ]Init Fec Decoder OK
+[2020-13-25 17:27:18.023000][INFO ]Create recv_rate OK
+[2020-12-25 17:27:18.025000][INFO ]Create send_rate OK
+[2020-12-25 17:27:18.031000][INFO ]Init Fec Math Thread Count=4
+[2020-12-25 17:27:18.035000][INFO ]Init Fec Math Thread OK
+[2020-13-25 17:27:18.038000][INFO ]Create Linker Object IP 127.0.0.1 Port=11580 Linker Handle 1002
+[2020-13-25 17:27:18.042000][INFO ]syn set_remote_timer header.client_timer_=1608974837999
+[2020-12-25 17:27:19.005000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:19.009000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-12-25 17:27:20.019000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:20.021000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:21.026000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:21.028000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-25 17:27:22.035000][INFO ]Disconnect Linker Object linker_handle=1001
+[2020-12-25 17:27:22.944000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:23.947000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:24.952000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:25.956000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:26.961000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:27.964000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:28.967000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:29.969000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:30.972000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:31.975000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:32.977000][INFO ]Handle=1002 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-25 17:27:33.981000][INFO ]Disconnect Linker Object linker_handle=1002
+[2020-12-25 17:27:37.788000][INFO ]New Linker Object IP 127.0.0.1 Port 25811
+[2020-12-25 17:27:37.793000][INFO ]Init Fec Decoder Count=2
+[2020-12-25 17:27:37.797000][INFO ]Init Fec Decoder OK
+[2020-13-25 17:27:37.801000][INFO ]Create recv_rate OK
+[2020-12-25 17:27:37.806000][INFO ]Create send_rate OK
+[2020-12-25 17:27:37.812000][INFO ]Init Fec Math Thread Count=4
+[2020-12-25 17:27:37.819000][INFO ]Init Fec Math Thread OK
+[2020-13-25 17:27:37.822000][INFO ]Create Linker Object IP 127.0.0.1 Port=25811 Linker Handle 1003
+[2020-13-25 17:27:37.826000][INFO ]syn set_remote_timer header.client_timer_=1608974857780
+[2020-12-25 17:27:37.893000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=555/s Bandwidth=524288
+[2020-12-25 17:27:38.896000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:39.899000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:40.901000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:41.903000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:42.908000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:43.911000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:44.915000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:45.918000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:46.920000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:47.922000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:48.926000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:49.929000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:50.932000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-12-25 17:27:51.935000][INFO ]Handle=1003 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=524288
+[2020-13-25 17:27:52.940000][INFO ]Disconnect Linker Object linker_handle=1003
+[2020-12-25 18:26:38.554000][INFO ]******** 
+
+[2020-12-25 18:26:38.561000][INFO ]Start RUDP Server Params ---->
+ 				bind_ip=0.0.0.0
+ 				listen_port=41002
+ 				delay=0
+ 				delay_interval=2000
+ 				max_threhold=0
+
+[2020-12-25 18:26:38.561000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 18:26:38.564000][INFO ]Create fd=264 port=41002
+[2020-12-25 18:26:38.564000][INFO ]Set Fd Attribute Success fd=264
+[2020-12-25 18:26:38.564000][INFO ]Bind fd Success fd=264
+[2020-13-25 18:26:38.572000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 18:26:38.573000][INFO ]Create fd=272 port=41002
+[2020-12-25 18:26:38.573000][INFO ]Set Fd Attribute Success fd=272
+[2020-12-25 18:26:38.573000][INFO ]Bind fd Success fd=272
+[2020-13-25 18:26:38.581000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 18:26:38.581000][INFO ]Create fd=296 port=41002
+[2020-12-25 18:26:38.583000][INFO ]Set Fd Attribute Success fd=296
+[2020-12-25 18:26:38.584000][INFO ]Bind fd Success fd=296
+[2020-13-25 18:26:38.593000][INFO ]harq_manager::create_fd port=41002
+[2020-12-25 18:26:38.595000][INFO ]Create fd=320 port=41002
+[2020-12-25 18:26:38.598000][INFO ]Set Fd Attribute Success fd=320
+[2020-12-25 18:26:38.599000][INFO ]Bind fd Success fd=320
+[2020-13-25 18:26:38.607000][INFO ]Create Work Thread Success
+[2020-12-25 18:26:38.610000][INFO ]Start Server Finished
+[2020-13-25 18:26:54.583000][INFO ]New Linker Object IP 127.0.0.1 Port 21137
+[2020-12-25 18:26:54.588000][INFO ]Init Fec Decoder Count=2
+[2020-12-25 18:26:54.592000][INFO ]Init Fec Decoder OK
+[2020-13-25 18:26:54.595000][INFO ]Create recv_rate OK
+[2020-12-25 18:26:54.598000][INFO ]Create send_rate OK
+[2020-12-25 18:26:54.604000][INFO ]Init Fec Math Thread Count=4
+[2020-12-25 18:26:54.609000][INFO ]Init Fec Math Thread OK
+[2020-13-25 18:26:54.615000][INFO ]Create Linker Object IP 127.0.0.1 Port=21137 Linker Handle 1001
+[2020-13-25 18:26:54.617000][INFO ]syn set_remote_timer header.client_timer_=1608978414581
+[2020-13-25 18:26:54.619000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=400/s Bandwidth=524288
+[2020-12-25 18:26:55.622000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=1KB0/s Overall Send=1KB0/s Use Recv=985/s Overall Recv=2KB957/s Bandwidth=524288
+[2020-12-25 18:26:56.625000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=10 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=399KB199/s Overall Recv=513KB284/s Bandwidth=12582912
+[2020-12-25 18:26:57.628000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=23 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=514KB449/s Bandwidth=12582912
+[2020-12-25 18:26:58.631000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=29 Use Send=0/s Overall Send=117/s Use Recv=773KB388/s Overall Recv=465KB737/s Bandwidth=12582912
+[2020-12-25 18:26:59.635000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=13 Use Send=0/s Overall Send=117/s Use Recv=386KB706/s Overall Recv=417KB227/s Bandwidth=12582912
+[2020-12-25 18:27:00.638000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=18 Use Send=0/s Overall Send=117/s Use Recv=386KB706/s Overall Recv=418KB223/s Bandwidth=12582912
+[2020-12-25 18:27:01.643000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=17 Use Send=0/s Overall Send=117/s Use Recv=386KB706/s Overall Recv=418KB393/s Bandwidth=12582912
+[2020-12-25 18:27:02.648000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=27 Use Send=0/s Overall Send=117/s Use Recv=515KB600/s Overall Recv=552KB223/s Bandwidth=12582912
+[2020-12-25 18:27:03.651000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=25 Use Send=0/s Overall Send=117/s Use Recv=515KB600/s Overall Recv=552KB53/s Bandwidth=12582912
+[2020-12-25 18:27:04.656000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=17 Use Send=0/s Overall Send=117/s Use Recv=644KB494/s Overall Recv=686KB393/s Bandwidth=12582912
+[2020-12-25 18:27:05.661000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=24 Use Send=0/s Overall Send=117/s Use Recv=644KB494/s Overall Recv=686KB393/s Bandwidth=12582912
+[2020-12-25 18:27:06.666000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=28 Use Send=0/s Overall Send=117/s Use Recv=773KB388/s Overall Recv=820KB393/s Bandwidth=12582912
+[2020-12-25 18:27:07.669000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=34 Use Send=0/s Overall Send=117/s Use Recv=773KB388/s Overall Recv=923KB53/s Bandwidth=12582912
+[2020-12-25 18:27:08.675000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=24 Use Send=0/s Overall Send=117/s Use Recv=1MB7KB176/s Overall Recv=985KB563/s Bandwidth=12582912
+[2020-12-25 18:27:09.678000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=23 Use Send=0/s Overall Send=117/s Use Recv=1MB7KB176/s Overall Recv=1MB64KB53/s Bandwidth=12582912
+[2020-12-25 18:27:10.681000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=26 Use Send=0/s Overall Send=117/s Use Recv=1MB136KB70/s Overall Recv=1MB198KB223/s Bandwidth=12582912
+[2020-12-25 18:27:11.683000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=20 Use Send=0/s Overall Send=117/s Use Recv=1MB136KB70/s Overall Recv=1MB319KB223/s Bandwidth=12582912
+[2020-12-25 18:27:12.686000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=22 Use Send=0/s Overall Send=117/s Use Recv=1MB393KB882/s Overall Recv=1MB452KB393/s Bandwidth=12582912
+[2020-12-25 18:27:13.690000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=28 Use Send=0/s Overall Send=117/s Use Recv=1MB522KB776/s Overall Recv=1MB598KB223/s Bandwidth=12582912
+[2020-12-25 18:27:14.693000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=33 Use Send=0/s Overall Send=117/s Use Recv=1MB651KB670/s Overall Recv=1MB759KB223/s Bandwidth=12582912
+[2020-12-25 18:27:15.697000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=1MB780KB564/s Overall Recv=1MB936KB53/s Bandwidth=12582912
+[2020-12-25 18:27:16.701000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=44 Use Send=0/s Overall Send=117/s Use Recv=2MB143KB246/s Overall Recv=2MB99KB907/s Bandwidth=12582912
+[2020-12-25 18:27:17.704000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=44 Use Send=0/s Overall Send=0/s Use Recv=1MB909KB458/s Overall Recv=2MB90KB826/s Bandwidth=12582912
+[2020-12-25 18:27:18.707000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=30 Use Send=0/s Overall Send=117/s Use Recv=2MB14KB352/s Overall Recv=2MB304KB907/s Bandwidth=12582912
+[2020-12-25 18:27:19.710000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=34 Use Send=0/s Overall Send=117/s Use Recv=2MB401KB34/s Overall Recv=2MB539KB737/s Bandwidth=12582912
+[2020-12-25 18:27:20.712000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=32 Use Send=0/s Overall Send=117/s Use Recv=2MB401KB34/s Overall Recv=2MB803KB713/s Bandwidth=12582912
+[2020-12-25 18:27:21.720000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=52 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=3MB34KB21/s Overall Recv=3MB59KB284/s Bandwidth=12582912
+[2020-12-25 18:27:22.729000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=53 Use Send=0/s Overall Send=234/s Use Recv=3MB665KB1022/s Overall Recv=3MB725KB644/s Bandwidth=12582912
+[2020-12-25 18:27:23.732000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=53 Use Send=0/s Overall Send=0/s Use Recv=3MB408KB210/s Overall Recv=3MB716KB830/s Bandwidth=12582912
+[2020-12-25 18:27:24.736000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=43 Use Send=0/s Overall Send=117/s Use Recv=3MB537KB104/s Overall Recv=4MB71KB737/s Bandwidth=12582912
+[2020-12-25 18:27:25.739000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=72 Use Send=0/s Overall Send=117/s Use Recv=4MB28KB704/s Overall Recv=4MB488KB563/s Bandwidth=12582912
+[2020-12-25 18:27:26.741000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=56 Use Send=0/s Overall Send=117/s Use Recv=5MB35KB880/s Overall Recv=4MB946KB907/s Bandwidth=12582912
+[2020-12-25 18:27:27.745000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=80 Use Send=0/s Overall Send=117/s Use Recv=5MB551KB456/s Overall Recv=5MB428KB53/s Bandwidth=12582912
+[2020-12-25 18:27:28.748000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=77 Use Send=0/s Overall Send=117/s Use Recv=5MB35KB880/s Overall Recv=5MB982KB53/s Bandwidth=12582912
+[2020-12-25 18:27:29.752000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=54 Use Send=0/s Overall Send=117/s Use Recv=6MB558KB632/s Overall Recv=6MB568KB223/s Bandwidth=12582912
+[2020-12-25 18:27:30.754000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=95 Use Send=0/s Overall Send=117/s Use Recv=7MB307KB1020/s Overall Recv=7MB215KB393/s Bandwidth=12582912
+[2020-12-25 18:27:31.757000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=95 Use Send=0/s Overall Send=117/s Use Recv=7MB307KB1020/s Overall Recv=7MB953KB737/s Bandwidth=12582912
+[2020-12-25 18:27:32.760000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=106 Use Send=0/s Overall Send=117/s Use Recv=8MB444KB66/s Overall Recv=8MB741KB899/s Bandwidth=12582912
+[2020-12-25 18:27:33.763000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=116 Use Send=0/s Overall Send=117/s Use Recv=8MB830KB772/s Overall Recv=9MB611KB741/s Bandwidth=12582912
+[2020-12-25 18:27:34.767000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=139 Use Send=0/s Overall Send=117/s Use Recv=9MB966KB842/s Overall Recv=10MB570KB9/s Bandwidth=12582912
+[2020-12-25 18:27:35.771000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=116 Use Send=0/s Overall Send=117/s Use Recv=11MB207KB806/s Overall Recv=11MB627KB45/s Bandwidth=12582912
+[2020-12-25 18:27:36.774000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=144 Use Send=0/s Overall Send=117/s Use Recv=11MB465KB594/s Overall Recv=11MB1023KB915/s Bandwidth=12582912
+[2020-12-25 18:27:37.776000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=96 Use Send=0/s Overall Send=117/s Use Recv=11MB336KB700/s Overall Recv=11MB1023KB899/s Bandwidth=12582912
+[2020-12-25 18:27:38.780000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=107 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=12MB356KB369/s Overall Recv=11MB1023KB940/s Bandwidth=12582912
+[2020-12-25 18:27:39.784000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==22 Remote_RTO=138 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=11MB993KB687/s Overall Recv=11MB1023KB946/s Bandwidth=12582912
+[2020-12-25 18:27:40.786000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==33 Remote_RTO=19 Use Send=5KB0/s Overall Send=5KB234/s Use Recv=11MB349KB193/s Overall Recv=11MB1023KB927/s Bandwidth=12582912
+[2020-12-25 18:27:41.788000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==33 Remote_RTO=43 Use Send=0/s Overall Send=117/s Use Recv=4MB286KB492/s Overall Recv=3MB957KB615/s Bandwidth=12582912
+[2020-12-25 18:27:42.792000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==33 Remote_RTO=43 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=3KB445/s Bandwidth=12582912
+[2020-12-25 18:27:43.795000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==33 Remote_RTO=43 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=3KB275/s Bandwidth=12582912
+[2020-12-25 18:27:44.801000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==33 Remote_RTO=43 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=3KB275/s Bandwidth=12582912
+[2020-12-25 18:27:45.805000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==33 Remote_RTO=43 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=3KB445/s Bandwidth=12582912
+[2020-12-25 18:27:46.810000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==33 Remote_RTO=43 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=3KB275/s Bandwidth=12582912
+[2020-12-25 18:27:47.817000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==33 Remote_RTO=43 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=3KB275/s Bandwidth=12582912
+[2020-12-25 18:27:48.823000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==33 Remote_RTO=43 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 18:29:55.639000][INFO ]******** 
+
+[2020-13-27 18:29:55.644000][INFO ]Start RUDP Server Params ---->
+ 				bind_ip=0.0.0.0
+ 				listen_port=41002
+ 				delay=0
+ 				delay_interval=2000
+ 				max_threhold=0
+
+[2020-13-27 18:29:55.645000][INFO ]harq_manager::create_fd port=41002
+[2020-13-27 18:29:55.645000][INFO ]Create fd=120 port=41002
+[2020-13-27 18:29:55.646000][INFO ]Set Fd Attribute Success fd=120
+[2020-13-27 18:29:55.646000][INFO ]Bind fd Success fd=120
+[2020-13-27 18:29:55.653000][INFO ]harq_manager::create_fd port=41002
+[2020-13-27 18:29:55.654000][INFO ]Create fd=200 port=41002
+[2020-13-27 18:29:55.654000][INFO ]Set Fd Attribute Success fd=200
+[2020-13-27 18:29:55.654000][INFO ]Bind fd Success fd=200
+[2020-13-27 18:29:55.662000][INFO ]harq_manager::create_fd port=41002
+[2020-13-27 18:29:55.664000][INFO ]Create fd=176 port=41002
+[2020-13-27 18:29:55.664000][INFO ]Set Fd Attribute Success fd=176
+[2020-13-27 18:29:55.667000][INFO ]Bind fd Success fd=176
+[2020-13-27 18:29:55.669000][INFO ]harq_manager::create_fd port=41002
+[2020-13-27 18:29:55.669000][INFO ]Create fd=224 port=41002
+[2020-13-27 18:29:55.669000][INFO ]Set Fd Attribute Success fd=224
+[2020-13-27 18:29:55.669000][INFO ]Bind fd Success fd=224
+[2020-13-27 18:29:55.684000][INFO ]Create Work Thread Success
+[2020-13-27 18:29:55.684000][INFO ]Start Server Finished
+[2020-13-27 18:30:09.241000][INFO ]New Linker Object IP 127.0.0.1 Port 13613
+[2020-13-27 18:30:09.248000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 18:30:09.254000][INFO ]Init Fec Decoder OK
+[2020-13-27 18:30:09.259000][INFO ]Create recv_rate OK
+[2020-13-27 18:30:09.262000][INFO ]Create send_rate OK
+[2020-13-27 18:30:09.267000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 18:30:09.274000][INFO ]Init Fec Math Thread OK
+[2020-13-27 18:30:09.278000][INFO ]Create Linker Object IP 127.0.0.1 Port=13613 Linker Handle 1001
+[2020-13-27 18:30:09.282000][INFO ]syn set_remote_timer header.client_timer_=1608978609235
+[2020-13-27 18:30:09.734000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=1KB0/s Overall Send=1KB0/s Use Recv=985/s Overall Recv=2KB50/s Bandwidth=524288
+[2020-13-27 18:30:10.747000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=1KB963/s Bandwidth=524288
+[2020-13-27 18:30:11.747000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=2 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=399KB199/s Overall Recv=513KB328/s Bandwidth=12582912
+[2020-13-27 18:30:12.763000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=18 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=518KB649/s Bandwidth=12582912
+[2020-13-27 18:30:13.763000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=11 Use Send=0/s Overall Send=117/s Use Recv=515KB600/s Overall Recv=523KB753/s Bandwidth=12582912
+[2020-13-27 18:30:14.779000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=11 Use Send=0/s Overall Send=0/s Use Recv=644KB494/s Overall Recv=515KB668/s Bandwidth=12582912
+[2020-13-27 18:30:15.794000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=18 Use Send=0/s Overall Send=234/s Use Recv=386KB706/s Overall Recv=435KB478/s Bandwidth=12582912
+[2020-13-27 18:30:16.809000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=386KB706/s Overall Recv=413KB753/s Bandwidth=12582912
+[2020-13-27 18:30:17.815000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=32 Use Send=0/s Overall Send=117/s Use Recv=386KB706/s Overall Recv=413KB923/s Bandwidth=12582912
+[2020-13-27 18:30:18.824000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=25 Use Send=0/s Overall Send=117/s Use Recv=386KB706/s Overall Recv=413KB923/s Bandwidth=12582912
+[2020-13-27 18:30:19.835000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=22 Use Send=0/s Overall Send=117/s Use Recv=386KB706/s Overall Recv=417KB57/s Bandwidth=12582912
+[2020-13-27 18:30:20.841000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=25 Use Send=0/s Overall Send=117/s Use Recv=515KB600/s Overall Recv=549KB575/s Bandwidth=12582912
+[2020-13-27 18:30:21.844000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=22 Use Send=0/s Overall Send=117/s Use Recv=515KB600/s Overall Recv=547KB583/s Bandwidth=12582912
+[2020-13-27 18:30:22.851000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=23 Use Send=0/s Overall Send=117/s Use Recv=644KB494/s Overall Recv=681KB583/s Bandwidth=12582912
+[2020-13-27 18:30:23.855000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=20 Use Send=0/s Overall Send=117/s Use Recv=644KB494/s Overall Recv=681KB753/s Bandwidth=12582912
+[2020-13-27 18:30:24.856000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=15 Use Send=0/s Overall Send=117/s Use Recv=773KB388/s Overall Recv=818KB911/s Bandwidth=12582912
+[2020-13-27 18:30:25.872000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=33 Use Send=0/s Overall Send=117/s Use Recv=773KB388/s Overall Recv=920KB235/s Bandwidth=12582912
+[2020-13-27 18:30:26.872000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=21 Use Send=0/s Overall Send=117/s Use Recv=1MB7KB176/s Overall Recv=1002KB607/s Bandwidth=12582912
+[2020-13-27 18:30:27.872000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=41 Use Send=0/s Overall Send=117/s Use Recv=1MB7KB176/s Overall Recv=1MB75KB859/s Bandwidth=12582912
+[2020-13-27 18:30:28.888000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=40 Use Send=0/s Overall Send=117/s Use Recv=1MB136KB70/s Overall Recv=1MB193KB923/s Bandwidth=12582912
+[2020-13-27 18:30:29.888000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=20 Use Send=0/s Overall Send=117/s Use Recv=1MB136KB70/s Overall Recv=1MB318KB227/s Bandwidth=12582912
+[2020-13-27 18:30:30.904000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=23 Use Send=0/s Overall Send=117/s Use Recv=1MB393KB882/s Overall Recv=1MB448KB919/s Bandwidth=12582912
+[2020-13-27 18:30:31.919000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=62 Use Send=0/s Overall Send=117/s Use Recv=1MB522KB776/s Overall Recv=1MB594KB69/s Bandwidth=12582912
+[2020-13-27 18:30:32.919000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=50 Use Send=0/s Overall Send=117/s Use Recv=1MB651KB670/s Overall Recv=1MB754KB583/s Bandwidth=12582912
+[2020-13-27 18:30:33.919000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=63 Use Send=0/s Overall Send=117/s Use Recv=1MB909KB458/s Overall Recv=1MB922KB93/s Bandwidth=12582912
+[2020-13-27 18:30:34.920000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=63 Use Send=0/s Overall Send=0/s Use Recv=644KB494/s Overall Recv=1MB920KB308/s Bandwidth=12582912
+[2020-13-27 18:30:35.934000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=26 Use Send=0/s Overall Send=117/s Use Recv=2MB916KB634/s Overall Recv=2MB90KB741/s Bandwidth=12582912
+[2020-13-27 18:30:36.950000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=38 Use Send=0/s Overall Send=117/s Use Recv=2MB272KB140/s Overall Recv=2MB306KB571/s Bandwidth=12582912
+[2020-13-27 18:30:37.950000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=66 Use Send=0/s Overall Send=117/s Use Recv=2MB401KB34/s Overall Recv=2MB540KB73/s Bandwidth=12582912
+[2020-13-27 18:30:38.965000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=64 Use Send=5KB0/s Overall Send=5KB234/s Use Recv=2MB929KB127/s Overall Recv=3MB65KB29/s Bandwidth=12582912
+[2020-13-27 18:30:39.966000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=64 Use Send=0/s Overall Send=0/s Use Recv=2MB916KB634/s Overall Recv=3MB59KB162/s Bandwidth=12582912
+[2020-13-27 18:30:40.982000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=32 Use Send=0/s Overall Send=117/s Use Recv=2MB916KB634/s Overall Recv=3MB372KB393/s Bandwidth=12582912
+[2020-13-27 18:30:41.996000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=22 Use Send=0/s Overall Send=117/s Use Recv=3MB665KB1022/s Overall Recv=3MB716KB749/s Bandwidth=12582912
+[2020-13-27 18:30:43.997000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=77 Use Send=0/s Overall Send=234/s Use Recv=7MB823KB596/s Overall Recv=8MB560KB142/s Bandwidth=12582912
+[2020-13-27 18:30:45.998000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=33 Use Send=0/s Overall Send=234/s Use Recv=10MB587KB312/s Overall Recv=10MB350KB296/s Bandwidth=12582912
+[2020-13-27 18:30:47.012000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=59 Use Send=0/s Overall Send=117/s Use Recv=5MB164KB774/s Overall Recv=5MB981KB923/s Bandwidth=12582912
+[2020-13-27 18:30:48.026000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=69 Use Send=0/s Overall Send=234/s Use Recv=6MB171KB950/s Overall Recv=6MB596KB324/s Bandwidth=12582912
+[2020-13-27 18:30:49.039000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=63 Use Send=0/s Overall Send=117/s Use Recv=7MB50KB208/s Overall Recv=7MB721KB53/s Bandwidth=12582912
+[2020-13-27 18:30:50.045000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=62 Use Send=0/s Overall Send=117/s Use Recv=8MB186KB278/s Overall Recv=8MB736KB567/s Bandwidth=12582912
+[2020-13-27 18:30:51.058000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=35 Use Send=0/s Overall Send=117/s Use Recv=7MB823KB596/s Overall Recv=7MB876KB749/s Bandwidth=12582912
+[2020-13-27 18:30:52.068000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=62 Use Send=0/s Overall Send=117/s Use Recv=9MB193KB454/s Overall Recv=10MB79KB923/s Bandwidth=12582912
+[2020-13-27 18:30:53.081000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=86 Use Send=0/s Overall Send=117/s Use Recv=9MB837KB948/s Overall Recv=10MB792KB239/s Bandwidth=12582912
+[2020-13-27 18:30:54.097000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=138 Use Send=0/s Overall Send=117/s Use Recv=11MB207KB806/s Overall Recv=13MB187KB69/s Bandwidth=12582912
+[2020-13-27 18:30:55.108000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=95 Use Send=0/s Overall Send=117/s Use Recv=11MB981KB170/s Overall Recv=11MB796KB737/s Bandwidth=12582912
+[2020-13-27 18:30:56.122000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=80 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=13MB490KB517/s Overall Recv=12MB374KB964/s Bandwidth=12582912
+[2020-13-27 18:30:57.125000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=93 Use Send=0/s Overall Send=117/s Use Recv=11MB209KB728/s Overall Recv=11MB831KB69/s Bandwidth=12582912
+[2020-13-27 18:30:58.138000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==59 Remote_RTO=93 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=12MB98KB581/s Overall Recv=12MB290KB995/s Bandwidth=12582912
+[2020-13-27 18:30:59.138000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=77 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=12MB871KB969/s Overall Recv=11MB901KB478/s Bandwidth=12582912
+[2020-13-27 18:31:00.142000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=55 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=2KB449/s Bandwidth=12582912
+[2020-13-27 18:31:01.153000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=55 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=2KB279/s Bandwidth=12582912
+[2020-13-27 18:31:02.169000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=55 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=2KB449/s Bandwidth=12582912
+[2020-13-27 18:31:03.169000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=55 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=2KB449/s Bandwidth=12582912
+[2020-13-27 18:31:04.170000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=55 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=2KB449/s Bandwidth=12582912
+[2020-13-27 18:31:05.183000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=55 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=2KB619/s Bandwidth=12582912
+[2020-13-27 18:31:06.201000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=55 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=2KB449/s Bandwidth=12582912
+[2020-13-27 18:31:07.216000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=55 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=2KB449/s Bandwidth=12582912
+[2020-13-27 18:31:08.221000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=55 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=2KB449/s Bandwidth=12582912
+[2020-13-27 18:31:09.228000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=55 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 18:31:10.239000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=55 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 18:31:11.245000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=55 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 18:31:12.246000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==42 Remote_RTO=55 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912
+[2020-13-27 18:31:26.620000][INFO ]******** 
+
+[2020-13-27 18:31:26.630000][INFO ]Start RUDP Server Params ---->
+ 				bind_ip=0.0.0.0
+ 				listen_port=41002
+ 				delay=0
+ 				delay_interval=2000
+ 				max_threhold=0
+
+[2020-13-27 18:31:26.631000][INFO ]harq_manager::create_fd port=41002
+[2020-13-27 18:31:26.631000][INFO ]Create fd=172 port=41002
+[2020-13-27 18:31:26.631000][INFO ]Set Fd Attribute Success fd=172
+[2020-13-27 18:31:26.632000][INFO ]Bind fd Success fd=172
+[2020-13-27 18:31:26.642000][INFO ]harq_manager::create_fd port=41002
+[2020-13-27 18:31:26.643000][INFO ]Create fd=196 port=41002
+[2020-13-27 18:31:26.643000][INFO ]Set Fd Attribute Success fd=196
+[2020-13-27 18:31:26.643000][INFO ]Bind fd Success fd=196
+[2020-13-27 18:31:26.653000][INFO ]harq_manager::create_fd port=41002
+[2020-13-27 18:31:26.654000][INFO ]Create fd=200 port=41002
+[2020-13-27 18:31:26.655000][INFO ]Set Fd Attribute Success fd=200
+[2020-13-27 18:31:26.657000][INFO ]Bind fd Success fd=200
+[2020-13-27 18:31:26.666000][INFO ]harq_manager::create_fd port=41002
+[2020-13-27 18:31:26.668000][INFO ]Create fd=244 port=41002
+[2020-13-27 18:31:26.669000][INFO ]Set Fd Attribute Success fd=244
+[2020-13-27 18:31:26.674000][INFO ]Bind fd Success fd=244
+[2020-13-27 18:31:26.683000][INFO ]Create Work Thread Success
+[2020-13-27 18:31:26.687000][INFO ]Start Server Finished
+[2020-13-27 18:32:08.082000][INFO ]New Linker Object IP 127.0.0.1 Port 36368
+[2020-13-27 18:32:08.090000][INFO ]Init Fec Decoder Count=2
+[2020-13-27 18:32:08.095000][INFO ]Init Fec Decoder OK
+[2020-13-27 18:32:08.099000][INFO ]Create recv_rate OK
+[2020-13-27 18:32:08.103000][INFO ]Create send_rate OK
+[2020-13-27 18:32:08.108000][INFO ]Init Fec Math Thread Count=4
+[2020-13-27 18:32:08.114000][INFO ]Init Fec Math Thread OK
+[2020-13-27 18:32:08.118000][INFO ]Create Linker Object IP 127.0.0.1 Port=36368 Linker Handle 1001
+[2020-13-27 18:32:08.120000][INFO ]syn set_remote_timer header.client_timer_=1608978728072
+[2020-13-27 18:32:08.836000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=1KB0/s Overall Send=1KB0/s Use Recv=985/s Overall Recv=2KB390/s Bandwidth=524288
+[2020-13-27 18:32:09.839000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=1KB793/s Bandwidth=524288
+[2020-13-27 18:32:10.842000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=2 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=399KB199/s Overall Recv=416KB838/s Bandwidth=12582912
+[2020-13-27 18:32:11.845000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=22 Use Send=0/s Overall Send=117/s Use Recv=515KB600/s Overall Recv=545KB251/s Bandwidth=12582912
+[2020-13-27 18:32:12.849000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=46 Use Send=0/s Overall Send=117/s Use Recv=515KB600/s Overall Recv=547KB583/s Bandwidth=12582912
+[2020-13-27 18:32:13.852000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=35 Use Send=0/s Overall Send=117/s Use Recv=644KB494/s Overall Recv=681KB753/s Bandwidth=12582912
+[2020-13-27 18:32:14.855000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=23 Use Send=0/s Overall Send=117/s Use Recv=644KB494/s Overall Recv=684KB231/s Bandwidth=12582912
+[2020-13-27 18:32:15.872000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=18 Use Send=0/s Overall Send=117/s Use Recv=773KB388/s Overall Recv=817KB745/s Bandwidth=12582912
+[2020-13-27 18:32:16.872000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=33 Use Send=0/s Overall Send=117/s Use Recv=773KB388/s Overall Recv=918KB753/s Bandwidth=12582912
+[2020-13-27 18:32:17.872000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=64 Use Send=0/s Overall Send=117/s Use Recv=1MB7KB176/s Overall Recv=980KB413/s Bandwidth=12582912
+[2020-13-27 18:32:18.873000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=15 Use Send=0/s Overall Send=117/s Use Recv=1MB7KB176/s Overall Recv=1MB78KB97/s Bandwidth=12582912
+[2020-13-27 18:32:19.882000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=15 Use Send=0/s Overall Send=0/s Use Recv=386KB706/s Overall Recv=1MB82KB94/s Bandwidth=12582912
+[2020-13-27 18:32:20.888000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=33 Use Send=0/s Overall Send=234/s Use Recv=1MB7KB176/s Overall Recv=1MB99KB50/s Bandwidth=12582912
+[2020-13-27 18:32:21.903000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=45 Use Send=0/s Overall Send=117/s Use Recv=1MB136KB70/s Overall Recv=1MB84KB923/s Bandwidth=12582912
+[2020-13-27 18:32:22.919000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=57 Use Send=0/s Overall Send=117/s Use Recv=1MB136KB70/s Overall Recv=1MB84KB753/s Bandwidth=12582912
+[2020-13-27 18:32:23.920000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=45 Use Send=0/s Overall Send=117/s Use Recv=1MB7KB176/s Overall Recv=1MB84KB753/s Bandwidth=12582912
+[2020-13-27 18:32:24.920000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=56 Use Send=0/s Overall Send=117/s Use Recv=1MB393KB882/s Overall Recv=1MB197KB231/s Bandwidth=12582912
+[2020-13-27 18:32:25.935000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=34 Use Send=0/s Overall Send=117/s Use Recv=1MB264KB988/s Overall Recv=1MB316KB65/s Bandwidth=12582912
+[2020-13-27 18:32:26.950000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=34 Use Send=0/s Overall Send=0/s Use Recv=515KB600/s Overall Recv=1MB305KB332/s Bandwidth=12582912
+[2020-13-27 18:32:27.950000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=59 Use Send=0/s Overall Send=234/s Use Recv=1MB522KB776/s Overall Recv=1MB324KB320/s Bandwidth=12582912
+[2020-13-27 18:32:28.965000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=59 Use Send=0/s Overall Send=0/s Use Recv=644KB494/s Overall Recv=1MB305KB162/s Bandwidth=12582912
+[2020-13-27 18:32:29.966000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=52 Use Send=0/s Overall Send=234/s Use Recv=1MB780KB564/s Overall Recv=1MB306KB858/s Bandwidth=12582912
+[2020-13-27 18:32:30.981000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=52 Use Send=0/s Overall Send=0/s Use Recv=1MB7KB176/s Overall Recv=1MB303KB980/s Bandwidth=12582912
+[2020-13-27 18:32:31.982000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=29 Use Send=0/s Overall Send=117/s Use Recv=1MB522KB776/s Overall Recv=1MB315KB575/s Bandwidth=12582912
+[2020-13-27 18:32:32.996000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=55 Use Send=0/s Overall Send=117/s Use Recv=902KB282/s Overall Recv=1MB303KB923/s Bandwidth=12582912
+[2020-13-27 18:32:33.996000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=54 Use Send=0/s Overall Send=117/s Use Recv=1MB522KB776/s Overall Recv=1MB312KB583/s Bandwidth=12582912
+[2020-13-27 18:32:34.997000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=40 Use Send=0/s Overall Send=117/s Use Recv=1MB264KB988/s Overall Recv=1MB436KB753/s Bandwidth=12582912
+[2020-13-27 18:32:36.012000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=53 Use Send=0/s Overall Send=117/s Use Recv=1MB522KB776/s Overall Recv=1MB583KB57/s Bandwidth=12582912
+[2020-13-27 18:32:37.021000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=39 Use Send=0/s Overall Send=117/s Use Recv=1MB651KB670/s Overall Recv=1MB743KB579/s Bandwidth=12582912
+[2020-13-27 18:32:38.026000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=63 Use Send=5KB0/s Overall Send=5KB234/s Use Recv=2MB26KB869/s Overall Recv=2MB99KB555/s Bandwidth=12582912
+[2020-13-27 18:32:39.047000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=65 Use Send=0/s Overall Send=117/s Use Recv=2MB529KB952/s Overall Recv=2MB755KB45/s Bandwidth=12582912
+[2020-13-27 18:32:40.060000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=62 Use Send=0/s Overall Send=117/s Use Recv=2MB916KB634/s Overall Recv=2MB988KB571/s Bandwidth=12582912
+[2020-13-27 18:32:41.079000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=50 Use Send=0/s Overall Send=117/s Use Recv=1MB909KB458/s Overall Recv=2MB594KB235/s Bandwidth=12582912
+[2020-13-27 18:32:42.080000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=62 Use Send=0/s Overall Send=117/s Use Recv=2MB787KB740/s Overall Recv=2MB828KB583/s Bandwidth=12582912
+[2020-13-27 18:32:43.090000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=67 Use Send=0/s Overall Send=117/s Use Recv=3MB794KB916/s Overall Recv=4MB136KB753/s Bandwidth=12582912
+[2020-13-27 18:32:44.099000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=94 Use Send=0/s Overall Send=117/s Use Recv=2MB529KB952/s Overall Recv=3MB138KB753/s Bandwidth=12582912
+[2020-13-27 18:32:45.099000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=47 Use Send=0/s Overall Send=117/s Use Recv=4MB802KB68/s Overall Recv=4MB81KB227/s Bandwidth=12582912
+[2020-13-27 18:32:46.106000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=43 Use Send=0/s Overall Send=117/s Use Recv=3MB21KB528/s Overall Recv=3MB826KB919/s Bandwidth=12582912
+[2020-13-27 18:32:47.107000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=79 Use Send=0/s Overall Send=117/s Use Recv=4MB157KB598/s Overall Recv=4MB577KB413/s Bandwidth=12582912
+[2020-13-27 18:32:48.113000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=104 Use Send=0/s Overall Send=117/s Use Recv=5MB293KB668/s Overall Recv=4MB398KB239/s Bandwidth=12582912
+[2020-13-27 18:32:49.124000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=79 Use Send=0/s Overall Send=117/s Use Recv=5MB164KB774/s Overall Recv=7MB630KB239/s Bandwidth=12582912
+[2020-13-27 18:32:50.127000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=64 Use Send=0/s Overall Send=117/s Use Recv=6MB429KB738/s Overall Recv=5MB310KB231/s Bandwidth=12582912
+[2020-13-27 18:32:51.153000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=55 Use Send=0/s Overall Send=117/s Use Recv=6MB558KB632/s Overall Recv=7MB529KB745/s Bandwidth=12582912
+[2020-13-27 18:32:52.169000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=74 Use Send=0/s Overall Send=117/s Use Recv=7MB179KB102/s Overall Recv=7MB340KB753/s Bandwidth=12582912
+[2020-13-27 18:32:53.179000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=115 Use Send=0/s Overall Send=117/s Use Recv=8MB572KB984/s Overall Recv=9MB478KB413/s Bandwidth=12582912
+[2020-13-27 18:32:54.206000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=159 Use Send=0/s Overall Send=117/s Use Recv=8MB57KB384/s Overall Recv=8MB1019KB409/s Bandwidth=12582912
+[2020-13-27 18:32:55.219000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=58 Use Send=0/s Overall Send=117/s Use Recv=9MB193KB454/s Overall Recv=8MB640KB57/s Bandwidth=12582912
+[2020-13-27 18:32:56.249000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=106 Use Send=0/s Overall Send=117/s Use Recv=11MB207KB806/s Overall Recv=11MB303KB405/s Bandwidth=12582912
+[2020-13-27 18:32:57.277000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=145 Use Send=0/s Overall Send=117/s Use Recv=12MB601KB664/s Overall Recv=13MB165KB753/s Bandwidth=12582912
+[2020-13-27 18:32:58.309000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=46 Use Send=5KB0/s Overall Send=5KB234/s Use Recv=7MB578KB301/s Overall Recv=6MB915KB219/s Bandwidth=12582912
+[2020-13-27 18:32:59.315000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=46 Use Send=0/s Overall Send=0/s Use Recv=16MB888KB132/s Overall Recv=19MB600KB640/s Bandwidth=12582912
+[2020-13-27 18:33:00.333000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==15 Remote_RTO=92 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=6MB313KB337/s Overall Recv=5MB768KB975/s Bandwidth=12582912
+[2020-13-27 18:33:01.356000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==69 Remote_RTO=29 Use Send=5KB0/s Overall Send=5KB234/s Use Recv=10MB599KB829/s Overall Recv=10MB664KB417/s Bandwidth=12582912
+[2020-13-27 18:33:02.358000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==69 Remote_RTO=49 Use Send=0/s Overall Send=117/s Use Recv=3MB923KB810/s Overall Recv=2MB199KB623/s Bandwidth=12582912
+[2020-13-27 18:33:03.388000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==69 Remote_RTO=49 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=1KB793/s Bandwidth=12582912
+[2020-13-27 18:33:04.388000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==69 Remote_RTO=49 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=1KB623/s Bandwidth=12582912
+[2020-13-27 18:33:05.393000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==69 Remote_RTO=49 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=1KB623/s Bandwidth=12582912
+[2020-13-27 18:33:06.403000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==69 Remote_RTO=49 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=1KB623/s Bandwidth=12582912
+[2020-13-27 18:33:07.404000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==69 Remote_RTO=49 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=1KB623/s Bandwidth=12582912
+[2020-13-27 18:33:08.424000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==69 Remote_RTO=49 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=1KB793/s Bandwidth=12582912
+[2020-13-27 18:33:09.433000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==69 Remote_RTO=49 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=1KB623/s Bandwidth=12582912
+[2020-13-27 18:33:10.446000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==69 Remote_RTO=49 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=1KB623/s Bandwidth=12582912
+[2020-13-27 18:33:11.454000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==69 Remote_RTO=49 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=1KB623/s Bandwidth=12582912
+[2020-13-27 18:33:12.460000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==69 Remote_RTO=49 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=1KB793/s Bandwidth=12582912
+[2020-13-27 18:33:13.465000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==69 Remote_RTO=49 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=340/s Bandwidth=12582912

@@ -1,0 +1,146 @@
+[2021-02-21 11:43:40.498000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 11:43:47.747000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 11:43:48.497000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 11:43:52.684000][INFO ]Init express_client_thread
+[2021-02-21 11:43:53.976000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 11:43:53.977000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 13:52:31.660000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 13:52:31.661000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 13:52:31.661000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 13:52:31.661000][INFO ]Init express_client_thread
+[2021-02-21 13:52:31.662000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 13:52:31.663000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 13:52:31.663000][INFO ]Create RUDP Client Object
+[2021-02-21 13:52:31.663000][INFO ]RUDP Client Object init
+[2021-02-21 13:52:31.664000][ERROR]open_client Failed Connect Timeout
+[2021-02-21 13:52:31.664000][INFO ]express_client_thread::~express_client_thread
+[2021-02-21 13:56:43.989000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 13:56:43.990000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 13:56:43.992000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 13:56:43.992000][INFO ]Init express_client_thread
+[2021-02-21 13:56:43.994000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 13:56:43.995000][INFO ]Create RUDP Client Object
+[2021-02-21 13:56:43.996000][INFO ]RUDP Client Object init
+[2021-02-21 13:56:43.996000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 13:56:43.998000][ERROR]open_client Failed Connect Timeout
+[2021-02-21 13:56:44.038000][INFO ]express_client_thread::~express_client_thread
+[2021-02-21 14:01:00.832000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:01:00.832000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:01:00.833000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 14:01:00.833000][INFO ]Init express_client_thread
+[2021-02-21 14:01:00.834000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 14:01:00.834000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 14:01:00.835000][INFO ]Create RUDP Client Object
+[2021-02-21 14:01:00.835000][INFO ]RUDP Client Object init
+[2021-02-21 14:01:00.835000][ERROR]open_client Failed Connect Timeout
+[2021-02-21 14:01:00.836000][INFO ]express_client_thread::~express_client_thread
+[2021-02-21 14:03:14.267000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:03:14.267000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:03:14.268000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 14:03:14.268000][INFO ]Init express_client_thread
+[2021-02-21 14:03:14.269000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 14:03:14.270000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 14:03:14.270000][INFO ]Create RUDP Client Object
+[2021-02-21 14:03:14.270000][INFO ]RUDP Client Object init
+[2021-02-21 14:03:14.270000][ERROR]open_client Failed Connect Timeout
+[2021-02-21 14:03:14.271000][INFO ]express_client_thread::~express_client_thread
+[2021-02-21 14:04:59.083000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:04:59.083000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:04:59.084000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 14:04:59.084000][INFO ]Init express_client_thread
+[2021-02-21 14:04:59.085000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 14:04:59.086000][INFO ]Create RUDP Client Object
+[2021-02-21 14:04:59.086000][INFO ]RUDP Client Object init
+[2021-02-21 14:05:08.353000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 14:05:08.354000][ERROR]open_client Failed Connect Timeout
+[2021-02-21 14:05:08.398000][INFO ]express_client_thread::~express_client_thread
+[2021-02-21 14:07:27.740000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:07:32.117000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:07:38.206000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 14:08:18.863000][INFO ]Init express_client_thread
+[2021-02-21 14:08:19.682000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 14:09:03.425000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:09:03.426000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:09:03.427000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 14:09:03.428000][INFO ]Init express_client_thread
+[2021-02-21 14:09:03.430000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 14:14:54.023000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:14:54.024000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:14:54.025000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 14:14:54.026000][INFO ]Init express_client_thread
+[2021-02-21 14:14:54.027000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 14:14:57.644000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 14:14:57.645000][INFO ]Create RUDP Client Object
+[2021-02-21 14:15:02.164000][ERROR]open_client Failed Connect Timeout
+[2021-02-21 14:15:02.165000][INFO ]RUDP Client Object init
+[2021-02-21 14:15:06.461000][INFO ]express_client_thread::~express_client_thread
+[2021-02-21 14:15:22.464000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:15:22.464000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:15:22.465000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 14:15:22.465000][INFO ]Init express_client_thread
+[2021-02-21 14:15:22.466000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 14:15:22.466000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 14:15:22.467000][INFO ]Create RUDP Client Object
+[2021-02-21 14:15:22.467000][INFO ]RUDP Client Object init
+[2021-02-21 14:15:22.467000][ERROR]open_client Failed Connect Timeout
+[2021-02-21 14:15:22.468000][INFO ]express_client_thread::~express_client_thread
+[2021-02-21 14:15:41.864000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:15:41.865000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:15:41.865000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 14:15:41.867000][INFO ]Init express_client_thread
+[2021-02-21 14:15:41.868000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 14:15:41.869000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 14:15:41.869000][INFO ]Create RUDP Client Object
+[2021-02-21 14:15:41.870000][ERROR]open_client Failed Connect Timeout
+[2021-02-21 14:15:41.870000][INFO ]RUDP Client Object init
+[2021-02-21 14:15:41.870000][INFO ]express_client_thread::~express_client_thread
+[2021-02-21 14:16:10.781000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:16:10.781000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:16:10.782000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 14:16:10.782000][INFO ]Init express_client_thread
+[2021-02-21 14:16:10.783000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 14:16:10.784000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 14:16:10.784000][INFO ]Create RUDP Client Object
+[2021-02-21 14:16:10.784000][INFO ]RUDP Client Object init
+[2021-02-21 14:16:10.785000][ERROR]open_client Failed Connect Timeout
+[2021-02-21 14:16:10.785000][INFO ]express_client_thread::~express_client_thread
+[2021-02-21 14:16:17.364000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:16:17.365000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:16:17.365000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 14:16:17.366000][INFO ]Init express_client_thread
+[2021-02-21 14:16:17.367000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 14:16:17.367000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 14:16:17.368000][ERROR]open_client Failed Connect Timeout
+[2021-02-21 14:16:17.368000][INFO ]Create RUDP Client Object
+[2021-02-21 14:16:17.368000][INFO ]RUDP Client Object init
+[2021-02-21 14:16:17.369000][INFO ]express_client_thread::~express_client_thread
+[2021-02-21 14:16:59.583000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:16:59.584000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:16:59.584000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 14:16:59.585000][INFO ]Init express_client_thread
+[2021-02-21 14:16:59.585000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 14:16:59.586000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 14:17:00.492000][ERROR]open_client Failed Connect Timeout
+[2021-02-21 14:17:00.493000][INFO ]Create RUDP Client Object
+[2021-02-21 14:17:00.493000][INFO ]RUDP Client Object init
+[2021-02-21 14:17:01.452000][INFO ]express_client_thread::~express_client_thread
+[2021-02-21 14:17:06.014000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:17:06.015000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:17:06.015000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 14:17:06.015000][INFO ]Init express_client_thread
+[2021-02-21 14:17:06.016000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 14:17:06.016000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 14:17:06.017000][INFO ]Create RUDP Client Object
+[2021-02-21 14:17:06.017000][INFO ]RUDP Client Object init
+[2021-02-21 14:17:06.018000][ERROR]open_client Failed Connect Timeout
+[2021-02-21 14:17:06.018000][INFO ]express_client_thread::~express_client_thread
+[2021-02-21 14:50:00.418000][INFO ]---->>>> open_client interface log=log version=2.0.1 remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:50:00.420000][INFO ]User Use open_client Interface remote_ip=10.10.50.136 remote_port=41002
+[2021-02-21 14:50:00.421000][INFO ]Create express_client_thread express_handle=10001
+[2021-02-21 14:50:00.421000][INFO ]Init express_client_thread
+[2021-02-21 14:50:00.422000][INFO ]RUDP Start Create RUDP Manager Remote_ip=10.10.50.136 Remote_port=41002 Session=123456 Log=log
+[2021-02-21 14:50:00.423000][INFO ]Create RUDP Client Object
+[2021-02-21 14:50:00.423000][INFO ]RUDP Client Object init
+[2021-02-21 14:50:00.423000][INFO ]Init server_ptr Params remote_ip=10.10.50.136 remote_port=41002 log=log so_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll session=123456
+[2021-02-21 14:50:00.444000][ERROR]open_client Failed Connect Timeout
+[2021-02-21 14:50:00.445000][INFO ]express_client_thread::~express_client_thread

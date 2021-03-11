@@ -1,0 +1,312 @@
+[2020-13-858993484 00:05:04.518000][INFO ]******** 
+
+[2020-13-858993484 00:05:04.523000][INFO ]Start RUDP Server Params ---->
+ 				bind_ip=0.0.0.0
+ 				listen_port=41002
+ 				delay=0
+ 				delay_interval=2000
+ 				max_threhold=0
+
+[2020-13-858993484 00:05:04.524000][INFO ]harq_manager::create_fd port=41002
+[2020-13-858993484 00:05:04.524000][INFO ]Create fd=184 port=41002
+[2020-13-858993484 00:05:04.525000][INFO ]Set Fd Attribute Success fd=184
+[2020-13-858993484 00:05:04.525000][INFO ]Bind fd Success fd=184
+[2020-13-858993484 00:05:04.542000][INFO ]harq_manager::create_fd port=41002
+[2020-13-858993484 00:05:04.542000][INFO ]Create fd=200 port=41002
+[2020-13-858993484 00:05:04.544000][INFO ]Set Fd Attribute Success fd=200
+[2020-13-858993484 00:05:04.544000][INFO ]Bind fd Success fd=200
+[2020-13-858993484 00:05:04.563000][INFO ]harq_manager::create_fd port=41002
+[2020-13-858993484 00:05:04.563000][INFO ]Create fd=224 port=41002
+[2020-13-858993484 00:05:04.564000][INFO ]Set Fd Attribute Success fd=224
+[2020-13-858993484 00:05:04.568000][INFO ]Bind fd Success fd=224
+[2020-13-858993484 00:05:04.596000][INFO ]harq_manager::create_fd port=41002
+[2020-13-858993484 00:05:04.597000][INFO ]Create fd=252 port=41002
+[2020-13-858993484 00:05:04.601000][INFO ]Set Fd Attribute Success fd=252
+[2020-13-858993484 00:05:04.605000][INFO ]Bind fd Success fd=252
+[2020-13-858993484 00:05:04.629000][INFO ]Create Work Thread Success
+[2020-13-858993484 00:05:04.634000][INFO ]Start Server Finished
+[2020-13-858993484 00:07:05.919000][INFO ]******** 
+
+[2020-13-858993484 00:07:05.924000][INFO ]Start RUDP Server Params ---->
+ 				bind_ip=0.0.0.0
+ 				listen_port=41002
+ 				delay=0
+ 				delay_interval=2000
+ 				max_threhold=0
+
+[2020-13-858993484 00:07:05.925000][INFO ]harq_manager::create_fd port=41002
+[2020-13-858993484 00:07:05.925000][INFO ]Create fd=184 port=41002
+[2020-13-858993484 00:07:05.925000][INFO ]Set Fd Attribute Success fd=184
+[2020-13-858993484 00:07:05.925000][INFO ]Bind fd Success fd=184
+[2020-13-858993484 00:07:05.943000][INFO ]harq_manager::create_fd port=41002
+[2020-13-858993484 00:07:05.944000][INFO ]Create fd=200 port=41002
+[2020-13-858993484 00:07:05.944000][INFO ]Set Fd Attribute Success fd=200
+[2020-13-858993484 00:07:05.945000][INFO ]Bind fd Success fd=200
+[2020-13-858993484 00:07:05.965000][INFO ]harq_manager::create_fd port=41002
+[2020-13-858993484 00:07:05.967000][INFO ]Create fd=228 port=41002
+[2020-13-858993484 00:07:05.971000][INFO ]Set Fd Attribute Success fd=228
+[2020-13-858993484 00:07:05.975000][INFO ]Bind fd Success fd=228
+[2020-13-858993484 00:07:06.001000][INFO ]harq_manager::create_fd port=41002
+[2020-13-858993484 00:07:06.003000][INFO ]Create fd=236 port=41002
+[2020-13-858993484 00:07:06.006000][INFO ]Set Fd Attribute Success fd=236
+[2020-13-858993484 00:07:06.009000][INFO ]Bind fd Success fd=236
+[2020-13-858993484 00:07:06.034000][INFO ]Create Work Thread Success
+[2020-13-858993484 00:07:06.037000][INFO ]Start Server Finished
+[2020-13-858993484 00:07:10.746000][INFO ]New Linker Object IP 127.0.0.1 Port 20765
+[2020-13-858993484 00:07:10.752000][INFO ]Init Fec Decoder Count=2
+[2020-13-858993484 00:07:10.762000][INFO ]Init Fec Decoder OK
+[2020-13-858993484 00:07:10.768000][INFO ]Create recv_rate OK
+[2020-13-858993484 00:07:10.773000][INFO ]Create send_rate OK
+[2020-13-858993484 00:07:10.789000][INFO ]Init Fec Math Thread Count=4
+[2020-13-858993484 00:07:10.798000][INFO ]Init Fec Math Thread OK
+[2020-13-858993484 00:07:10.806000][INFO ]Create Linker Object IP 127.0.0.1 Port=20765 Linker Handle 1001
+[2020-13-858993484 00:07:10.811000][INFO ]syn set_remote_timer header.client_timer_=1608826030737
+[2020-13-858993484 00:07:11.039000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=1KB0/s Overall Send=1KB0/s Use Recv=985/s Overall Recv=1KB564/s Bandwidth=524288
+[2020-13-858993484 00:07:12.044000][INFO ]Handle=1001 Lost=0.00 Local_RTO==2 Remote_RTO=0 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=1KB453/s Bandwidth=524288
+[2020-13-858993484 00:07:13.047000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=2 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=12KB517/s Overall Recv=14KB623/s Bandwidth=12582912
+[2020-13-858993484 00:07:14.051000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=29 Use Send=0/s Overall Send=117/s Use Recv=515KB600/s Overall Recv=809KB312/s Bandwidth=12582912
+[2020-13-858993484 00:07:15.063000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=33 Use Send=0/s Overall Send=117/s Use Recv=520KB405/s Overall Recv=658KB393/s Bandwidth=12582912
+[2020-13-858993484 00:07:16.067000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=32 Use Send=0/s Overall Send=117/s Use Recv=768KB583/s Overall Recv=696KB53/s Bandwidth=12582912
+[2020-13-858993484 00:07:17.072000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=39 Use Send=0/s Overall Send=117/s Use Recv=515KB600/s Overall Recv=765KB53/s Bandwidth=12582912
+[2020-13-858993484 00:07:18.077000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=27 Use Send=0/s Overall Send=117/s Use Recv=902KB282/s Overall Recv=916KB53/s Bandwidth=12582912
+[2020-13-858993484 00:07:19.081000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=30 Use Send=0/s Overall Send=117/s Use Recv=773KB388/s Overall Recv=925KB53/s Bandwidth=12582912
+[2020-13-858993484 00:07:20.085000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=26 Use Send=0/s Overall Send=117/s Use Recv=902KB282/s Overall Recv=1MB50KB737/s Bandwidth=12582912
+[2020-13-858993484 00:07:21.094000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=35 Use Send=0/s Overall Send=117/s Use Recv=1MB136KB70/s Overall Recv=1MB240KB223/s Bandwidth=12582912
+[2020-13-858993484 00:07:22.098000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=38 Use Send=0/s Overall Send=117/s Use Recv=1MB136KB70/s Overall Recv=1MB306KB567/s Bandwidth=12582912
+[2020-13-858993484 00:07:23.103000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=24 Use Send=0/s Overall Send=117/s Use Recv=1MB264KB988/s Overall Recv=1MB216KB393/s Bandwidth=12582912
+[2020-13-858993484 00:07:24.115000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=28 Use Send=0/s Overall Send=117/s Use Recv=1MB522KB776/s Overall Recv=1MB607KB397/s Bandwidth=12582912
+[2020-13-858993484 00:07:25.122000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=27 Use Send=0/s Overall Send=117/s Use Recv=1MB522KB776/s Overall Recv=1MB582KB393/s Bandwidth=12582912
+[2020-13-858993484 00:07:26.130000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=37 Use Send=0/s Overall Send=117/s Use Recv=1MB880KB604/s Overall Recv=1MB928KB393/s Bandwidth=12582912
+[2020-13-858993484 00:07:27.147000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=46 Use Send=0/s Overall Send=117/s Use Recv=1MB680KB524/s Overall Recv=2MB22KB907/s Bandwidth=12582912
+[2020-13-858993484 00:07:28.153000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=28 Use Send=0/s Overall Send=117/s Use Recv=2MB401KB34/s Overall Recv=2MB189KB907/s Bandwidth=12582912
+[2020-13-858993484 00:07:29.159000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=38 Use Send=0/s Overall Send=117/s Use Recv=1MB780KB564/s Overall Recv=1MB1021KB737/s Bandwidth=12582912
+[2020-13-858993484 00:07:30.165000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=28 Use Send=0/s Overall Send=117/s Use Recv=2MB401KB34/s Overall Recv=2MB120KB563/s Bandwidth=12582912
+[2020-13-858993484 00:07:31.182000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=56 Use Send=0/s Overall Send=117/s Use Recv=2MB529KB952/s Overall Recv=3MB271KB559/s Bandwidth=12582912
+[2020-13-858993484 00:07:32.200000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=34 Use Send=0/s Overall Send=117/s Use Recv=2MB658KB846/s Overall Recv=2MB899KB523/s Bandwidth=12582912
+[2020-13-858993484 00:07:33.218000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=25 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=2MB413KB551/s Overall Recv=1MB954KB774/s Bandwidth=12582912
+[2020-13-858993484 00:07:34.225000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=30 Use Send=0/s Overall Send=117/s Use Recv=3MB723KB730/s Overall Recv=4MB678KB907/s Bandwidth=12582912
+[2020-13-858993484 00:07:35.234000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=36 Use Send=0/s Overall Send=117/s Use Recv=3MB608KB290/s Overall Recv=3MB852KB223/s Bandwidth=12582912
+[2020-13-858993484 00:07:36.242000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=34 Use Send=0/s Overall Send=117/s Use Recv=3MB923KB810/s Overall Recv=3MB639KB227/s Bandwidth=12582912
+[2020-13-858993484 00:07:37.247000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=211 Use Send=0/s Overall Send=117/s Use Recv=4MB544KB280/s Overall Recv=4MB557KB401/s Bandwidth=12582912
+[2020-13-858993484 00:07:38.264000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=26 Use Send=0/s Overall Send=117/s Use Recv=4MB673KB174/s Overall Recv=5MB259KB227/s Bandwidth=12582912
+[2020-13-858993484 00:07:39.270000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=24 Use Send=0/s Overall Send=117/s Use Recv=4MB930KB986/s Overall Recv=5MB207KB571/s Bandwidth=12582912
+[2020-13-858993484 00:07:40.275000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=21 Use Send=0/s Overall Send=117/s Use Recv=6MB171KB950/s Overall Recv=6MB254KB567/s Bandwidth=12582912
+[2020-13-858993484 00:07:41.279000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=35 Use Send=0/s Overall Send=117/s Use Recv=6MB171KB950/s Overall Recv=6MB445KB567/s Bandwidth=12582912
+[2020-13-858993484 00:07:42.285000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=30 Use Send=0/s Overall Send=117/s Use Recv=8MB60KB267/s Overall Recv=8MB263KB389/s Bandwidth=12582912
+[2020-13-858993484 00:07:43.291000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=59 Use Send=0/s Overall Send=117/s Use Recv=6MB813KB537/s Overall Recv=8MB591KB223/s Bandwidth=12582912
+[2020-13-858993484 00:07:44.320000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=30 Use Send=0/s Overall Send=117/s Use Recv=9MB64KB560/s Overall Recv=8MB583KB393/s Bandwidth=12582912
+[2020-13-858993484 00:07:45.326000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=26 Use Send=0/s Overall Send=117/s Use Recv=8MB701KB878/s Overall Recv=9MB183KB13/s Bandwidth=12582912
+[2020-13-858993484 00:07:46.350000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=26 Use Send=0/s Overall Send=117/s Use Recv=9MB64KB560/s Overall Recv=9MB307KB223/s Bandwidth=12582912
+[2020-13-858993484 00:07:47.355000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=30 Use Send=0/s Overall Send=117/s Use Recv=7MB823KB596/s Overall Recv=9MB202KB357/s Bandwidth=12582912
+[2020-13-858993484 00:07:48.368000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=28 Use Send=0/s Overall Send=117/s Use Recv=6MB816KB420/s Overall Recv=8MB696KB737/s Bandwidth=12582912
+[2020-13-858993484 00:07:49.377000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=28 Use Send=0/s Overall Send=0/s Use Recv=6MB687KB526/s Overall Recv=4MB19KB640/s Bandwidth=12582912
+[2020-13-858993484 00:07:50.384000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=18 Use Send=0/s Overall Send=234/s Use Recv=6MB816KB420/s Overall Recv=6MB655KB486/s Bandwidth=12582912
+[2020-13-858993484 00:07:51.387000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=13 Use Send=0/s Overall Send=117/s Use Recv=6MB171KB950/s Overall Recv=6MB654KB227/s Bandwidth=12582912
+[2020-13-858993484 00:07:52.394000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=24 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=5MB950KB655/s Overall Recv=6MB433KB276/s Bandwidth=12582912
+[2020-13-858993484 00:07:53.404000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=18 Use Send=0/s Overall Send=117/s Use Recv=4MB286KB492/s Overall Recv=5MB176KB555/s Bandwidth=12582912
+[2020-13-858993484 00:07:54.412000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=46 Use Send=0/s Overall Send=117/s Use Recv=4MB802KB68/s Overall Recv=4MB842KB81/s Bandwidth=12582912
+[2020-13-858993484 00:07:55.416000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==2 Remote_RTO=37 Use Send=0/s Overall Send=117/s Use Recv=6MB171KB950/s Overall Recv=5MB943KB495/s Bandwidth=12582912
+[2020-13-858993484 00:07:56.426000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==30 Remote_RTO=12 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=4MB943KB479/s Overall Recv=5MB98KB128/s Bandwidth=12582912
+[2020-13-858993484 00:07:57.430000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==30 Remote_RTO=28 Use Send=0/s Overall Send=117/s Use Recv=6MB558KB632/s Overall Recv=6MB677KB405/s Bandwidth=12582912
+[2020-13-858993484 00:07:58.436000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=35 Use Send=5KB0/s Overall Send=5KB117/s Use Recv=5MB306KB161/s Overall Recv=5MB791KB1000/s Bandwidth=12582912
+[2020-13-858993484 00:07:59.444000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=2MB529KB952/s Overall Recv=1MB770KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:00.447000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:01.450000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:02.452000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:03.456000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:04.460000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:05.463000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:06.467000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:07.470000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:08.474000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:09.479000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:10.483000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:11.513000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:12.517000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:13.517000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:14.518000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:15.519000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:16.519000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:17.520000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:18.522000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:19.526000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:20.527000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:21.529000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:22.532000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:23.534000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:24.534000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:25.535000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:26.536000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:27.537000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:28.538000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:29.539000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:30.541000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:31.548000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:32.553000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=3KB955/s Bandwidth=12582912
+[2020-13-858993484 00:08:33.562000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:34.570000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:35.574000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:36.579000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:37.583000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:38.592000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:39.610000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:40.617000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:41.624000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:42.630000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:43.638000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:44.644000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:45.649000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:46.657000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:47.662000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:08:48.665000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=3KB955/s Bandwidth=12582912
+[2020-13-858993484 00:08:49.673000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:50.682000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:51.692000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:52.698000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=3KB955/s Bandwidth=12582912
+[2020-13-858993484 00:08:53.703000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:54.708000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:55.713000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:56.722000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:57.727000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:58.732000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:08:59.741000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:00.745000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:01.752000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:02.760000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=3KB955/s Bandwidth=12582912
+[2020-13-858993484 00:09:03.764000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:04.771000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:05.778000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:06.782000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:07.788000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:08.796000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:09.802000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:10.808000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:11.815000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:12.823000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:13.830000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:14.836000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:15.846000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:16.852000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:17.863000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:18.869000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:19.872000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:20.881000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:21.885000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:22.895000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:23.901000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:24.913000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:25.918000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:26.928000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:27.945000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:28.951000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:29.958000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:30.964000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:31.974000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:32.992000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:34.024000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:35.033000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:36.042000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:37.058000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:38.064000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:39.069000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:40.075000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:41.080000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB140/s Bandwidth=12582912
+[2020-13-858993484 00:09:42.085000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=234/s Use Recv=0/s Overall Recv=4KB179/s Bandwidth=12582912
+[2020-13-858993484 00:09:43.094000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=3KB1008/s Bandwidth=12582912
+[2020-13-858993484 00:09:44.098000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=234/s Use Recv=0/s Overall Recv=4KB388/s Bandwidth=12582912
+[2020-13-858993484 00:09:45.105000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:46.109000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:47.121000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:48.125000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:49.130000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:50.134000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:51.141000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:52.146000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:53.151000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:54.156000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:09:55.160000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:56.168000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:57.175000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:58.180000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:09:59.188000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:00.194000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:01.200000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:02.206000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:03.210000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:04.219000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=3KB955/s Bandwidth=12582912
+[2020-13-858993484 00:10:05.224000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:06.231000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:07.238000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:08.242000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:09.248000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:10.252000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:11.259000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:12.267000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:13.277000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:14.283000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:15.287000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:16.293000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:17.297000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:18.302000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:19.345000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:20.351000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:21.355000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:22.360000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:23.364000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:24.370000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:25.374000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=3KB955/s Bandwidth=12582912
+[2020-13-858993484 00:10:26.382000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:27.392000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:28.397000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=3KB955/s Bandwidth=12582912
+[2020-13-858993484 00:10:29.407000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:30.413000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:31.416000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:32.422000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:33.430000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:34.436000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:35.444000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:36.450000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:37.458000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:38.465000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:39.471000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:40.479000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:41.483000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:42.490000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:43.495000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:44.500000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:45.504000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:46.510000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:47.518000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:48.524000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:49.529000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:50.535000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:51.543000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:52.553000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:53.560000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:54.564000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:55.570000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:56.575000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:10:57.580000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:58.584000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:10:59.589000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:11:00.593000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:11:01.598000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:11:02.603000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:11:03.607000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:11:04.611000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:11:05.616000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:11:06.620000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:11:07.629000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:11:08.633000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:11:09.637000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:11:10.642000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:11:11.648000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:11:12.653000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB271/s Bandwidth=12582912
+[2020-13-858993484 00:11:13.661000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:11:14.665000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:11:15.669000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:11:16.674000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:11:17.678000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:11:18.682000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=4KB101/s Bandwidth=12582912
+[2020-13-858993484 00:11:19.687000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=117/s Use Recv=0/s Overall Recv=2KB619/s Bandwidth=12582912
+[2020-13-858993484 00:11:20.692000][INFO ]Handle=1001 Lost=-nan(ind) Local_RTO==24 Remote_RTO=19 Use Send=0/s Overall Send=0/s Use Recv=0/s Overall Recv=0/s Bandwidth=12582912

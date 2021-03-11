@@ -1,0 +1,10 @@
+[2020-13-858993484 00:05:04.424000][INFO ]---->>>>
+ server_path=D:/projects/Chainware/最终产品/windows/lib/server/server.dll harq_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll bind_ip=0.0.0.0 log_path=log listen_port=41002 base_path=C:/Base
+[2020-13-858993484 00:05:04.462000][INFO ]server.dll Version is 1.0.1
+[2020-13-858993484 00:05:04.476000][INFO ]Start server.dll Success
+
+[2020-13-858993484 00:07:05.810000][INFO ]---->>>>
+ server_path=D:/projects/Chainware/最终产品/windows/lib/server/server.dll harq_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll bind_ip=0.0.0.0 log_path=log listen_port=41002 base_path=C:/Base
+[2020-13-858993484 00:07:05.848000][INFO ]server.dll Version is 1.0.1
+[2020-13-858993484 00:07:05.863000][INFO ]Start server.dll Success
+

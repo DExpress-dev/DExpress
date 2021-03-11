@@ -1,0 +1,33 @@
+[2020-13-858993484 00:05:04.470000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-858993484 00:05:04.470000][INFO ]Create Express Server Main Thread
+[2020-13-858993484 00:05:04.476000][INFO ]Create Express Server RUDP Manager
+[2020-13-858993484 00:07:05.856000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-858993484 00:07:05.857000][INFO ]Create Express Server Main Thread
+[2020-13-858993484 00:07:05.863000][INFO ]Create Express Server RUDP Manager
+[2020-13-858993484 00:07:10.748000][INFO ]on_checkip---->>>>
+[2020-13-858993484 00:07:10.869000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=20765 session=123456789
+[2020-13-858993484 00:07:13.036000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/Test1.mp4 cur=0
+[2020-13-858993484 00:07:13.039000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-858993484 00:07:13.042000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-858993484 00:07:33.102000][ERROR]Express File file_buffer->size_=70719 SINGLE_BLOCK=131072 file_buffer->max_=230 file_buffer->cur_=230
+[2020-13-858993484 00:07:33.106000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/Test1.mp4 Size=30086207
+[2020-13-858993484 00:07:33.114000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz cur=0
+[2020-13-858993484 00:07:33.117000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-858993484 00:07:33.120000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-858993484 00:07:51.733000][ERROR]Express File file_buffer->size_=57863 SINGLE_BLOCK=131072 file_buffer->max_=923 file_buffer->cur_=923
+[2020-13-858993484 00:07:51.737000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz Size=120906247
+[2020-13-858993484 00:07:51.745000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/liteidex37.3.linux64-qt4.8.7.tar.gz cur=0
+[2020-13-858993484 00:07:51.748000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/liteidex37.3.linux64-qt4.8.7.tar.gz linker_handle=1001
+[2020-13-858993484 00:07:51.751000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-858993484 00:07:55.864000][ERROR]Express File file_buffer->size_=94059 SINGLE_BLOCK=131072 file_buffer->max_=175 file_buffer->cur_=175
+[2020-13-858993484 00:07:55.866000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/liteidex37.3.linux64-qt4.8.7.tar.gz Size=22900587
+[2020-13-858993484 00:07:55.871000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/WinMerge_opdown.com.zip cur=0
+[2020-13-858993484 00:07:55.876000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/WinMerge_opdown.com.zip linker_handle=1001
+[2020-13-858993484 00:07:55.882000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-858993484 00:07:57.891000][ERROR]Express File file_buffer->size_=62031 SINGLE_BLOCK=131072 file_buffer->max_=91 file_buffer->cur_=91
+[2020-13-858993484 00:07:57.894000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/WinMerge_opdown.com.zip Size=11858511
+[2020-13-858993484 00:07:57.897000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/liteide-master.zip cur=0
+[2020-13-858993484 00:07:57.900000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/liteide-master.zip linker_handle=1001
+[2020-13-858993484 00:07:57.902000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-858993484 00:07:58.770000][ERROR]Express File file_buffer->size_=71396 SINGLE_BLOCK=131072 file_buffer->max_=34 file_buffer->cur_=34
+[2020-13-858993484 00:07:58.774000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/liteide-master.zip Size=4396772

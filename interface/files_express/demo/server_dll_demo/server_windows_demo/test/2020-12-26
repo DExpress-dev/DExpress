@@ -1,0 +1,43 @@
+[2020-13-27 15:50:23.985000][INFO ]---->>>>
+ server_path=D:/projects/Chainware/最终产品/windows/lib/server/server.dll harq_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll bind_ip=0.0.0.0 log_path=log listen_port=41002 base_path=C:/Base
+[2020-13-27 15:50:24.026000][INFO ]server.dll Version is 1.0.1
+[2020-13-27 15:50:24.056000][INFO ]Start server.dll Success
+
+[2020-12-25 16:43:44.368000][INFO ]---->>>>
+ server_path=D:/projects/Chainware/最终产品/windows/lib/server/server.dll harq_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll bind_ip=0.0.0.0 log_path=log listen_port=41002 base_path=C:/Base
+[2020-12-25 16:43:44.370000][ERROR]lib_load error 193
+[2020-12-25 16:45:11.924000][INFO ]---->>>>
+ server_path=D:/projects/Chainware/最终产品/windows/lib/server/server_32.dll harq_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll bind_ip=0.0.0.0 log_path=log listen_port=41002 base_path=C:/Base
+[2020-12-25 16:45:12.002000][INFO ]server.dll Version is 1.0.1
+[2020-12-25 16:45:12.021000][INFO ]Start server.dll Success
+
+[2020-12-25 16:49:34.479000][INFO ]---->>>>
+ server_path=D:/projects/Chainware/最终产品/windows/lib/server/server_32.dll harq_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll bind_ip=0.0.0.0 log_path=log listen_port=41002 base_path=C:/Base
+[2020-12-25 16:49:34.516000][INFO ]server.dll Version is 1.0.1
+[2020-12-25 16:49:34.530000][INFO ]Start server.dll Success
+
+[2020-12-25 17:20:28.986000][INFO ]---->>>>
+ server_path=D:/projects/Chainware/最终产品/windows/lib/server/server_32.dll harq_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll bind_ip=0.0.0.0 log_path=log listen_port=41002 base_path=C:/Base
+[2020-12-25 17:20:29.038000][INFO ]server.dll Version is 1.0.1
+[2020-12-25 17:20:29.063000][INFO ]Start server.dll Success
+
+[2020-12-25 17:21:48.622000][INFO ]---->>>>
+ server_path=D:/projects/Chainware/最终产品/windows/lib/server/server_32.dll harq_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll bind_ip=0.0.0.0 log_path=log listen_port=41002 base_path=C:/Base
+[2020-12-25 17:21:48.670000][INFO ]server.dll Version is 1.0.1
+[2020-12-25 17:21:48.686000][INFO ]Start server.dll Success
+
+[2020-12-25 18:26:38.464000][INFO ]---->>>>
+ server_path=D:/projects/Chainware/最终产品/windows/lib/server/server_32.dll harq_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq_32.dll bind_ip=0.0.0.0 log_path=log listen_port=41002 base_path=C:/Base
+[2020-12-25 18:26:38.510000][INFO ]server.dll Version is 1.0.1
+[2020-12-25 18:26:38.525000][INFO ]Start server.dll Success
+
+[2020-13-27 18:29:55.560000][INFO ]---->>>>
+ server_path=D:/projects/Chainware/最终产品/windows/lib/server/server.dll harq_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll bind_ip=0.0.0.0 log_path=log listen_port=41002 base_path=C:/Base
+[2020-13-27 18:29:55.591000][INFO ]server.dll Version is 1.0.1
+[2020-13-27 18:29:55.606000][INFO ]Start server.dll Success
+
+[2020-13-27 18:31:26.528000][INFO ]---->>>>
+ server_path=D:/projects/Chainware/最终产品/windows/lib/server/server.dll harq_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll bind_ip=0.0.0.0 log_path=log listen_port=41002 base_path=C:/Base
+[2020-13-27 18:31:26.563000][INFO ]server.dll Version is 1.0.1
+[2020-13-27 18:31:26.590000][INFO ]Start server.dll Success
+

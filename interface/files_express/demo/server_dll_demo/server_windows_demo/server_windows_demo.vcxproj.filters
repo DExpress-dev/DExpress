@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\header">
+      <UniqueIdentifier>{639acdfd-d718-4ea4-aacd-55d7bd68ff81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\header\windows">
+      <UniqueIdentifier>{cb433fa3-4b18-45d2-9f9d-43fa2b0d84d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\linux\project\CPlus\public\header\public.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\windows\file_windows.h">
+      <Filter>源文件\header\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\windows\path_windows.h">
+      <Filter>源文件\header\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\windows\timer_windows.h">
+      <Filter>源文件\header\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\ini.h">
+      <Filter>源文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\write_log.h">
+      <Filter>源文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\path.h">
+      <Filter>源文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\linux\project\CPlus\public\header\string_list.h">
+      <Filter>源文件\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="server_windows_demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\header\windows\file_windows.cpp">
+      <Filter>源文件\header\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\header\windows\path_windows.cpp">
+      <Filter>源文件\header\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\header\windows\timer_windows.cpp">
+      <Filter>源文件\header\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\header\ini.cpp">
+      <Filter>源文件\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\header\write_log.cpp">
+      <Filter>源文件\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\header\path.cpp">
+      <Filter>源文件\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\linux\project\CPlus\public\header\string_list.cpp">
+      <Filter>源文件\header</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

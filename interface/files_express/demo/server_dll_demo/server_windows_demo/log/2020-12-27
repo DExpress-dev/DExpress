@@ -1,0 +1,531 @@
+[2020-13-28 10:14:20.715000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 10:14:20.716000][INFO ]Create Express Server Main Thread
+[2020-13-28 10:14:20.722000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 10:51:39.484000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 10:51:39.484000][INFO ]Create Express Server Main Thread
+[2020-13-28 10:51:39.495000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 10:53:33.663000][INFO ]on_checkip---->>>>
+[2020-13-28 10:53:33.792000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=25875 session=12345
+[2020-13-28 10:53:47.515000][INFO ]on_checkip---->>>>
+[2020-13-28 10:53:47.651000][INFO ]Express Client Login linker_handle=1002 ip=127.0.0.1 port=24484 session=12345
+[2020-13-28 10:54:11.607000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 10:54:11.608000][INFO ]Create Express Server Main Thread
+[2020-13-28 10:54:11.616000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 10:54:17.338000][INFO ]on_checkip---->>>>
+[2020-13-28 10:54:17.483000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=18082 session=12345
+[2020-13-28 10:57:13.654000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 10:57:13.655000][INFO ]Create Express Server Main Thread
+[2020-13-28 10:57:13.662000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 10:57:35.287000][INFO ]on_checkip---->>>>
+[2020-13-28 10:57:35.427000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=40874 session=12345
+[2020-13-28 11:09:55.639000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 11:09:55.639000][INFO ]Create Express Server Main Thread
+[2020-13-28 11:09:55.646000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 11:10:36.154000][INFO ]on_checkip---->>>>
+[2020-13-28 11:10:36.274000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=14909 session=12345
+[2020-13-28 11:10:47.534000][INFO ]on_checkip---->>>>
+[2020-13-28 11:10:47.612000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=14909 session=12345
+[2020-13-28 11:11:07.043000][INFO ]on_disconnect---->>>> 1002
+[2020-13-28 11:11:07.052000][INFO ]Express Client Logout linker_handle=1002 ip=127.0.0.1 port=36128
+[2020-13-28 11:11:08.973000][INFO ]on_disconnect---->>>> 1001
+[2020-13-28 11:11:08.979000][INFO ]Express Client Logout linker_handle=1001 ip=127.0.0.1 port=14909
+[2020-13-28 11:12:01.653000][INFO ]on_checkip---->>>>
+[2020-13-28 11:12:01.774000][INFO ]Express Client Login linker_handle=1003 ip=127.0.0.1 port=12919 session=12345
+[2020-13-28 11:12:02.984000][INFO ]on_checkip---->>>>
+[2020-13-28 11:12:03.065000][INFO ]Express Client Login linker_handle=1003 ip=127.0.0.1 port=12919 session=12345
+[2020-13-28 11:12:22.124000][INFO ]on_disconnect---->>>> 1004
+[2020-13-28 11:12:22.127000][INFO ]Express Client Logout linker_handle=1004 ip=127.0.0.1 port=21751
+[2020-13-28 11:12:24.043000][INFO ]on_disconnect---->>>> 1003
+[2020-13-28 11:12:24.050000][INFO ]Express Client Logout linker_handle=1003 ip=127.0.0.1 port=12919
+[2020-13-28 11:13:00.860000][INFO ]on_checkip---->>>>
+[2020-13-28 11:13:00.992000][INFO ]Express Client Login linker_handle=1005 ip=127.0.0.1 port=13700 session=12345
+[2020-13-28 11:13:05.888000][INFO ]on_checkip---->>>>
+[2020-13-28 11:13:05.974000][INFO ]Express Client Login linker_handle=1005 ip=127.0.0.1 port=13700 session=12345
+[2020-13-28 11:13:25.189000][INFO ]on_disconnect---->>>> 1006
+[2020-13-28 11:13:25.195000][INFO ]Express Client Logout linker_handle=1006 ip=127.0.0.1 port=23926
+[2020-13-28 11:13:27.108000][INFO ]on_disconnect---->>>> 1005
+[2020-13-28 11:13:27.111000][INFO ]Express Client Logout linker_handle=1005 ip=127.0.0.1 port=13700
+[2020-13-28 11:14:27.402000][INFO ]on_checkip---->>>>
+[2020-13-28 11:14:27.532000][INFO ]Express Client Login linker_handle=1007 ip=127.0.0.1 port=34650 session=12345
+[2020-13-28 11:14:51.140000][INFO ]on_disconnect---->>>> 1007
+[2020-13-28 11:14:51.145000][INFO ]Express Client Logout linker_handle=1007 ip=127.0.0.1 port=34650
+[2020-13-28 11:18:22.932000][INFO ]on_checkip---->>>>
+[2020-13-28 11:18:23.064000][INFO ]Express Client Login linker_handle=1008 ip=127.0.0.1 port=39369 session=12345
+[2020-13-28 11:18:38.230000][INFO ]on_disconnect---->>>> 1008
+[2020-13-28 11:18:38.234000][INFO ]Express Client Logout linker_handle=1008 ip=127.0.0.1 port=39369
+[2020-13-28 11:20:51.348000][INFO ]on_checkip---->>>>
+[2020-13-28 11:20:51.478000][INFO ]Express Client Login linker_handle=1009 ip=127.0.0.1 port=35262 session=12345
+[2020-13-28 11:24:36.330000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 11:24:36.330000][INFO ]Create Express Server Main Thread
+[2020-13-28 11:24:36.337000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 11:24:43.495000][INFO ]on_checkip---->>>>
+[2020-13-28 11:24:43.624000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=40887 session=12345
+[2020-13-28 11:24:45.050000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/Test1.mp4 cur=0
+[2020-13-28 11:24:45.052000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 11:24:45.053000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 11:25:12.042000][ERROR]Express File file_buffer->size_=70719 SINGLE_BLOCK=131072 file_buffer->max_=230 file_buffer->cur_=230
+[2020-13-28 11:25:12.045000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/Test1.mp4 Size=30086207
+[2020-13-28 11:25:12.047000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz cur=0
+[2020-13-28 11:25:12.052000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 11:25:12.055000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 11:25:28.380000][ERROR]Express File file_buffer->size_=57863 SINGLE_BLOCK=131072 file_buffer->max_=923 file_buffer->cur_=923
+[2020-13-28 11:25:28.383000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz Size=120906247
+[2020-13-28 11:25:28.386000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso cur=0
+[2020-13-28 11:25:28.389000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso linker_handle=1001
+[2020-13-28 11:25:28.391000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 11:26:47.427000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 11:26:47.428000][INFO ]Create Express Server Main Thread
+[2020-13-28 11:26:47.447000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 11:29:14.173000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 11:29:14.174000][INFO ]Create Express Server Main Thread
+[2020-13-28 11:29:14.181000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 11:29:18.581000][INFO ]on_checkip---->>>>
+[2020-13-28 11:29:18.711000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=38112 session=12345
+[2020-13-28 11:29:20.047000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/Test1.mp4 cur=229
+[2020-13-28 11:29:20.049000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 11:29:20.051000][INFO ]response_config config.cur_=229 linker_handle=1001
+[2020-13-28 11:29:20.642000][ERROR]Express File file_buffer->size_=70719 SINGLE_BLOCK=131072 file_buffer->max_=230 file_buffer->cur_=230
+[2020-13-28 11:29:20.646000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/Test1.mp4 Size=30086207
+[2020-13-28 11:29:21.035000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/liteide-master.zip cur=0
+[2020-13-28 11:29:21.038000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/liteide-master.zip linker_handle=1001
+[2020-13-28 11:29:21.042000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 11:29:27.050000][ERROR]Express File file_buffer->size_=71396 SINGLE_BLOCK=131072 file_buffer->max_=34 file_buffer->cur_=34
+[2020-13-28 11:29:27.055000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/liteide-master.zip Size=4396772
+[2020-13-28 11:29:27.065000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz cur=922
+[2020-13-28 11:29:27.069000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 11:29:27.073000][INFO ]response_config config.cur_=922 linker_handle=1001
+[2020-13-28 11:29:27.138000][ERROR]Express File file_buffer->size_=57863 SINGLE_BLOCK=131072 file_buffer->max_=923 file_buffer->cur_=923
+[2020-13-28 11:29:27.141000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz Size=120906247
+[2020-13-28 11:29:28.040000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso cur=834
+[2020-13-28 11:29:28.044000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso linker_handle=1001
+[2020-13-28 11:29:28.047000][INFO ]response_config config.cur_=834 linker_handle=1001
+[2020-13-28 11:31:21.042000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 11:31:21.042000][INFO ]Create Express Server Main Thread
+[2020-13-28 11:31:21.050000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 11:31:26.752000][INFO ]on_checkip---->>>>
+[2020-13-28 11:31:26.883000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=38346 session=12345
+[2020-13-28 11:31:28.059000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/Test1.mp4 cur=0
+[2020-13-28 11:31:28.061000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 11:31:28.063000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 11:41:11.040000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 11:41:11.040000][INFO ]Create Express Server Main Thread
+[2020-13-28 11:41:11.046000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 11:41:17.292000][INFO ]on_checkip---->>>>
+[2020-13-28 11:41:23.168000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=28660 session=12345
+[2020-13-28 11:41:25.043000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/Test1.mp4 cur=114
+[2020-13-28 11:41:25.045000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 11:41:25.050000][INFO ]response_config config.cur_=114 linker_handle=1001
+[2020-13-28 11:41:39.045000][ERROR]Express File file_buffer->size_=70719 SINGLE_BLOCK=131072 file_buffer->max_=230 file_buffer->cur_=230
+[2020-13-28 11:41:39.050000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/Test1.mp4 Size=30086207
+[2020-13-28 11:41:39.054000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz cur=0
+[2020-13-28 11:41:39.058000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 11:41:39.062000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 11:42:53.740000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 11:42:53.740000][INFO ]Create Express Server Main Thread
+[2020-13-28 11:42:53.754000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 11:43:03.409000][INFO ]on_checkip---->>>>
+[2020-13-28 11:43:04.370000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=12505 session=12345
+[2020-13-28 11:43:06.042000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/Test1.mp4 cur=229
+[2020-13-28 11:43:06.045000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 11:43:06.047000][INFO ]response_config config.cur_=229 linker_handle=1001
+[2020-13-28 11:43:06.633000][ERROR]Express File file_buffer->size_=70719 SINGLE_BLOCK=131072 file_buffer->max_=230 file_buffer->cur_=230
+[2020-13-28 11:43:06.636000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/Test1.mp4 Size=30086207
+[2020-13-28 11:43:07.029000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/liteide-master.zip cur=0
+[2020-13-28 11:43:07.032000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/liteide-master.zip linker_handle=1001
+[2020-13-28 11:43:07.034000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 11:55:56.915000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 11:55:56.916000][INFO ]Create Express Server Main Thread
+[2020-13-28 11:55:56.924000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 11:56:06.136000][INFO ]on_checkip---->>>>
+[2020-13-28 11:56:07.132000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=20556 session=12345
+[2020-13-28 11:56:09.048000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/Test1.mp4 cur=229
+[2020-13-28 11:56:09.050000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 11:56:09.053000][INFO ]response_config config.cur_=229 linker_handle=1001
+[2020-13-28 11:56:09.634000][ERROR]Express File file_buffer->size_=70719 SINGLE_BLOCK=131072 file_buffer->max_=230 file_buffer->cur_=230
+[2020-13-28 11:56:09.638000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/Test1.mp4 Size=30086207
+[2020-13-28 11:56:10.038000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/liteide-master.zip cur=18
+[2020-13-28 11:56:10.041000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/liteide-master.zip linker_handle=1001
+[2020-13-28 11:56:10.044000][INFO ]response_config config.cur_=18 linker_handle=1001
+[2020-13-28 11:56:13.074000][ERROR]Express File file_buffer->size_=71396 SINGLE_BLOCK=131072 file_buffer->max_=34 file_buffer->cur_=34
+[2020-13-28 11:56:13.080000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/liteide-master.zip Size=4396772
+[2020-13-28 11:56:13.086000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz cur=211
+[2020-13-28 11:56:13.087000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 11:56:13.088000][INFO ]response_config config.cur_=211 linker_handle=1001
+[2020-13-28 11:57:15.348000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 11:57:15.348000][INFO ]Create Express Server Main Thread
+[2020-13-28 11:57:15.356000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 11:57:28.327000][INFO ]on_checkip---->>>>
+[2020-13-28 11:57:30.978000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=10431 session=12345
+[2020-13-28 11:57:33.078000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/Test1.mp4 cur=229
+[2020-13-28 11:57:33.137000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 11:57:33.267000][INFO ]response_config config.cur_=229 linker_handle=1001
+[2020-13-28 11:57:44.002000][INFO ]Close File Path C:/Base/20201219/debug/Test1.mp4 And Delete It From Map
+[2020-13-28 11:58:05.426000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 11:58:05.427000][INFO ]Create Express Server Main Thread
+[2020-13-28 11:58:05.434000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 11:58:10.347000][INFO ]on_checkip---->>>>
+[2020-13-28 11:58:11.480000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=10599 session=12345
+[2020-13-28 11:58:13.114000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/Test1.mp4 cur=0
+[2020-13-28 11:58:13.182000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 11:58:13.243000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 11:58:24.045000][INFO ]Close File Path C:/Base/20201219/debug/Test1.mp4 And Delete It From Map
+[2020-13-28 12:00:16.662000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 12:00:16.663000][INFO ]Create Express Server Main Thread
+[2020-13-28 12:00:16.670000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 12:00:23.584000][INFO ]on_checkip---->>>>
+[2020-13-28 12:00:25.123000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=16169 session=12345
+[2020-13-28 12:00:27.148000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/Test1.mp4 cur=0
+[2020-13-28 12:00:27.301000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 12:00:27.438000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 12:00:38.000000][INFO ]Close File Path C:/Base/20201219/debug/Test1.mp4 And Delete It From Map
+[2020-13-28 12:01:40.217000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 12:01:40.218000][INFO ]Create Express Server Main Thread
+[2020-13-28 12:01:40.225000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 12:01:46.598000][INFO ]on_checkip---->>>>
+[2020-13-28 12:01:46.733000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=31293 session=12345
+[2020-13-28 12:01:48.039000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/Test1.mp4 cur=0
+[2020-13-28 12:01:48.040000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 12:01:48.043000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 12:02:08.338000][ERROR]Express File file_buffer->size_=70719 SINGLE_BLOCK=131072 file_buffer->max_=230 file_buffer->cur_=230
+[2020-13-28 12:02:08.343000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/Test1.mp4 Size=30086207
+[2020-13-28 12:02:08.349000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz cur=0
+[2020-13-28 12:02:08.351000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 12:02:08.354000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 12:05:42.798000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 12:05:42.799000][INFO ]Create Express Server Main Thread
+[2020-13-28 12:05:42.807000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 12:05:47.206000][INFO ]on_checkip---->>>>
+[2020-13-28 12:05:47.337000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=16704 session=12345
+[2020-13-28 12:05:49.031000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/Test1.mp4 cur=229
+[2020-13-28 12:05:49.033000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 12:05:49.035000][INFO ]response_config config.cur_=229 linker_handle=1001
+[2020-13-28 12:05:49.570000][ERROR]Express File file_buffer->size_=70719 SINGLE_BLOCK=131072 file_buffer->max_=230 file_buffer->cur_=230
+[2020-13-28 12:05:49.573000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/Test1.mp4 Size=30086207
+[2020-13-28 12:05:50.026000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/liteide-master.zip cur=0
+[2020-13-28 12:05:50.029000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/liteide-master.zip linker_handle=1001
+[2020-13-28 12:05:50.031000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 12:05:56.101000][ERROR]Express File file_buffer->size_=71396 SINGLE_BLOCK=131072 file_buffer->max_=34 file_buffer->cur_=34
+[2020-13-28 12:05:56.104000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/liteide-master.zip Size=4396772
+[2020-13-28 12:05:56.117000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz cur=245
+[2020-13-28 12:05:56.119000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 12:05:56.122000][INFO ]response_config config.cur_=245 linker_handle=1001
+[2020-13-28 12:08:51.053000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 12:08:51.053000][INFO ]Create Express Server Main Thread
+[2020-13-28 12:08:51.063000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 12:08:59.667000][INFO ]on_checkip---->>>>
+[2020-13-28 12:08:59.799000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=32465 session=12345
+[2020-13-28 12:09:01.038000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/Test1.mp4 cur=229
+[2020-13-28 12:09:01.040000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 12:09:01.042000][INFO ]response_config config.cur_=229 linker_handle=1001
+[2020-13-28 12:09:01.632000][ERROR]Express File file_buffer->size_=70719 SINGLE_BLOCK=131072 file_buffer->max_=230 file_buffer->cur_=230
+[2020-13-28 12:09:01.636000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/Test1.mp4 Size=30086207
+[2020-13-28 12:09:02.042000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/liteide-master.zip cur=33
+[2020-13-28 12:09:02.045000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/liteide-master.zip linker_handle=1001
+[2020-13-28 12:09:02.048000][INFO ]response_config config.cur_=33 linker_handle=1001
+[2020-13-28 12:09:02.251000][ERROR]Express File file_buffer->size_=71396 SINGLE_BLOCK=131072 file_buffer->max_=34 file_buffer->cur_=34
+[2020-13-28 12:09:02.255000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/liteide-master.zip Size=4396772
+[2020-13-28 12:09:03.035000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/WinMerge_opdown.com.zip cur=0
+[2020-13-28 12:09:03.038000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/WinMerge_opdown.com.zip linker_handle=1001
+[2020-13-28 12:09:03.042000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 12:09:14.118000][ERROR]Express File file_buffer->size_=62031 SINGLE_BLOCK=131072 file_buffer->max_=91 file_buffer->cur_=91
+[2020-13-28 12:09:14.121000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/WinMerge_opdown.com.zip Size=11858511
+[2020-13-28 12:09:15.355000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz cur=266
+[2020-13-28 12:09:15.358000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 12:09:15.361000][INFO ]response_config config.cur_=266 linker_handle=1001
+[2020-13-28 12:10:34.699000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 12:10:34.700000][INFO ]Create Express Server Main Thread
+[2020-13-28 12:10:34.706000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 12:11:24.217000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 12:11:24.218000][INFO ]Create Express Server Main Thread
+[2020-13-28 12:11:24.225000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 12:11:33.360000][INFO ]on_checkip---->>>>
+[2020-13-28 12:11:33.497000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=28258 session=12345
+[2020-13-28 12:11:35.034000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/Test1.mp4 cur=0
+[2020-13-28 12:11:35.036000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 12:11:35.038000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 12:12:02.118000][ERROR]Express File file_buffer->size_=70719 SINGLE_BLOCK=131072 file_buffer->max_=230 file_buffer->cur_=230
+[2020-13-28 12:12:02.122000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/Test1.mp4 Size=30086207
+[2020-13-28 12:12:02.127000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz cur=0
+[2020-13-28 12:12:02.132000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 12:12:02.137000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 12:12:20.011000][ERROR]Express File file_buffer->size_=57863 SINGLE_BLOCK=131072 file_buffer->max_=923 file_buffer->cur_=923
+[2020-13-28 12:12:20.015000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz Size=120906247
+[2020-13-28 12:12:20.025000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso cur=0
+[2020-13-28 12:12:20.030000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso linker_handle=1001
+[2020-13-28 12:12:20.034000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 12:13:16.267000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 12:13:16.268000][INFO ]Create Express Server Main Thread
+[2020-13-28 12:13:16.275000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 12:14:34.086000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 12:14:34.086000][INFO ]Create Express Server Main Thread
+[2020-13-28 12:14:34.093000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 12:14:38.468000][INFO ]on_checkip---->>>>
+[2020-13-28 12:14:38.605000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=37025 session=12345
+[2020-13-28 12:14:40.038000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/Test1.mp4 cur=0
+[2020-13-28 12:14:40.041000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1001
+[2020-13-28 12:14:40.045000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 12:15:04.229000][ERROR]Express File file_buffer->size_=70719 SINGLE_BLOCK=131072 file_buffer->max_=230 file_buffer->cur_=230
+[2020-13-28 12:15:04.232000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/Test1.mp4 Size=30086207
+[2020-13-28 12:15:04.234000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz cur=0
+[2020-13-28 12:15:04.237000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 12:15:04.240000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 12:15:22.224000][ERROR]Express File file_buffer->size_=57863 SINGLE_BLOCK=131072 file_buffer->max_=923 file_buffer->cur_=923
+[2020-13-28 12:15:22.225000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz Size=120906247
+[2020-13-28 12:15:22.225000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso cur=0
+[2020-13-28 12:15:22.226000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso linker_handle=1001
+[2020-13-28 12:15:22.226000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 12:19:20.847000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 12:19:20.847000][INFO ]Create Express Server Main Thread
+[2020-13-28 12:19:20.854000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 12:19:50.738000][INFO ]on_checkip---->>>>
+[2020-13-28 12:19:50.879000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=34611 session=12345
+[2020-13-28 12:53:06.439000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 12:53:06.439000][INFO ]Create Express Server Main Thread
+[2020-13-28 12:53:06.451000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 12:53:10.707000][INFO ]on_checkip---->>>>
+[2020-13-28 12:53:10.841000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=29720 session=12345
+[2020-13-28 12:53:13.039000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/liteide-master.zip cur=0
+[2020-13-28 12:53:13.042000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/liteide-master.zip linker_handle=1001
+[2020-13-28 12:53:13.045000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 12:53:22.085000][ERROR]Express File file_buffer->size_=71396 SINGLE_BLOCK=131072 file_buffer->max_=34 file_buffer->cur_=34
+[2020-13-28 12:53:22.089000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/liteide-master.zip Size=4396772
+[2020-13-28 12:53:22.093000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz cur=922
+[2020-13-28 12:53:22.097000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 12:53:22.102000][INFO ]response_config config.cur_=922 linker_handle=1001
+[2020-13-28 12:53:22.173000][ERROR]Express File file_buffer->size_=57863 SINGLE_BLOCK=131072 file_buffer->max_=923 file_buffer->cur_=923
+[2020-13-28 12:53:22.179000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/go1.15.4.linux-amd64.tar.gz Size=120906247
+[2020-13-28 12:53:23.031000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso cur=138
+[2020-13-28 12:53:23.033000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso linker_handle=1001
+[2020-13-28 12:53:23.036000][INFO ]response_config config.cur_=138 linker_handle=1001
+[2020-13-28 12:53:51.001000][INFO ]Close File Path C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso And Delete It From Map
+[2020-13-28 12:53:55.773000][INFO ]on_disconnect---->>>> 1001
+[2020-13-28 12:53:55.776000][INFO ]Express Client Logout linker_handle=1001 ip=127.0.0.1 port=29720
+[2020-13-28 12:54:53.594000][INFO ]on_checkip---->>>>
+[2020-13-28 12:54:53.726000][INFO ]Express Client Login linker_handle=1002 ip=127.0.0.1 port=20408 session=12345
+[2020-13-28 12:54:55.037000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/Test1.mp4 cur=229
+[2020-13-28 12:54:55.039000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/Test1.mp4 linker_handle=1002
+[2020-13-28 12:54:55.042000][INFO ]response_config config.cur_=229 linker_handle=1002
+[2020-13-28 12:54:55.601000][ERROR]Express File file_buffer->size_=70719 SINGLE_BLOCK=131072 file_buffer->max_=230 file_buffer->cur_=230
+[2020-13-28 12:54:55.604000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/Test1.mp4 Size=30086207
+[2020-13-28 12:54:56.044000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/liteide-master.zip cur=33
+[2020-13-28 12:54:56.046000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/liteide-master.zip linker_handle=1002
+[2020-13-28 12:54:56.051000][INFO ]response_config config.cur_=33 linker_handle=1002
+[2020-13-28 12:54:56.230000][ERROR]Express File file_buffer->size_=71396 SINGLE_BLOCK=131072 file_buffer->max_=34 file_buffer->cur_=34
+[2020-13-28 12:54:56.233000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/liteide-master.zip Size=4396772
+[2020-13-28 12:54:58.050000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso cur=399
+[2020-13-28 12:54:58.053000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso linker_handle=1002
+[2020-13-28 12:54:58.056000][INFO ]response_config config.cur_=399 linker_handle=1002
+[2020-13-28 12:55:06.461000][INFO ]on_checkip---->>>>
+[2020-13-28 12:55:06.599000][INFO ]Express Client Login linker_handle=1003 ip=127.0.0.1 port=32668 session=12345
+[2020-13-28 12:55:10.004000][INFO ]Close File Path C:/Base/20201219/debug/windows_10_professional_x64_v2020.iso And Delete It From Map
+[2020-13-28 12:55:14.969000][INFO ]on_disconnect---->>>> 1002
+[2020-13-28 12:55:14.972000][INFO ]Express Client Logout linker_handle=1002 ip=127.0.0.1 port=20408
+[2020-13-28 12:55:21.917000][INFO ]on_disconnect---->>>> 1003
+[2020-13-28 12:55:21.924000][INFO ]Express Client Logout linker_handle=1003 ip=127.0.0.1 port=32668
+[2020-13-28 18:01:15.658000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 18:01:15.659000][INFO ]Create Express Server Main Thread
+[2020-13-28 18:01:15.664000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 18:03:30.489000][INFO ]on_checkip---->>>>
+[2020-13-28 18:03:30.624000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=27196 session=12345
+[2020-13-28 18:03:30.836000][INFO ]on_checkip---->>>>
+[2020-13-28 18:03:30.981000][INFO ]Express Client Login linker_handle=1002 ip=127.0.0.1 port=30364 session=12345
+[2020-13-28 18:03:33.045000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz cur=0
+[2020-13-28 18:03:33.046000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz linker_handle=1002
+[2020-13-28 18:03:33.046000][INFO ]response_config config.cur_=0 linker_handle=1002
+[2020-13-28 18:03:44.002000][INFO ]Close File Path C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz And Delete It From Map
+[2020-13-28 18:04:00.898000][INFO ]on_disconnect---->>>> 1001
+[2020-13-28 18:04:00.901000][INFO ]Express Client Logout linker_handle=1001 ip=127.0.0.1 port=27196
+[2020-13-28 18:04:01.807000][INFO ]on_disconnect---->>>> 1002
+[2020-13-28 18:04:01.809000][INFO ]Express Client Logout linker_handle=1002 ip=127.0.0.1 port=30364
+[2020-13-28 18:04:09.356000][INFO ]on_checkip---->>>>
+[2020-13-28 18:04:09.479000][INFO ]Express Client Login linker_handle=1003 ip=127.0.0.1 port=40391 session=12345
+[2020-13-28 18:04:09.680000][INFO ]on_checkip---->>>>
+[2020-13-28 18:04:09.820000][INFO ]Express Client Login linker_handle=1004 ip=127.0.0.1 port=28181 session=12345
+[2020-13-28 18:04:11.045000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz cur=0
+[2020-13-28 18:04:11.046000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz linker_handle=1004
+[2020-13-28 18:04:11.046000][INFO ]response_config config.cur_=0 linker_handle=1004
+[2020-13-28 18:04:25.001000][INFO ]Close File Path C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz And Delete It From Map
+[2020-13-28 18:04:28.775000][INFO ]on_disconnect---->>>> 1003
+[2020-13-28 18:04:28.776000][INFO ]Express Client Logout linker_handle=1003 ip=127.0.0.1 port=40391
+[2020-13-28 18:04:29.685000][INFO ]on_disconnect---->>>> 1004
+[2020-13-28 18:04:29.692000][INFO ]Express Client Logout linker_handle=1004 ip=127.0.0.1 port=28181
+[2020-13-28 18:04:53.621000][INFO ]on_checkip---->>>>
+[2020-13-28 18:05:09.615000][INFO ]on_disconnect---->>>> 1005
+[2020-13-28 18:05:09.619000][INFO ]Express Client Logout linker_handle=1005 ip=127.0.0.1 port=30557
+[2020-13-28 18:05:24.995000][INFO ]on_checkip---->>>>
+[2020-13-28 18:05:25.127000][INFO ]Express Client Login linker_handle=1006 ip=127.0.0.1 port=13466 session=12345
+[2020-13-28 18:05:25.318000][INFO ]on_checkip---->>>>
+[2020-13-28 18:05:25.454000][INFO ]Express Client Login linker_handle=1007 ip=127.0.0.1 port=39161 session=12345
+[2020-13-28 18:05:27.026000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz cur=12
+[2020-13-28 18:05:27.027000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz linker_handle=1007
+[2020-13-28 18:05:27.028000][INFO ]response_config config.cur_=12 linker_handle=1007
+[2020-13-28 18:05:55.002000][INFO ]Close File Path C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz And Delete It From Map
+[2020-13-28 18:05:59.614000][INFO ]on_disconnect---->>>> 1006
+[2020-13-28 18:05:59.616000][INFO ]Express Client Logout linker_handle=1006 ip=127.0.0.1 port=13466
+[2020-13-28 18:06:00.532000][INFO ]on_disconnect---->>>> 1007
+[2020-13-28 18:06:00.536000][INFO ]Express Client Logout linker_handle=1007 ip=127.0.0.1 port=39161
+[2020-13-28 18:06:38.489000][INFO ]on_checkip---->>>>
+[2020-13-28 18:06:42.895000][INFO ]Express Client Login linker_handle=1008 ip=127.0.0.1 port=41251 session=12345
+[2020-13-28 18:06:43.032000][INFO ]on_checkip---->>>>
+[2020-13-28 18:06:43.166000][INFO ]Express Client Login linker_handle=1009 ip=127.0.0.1 port=27117 session=12345
+[2020-13-28 18:06:45.044000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz cur=164
+[2020-13-28 18:06:45.044000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz linker_handle=1009
+[2020-13-28 18:06:45.045000][INFO ]response_config config.cur_=164 linker_handle=1009
+[2020-13-28 18:06:58.999000][INFO ]Close File Path C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz And Delete It From Map
+[2020-13-28 18:07:03.583000][INFO ]on_disconnect---->>>> 1008
+[2020-13-28 18:07:03.587000][INFO ]Express Client Logout linker_handle=1008 ip=127.0.0.1 port=41251
+[2020-13-28 18:07:04.493000][INFO ]on_disconnect---->>>> 1009
+[2020-13-28 18:07:04.497000][INFO ]Express Client Logout linker_handle=1009 ip=127.0.0.1 port=27117
+[2020-13-28 18:07:25.586000][INFO ]on_checkip---->>>>
+[2020-13-28 18:07:25.713000][INFO ]Express Client Login linker_handle=1010 ip=127.0.0.1 port=11013 session=12345
+[2020-13-28 18:07:25.906000][INFO ]on_checkip---->>>>
+[2020-13-28 18:07:26.036000][INFO ]Express Client Login linker_handle=1011 ip=127.0.0.1 port=30979 session=12345
+[2020-13-28 18:07:28.031000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz cur=176
+[2020-13-28 18:07:28.032000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz linker_handle=1011
+[2020-13-28 18:07:28.034000][INFO ]response_config config.cur_=176 linker_handle=1011
+[2020-13-28 18:08:01.001000][INFO ]Close File Path C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz And Delete It From Map
+[2020-13-28 18:08:05.522000][INFO ]on_disconnect---->>>> 1010
+[2020-13-28 18:08:05.526000][INFO ]Express Client Logout linker_handle=1010 ip=127.0.0.1 port=11013
+[2020-13-28 18:08:06.433000][INFO ]on_disconnect---->>>> 1011
+[2020-13-28 18:08:06.437000][INFO ]Express Client Logout linker_handle=1011 ip=127.0.0.1 port=30979
+[2020-13-28 18:09:20.898000][INFO ]on_checkip---->>>>
+[2020-13-28 18:09:24.000000][INFO ]Express Client Login linker_handle=1012 ip=127.0.0.1 port=31586 session=12345
+[2020-13-28 18:09:24.140000][INFO ]on_checkip---->>>>
+[2020-13-28 18:09:39.439000][INFO ]on_disconnect---->>>> 1012
+[2020-13-28 18:09:39.441000][INFO ]Express Client Logout linker_handle=1012 ip=127.0.0.1 port=31586
+[2020-13-28 18:09:40.349000][INFO ]on_disconnect---->>>> 1013
+[2020-13-28 18:09:40.350000][INFO ]Express Client Logout linker_handle=1013 ip=127.0.0.1 port=14370
+[2020-13-28 18:10:07.997000][INFO ]on_checkip---->>>>
+[2020-13-28 18:10:10.539000][INFO ]Express Client Login linker_handle=1014 ip=127.0.0.1 port=41606 session=12345
+[2020-13-28 18:10:10.700000][INFO ]on_checkip---->>>>
+[2020-13-28 18:10:26.302000][INFO ]on_disconnect---->>>> 1014
+[2020-13-28 18:10:26.306000][INFO ]Express Client Logout linker_handle=1014 ip=127.0.0.1 port=41606
+[2020-13-28 18:10:27.209000][INFO ]on_disconnect---->>>> 1015
+[2020-13-28 18:10:27.211000][INFO ]Express Client Logout linker_handle=1015 ip=127.0.0.1 port=31690
+[2020-13-28 18:10:31.979000][INFO ]on_checkip---->>>>
+[2020-13-28 18:10:33.745000][INFO ]Express Client Login linker_handle=1016 ip=127.0.0.1 port=37829 session=12345
+[2020-13-28 18:10:49.138000][INFO ]on_disconnect---->>>> 1016
+[2020-13-28 18:10:49.139000][INFO ]Express Client Logout linker_handle=1016 ip=127.0.0.1 port=37829
+[2020-13-28 18:11:12.410000][INFO ]on_checkip---->>>>
+[2020-13-28 18:11:28.071000][INFO ]on_disconnect---->>>> 1017
+[2020-13-28 18:11:28.071000][INFO ]Express Client Logout linker_handle=1017 ip=127.0.0.1 port=17998
+[2020-13-28 18:11:50.556000][INFO ]on_checkip---->>>>
+[2020-13-28 18:12:06.000000][INFO ]on_disconnect---->>>> 1018
+[2020-13-28 18:12:06.006000][INFO ]Express Client Logout linker_handle=1018 ip=127.0.0.1 port=34111
+[2020-13-28 18:12:34.797000][INFO ]on_checkip---->>>>
+[2020-13-28 18:12:49.934000][INFO ]on_disconnect---->>>> 1019
+[2020-13-28 18:12:49.940000][INFO ]Express Client Logout linker_handle=1019 ip=127.0.0.1 port=11973
+[2020-13-28 18:12:56.216000][INFO ]on_checkip---->>>>
+[2020-13-28 18:13:11.866000][INFO ]on_disconnect---->>>> 1020
+[2020-13-28 18:13:11.869000][INFO ]Express Client Logout linker_handle=1020 ip=127.0.0.1 port=39513
+[2020-13-28 18:14:54.562000][INFO ]on_checkip---->>>>
+[2020-13-28 18:15:09.851000][INFO ]on_disconnect---->>>> 1021
+[2020-13-28 18:15:09.855000][INFO ]Express Client Logout linker_handle=1021 ip=127.0.0.1 port=23624
+[2020-13-28 18:16:07.411000][INFO ]on_checkip---->>>>
+[2020-13-28 18:16:10.023000][INFO ]Express Client Login linker_handle=1022 ip=127.0.0.1 port=25909 session=12345
+[2020-13-28 18:16:31.807000][INFO ]on_disconnect---->>>> 1022
+[2020-13-28 18:16:31.808000][INFO ]Express Client Logout linker_handle=1022 ip=127.0.0.1 port=25909
+[2020-13-28 18:16:58.286000][INFO ]on_checkip---->>>>
+[2020-13-28 18:17:01.103000][INFO ]Express Client Login linker_handle=1023 ip=127.0.0.1 port=28237 session=12345
+[2020-13-28 18:17:03.036000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz cur=216
+[2020-13-28 18:17:03.037000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz linker_handle=1023
+[2020-13-28 18:17:03.038000][INFO ]response_config config.cur_=216 linker_handle=1023
+[2020-13-28 18:18:00.810000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 18:18:00.810000][INFO ]Create Express Server Main Thread
+[2020-13-28 18:18:00.817000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 18:18:32.068000][INFO ]on_checkip---->>>>
+[2020-13-28 18:18:35.985000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=27600 session=12345
+[2020-13-28 18:33:21.708000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 18:33:21.709000][INFO ]Create Express Server Main Thread
+[2020-13-28 18:33:21.716000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 18:33:32.201000][INFO ]on_checkip---->>>>
+[2020-13-28 18:33:32.333000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=17386 session=12345
+[2020-13-28 18:33:35.027000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run cur=0
+[2020-13-28 18:33:35.027000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run linker_handle=1001
+[2020-13-28 18:33:35.027000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 18:34:54.412000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 18:34:54.413000][INFO ]Create Express Server Main Thread
+[2020-13-28 18:34:54.437000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 18:36:53.800000][INFO ]on_checkip---->>>>
+[2020-13-28 18:36:53.928000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=34949 session=12345
+[2020-13-28 18:36:56.049000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz cur=0
+[2020-13-28 18:36:56.049000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 18:36:56.049000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 18:39:11.060000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 18:39:11.061000][INFO ]Create Express Server Main Thread
+[2020-13-28 18:39:11.070000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 18:39:19.976000][INFO ]on_checkip---->>>>
+[2020-13-28 18:39:20.109000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=21599 session=12345
+[2020-13-28 18:39:22.041000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz cur=0
+[2020-13-28 18:39:22.041000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 18:39:22.042000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 18:39:52.725000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 18:39:52.726000][INFO ]Create Express Server Main Thread
+[2020-13-28 18:39:52.733000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 18:39:54.178000][INFO ]on_checkip---->>>>
+[2020-13-28 18:39:54.312000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=32228 session=12345
+[2020-13-28 18:40:09.847000][INFO ]on_disconnect---->>>> 1001
+[2020-13-28 18:40:09.850000][INFO ]Express Client Logout linker_handle=1001 ip=127.0.0.1 port=32228
+[2020-13-28 18:50:22.479000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 18:50:22.480000][INFO ]Create Express Server Main Thread
+[2020-13-28 18:50:22.488000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 18:50:56.580000][INFO ]on_checkip---->>>>
+[2020-13-28 18:50:56.709000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=36837 session=12345
+[2020-13-28 18:50:58.048000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz cur=0
+[2020-13-28 18:50:58.048000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 18:50:58.048000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 18:51:45.024000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 18:51:45.024000][INFO ]Create Express Server Main Thread
+[2020-13-28 18:51:45.054000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 18:52:44.230000][INFO ]on_checkip---->>>>
+[2020-13-28 18:52:44.391000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=24186 session=12345
+[2020-13-28 18:52:44.478000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz cur=82
+[2020-13-28 18:52:44.479000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz linker_handle=1001
+[2020-13-28 18:52:44.479000][INFO ]response_config config.cur_=82 linker_handle=1001
+[2020-13-28 18:53:20.055000][ERROR]Express File file_buffer->size_=110107 SINGLE_BLOCK=131072 file_buffer->max_=944 file_buffer->cur_=944
+[2020-13-28 18:53:20.056000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz Size=123711003
+[2020-13-28 18:53:20.057000][INFO ]Express Config Not Found File file_path=C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run cur=0
+[2020-13-28 18:53:20.057000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run linker_handle=1001
+[2020-13-28 18:53:20.058000][INFO ]response_config config.cur_=0 linker_handle=1001
+[2020-13-28 18:54:10.197000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 18:54:10.198000][INFO ]Create Express Server Main Thread
+[2020-13-28 18:54:10.210000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 18:54:27.298000][INFO ]on_checkip---->>>>
+[2020-13-28 18:54:27.463000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=15415 session=12345
+[2020-13-28 18:54:27.546000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run cur=744
+[2020-13-28 18:54:27.546000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run linker_handle=1001
+[2020-13-28 18:54:27.546000][INFO ]response_config config.cur_=744 linker_handle=1001
+[2020-13-28 18:54:38.004000][INFO ]Close File Path C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run And Delete It From Map
+[2020-13-28 18:55:07.394000][INFO ]on_disconnect---->>>> 1001
+[2020-13-28 18:55:07.398000][INFO ]Express Client Logout linker_handle=1001 ip=127.0.0.1 port=15415
+[2020-13-28 18:55:09.969000][INFO ]on_checkip---->>>>
+[2020-13-28 18:55:10.108000][INFO ]Express Client Login linker_handle=1002 ip=127.0.0.1 port=40704 session=12345
+[2020-13-28 18:55:12.030000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz cur=943
+[2020-13-28 18:55:12.031000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz linker_handle=1002
+[2020-13-28 18:55:12.032000][INFO ]response_config config.cur_=943 linker_handle=1002
+[2020-13-28 18:55:12.087000][ERROR]Express File file_buffer->size_=110107 SINGLE_BLOCK=131072 file_buffer->max_=944 file_buffer->cur_=944
+[2020-13-28 18:55:12.088000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/go1.14.4.linux-amd64.tar.gz Size=123711003
+[2020-13-28 18:55:13.022000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run cur=744
+[2020-13-28 18:55:13.023000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run linker_handle=1002
+[2020-13-28 18:55:13.024000][INFO ]response_config config.cur_=744 linker_handle=1002
+[2020-13-28 18:55:51.780000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 18:55:51.781000][INFO ]Create Express Server Main Thread
+[2020-13-28 18:55:51.789000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 18:55:56.365000][INFO ]on_checkip---->>>>
+[2020-13-28 18:55:56.528000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=19406 session=12345
+[2020-13-28 18:55:56.618000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run cur=911
+[2020-13-28 18:55:56.618000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run linker_handle=1001
+[2020-13-28 18:55:56.618000][INFO ]response_config config.cur_=911 linker_handle=1001
+[2020-13-28 18:56:34.636000][INFO ]Start Express Server Version=2.0.1 listen_port=41002 log_path=log libso_path=D:/projects/Chainware/最终产品/windows/lib/harq/harq.dll
+[2020-13-28 18:56:34.636000][INFO ]Create Express Server Main Thread
+[2020-13-28 18:56:34.644000][INFO ]Create Express Server RUDP Manager
+[2020-13-28 18:56:38.351000][INFO ]on_checkip---->>>>
+[2020-13-28 18:56:38.499000][INFO ]Express Client Login linker_handle=1001 ip=127.0.0.1 port=27361 session=12345
+[2020-13-28 18:56:38.569000][INFO ]Express Config Found File Exist file_path=C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run cur=1020
+[2020-13-28 18:56:38.570000][INFO ]Express Config Success file_path=C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run linker_handle=1001
+[2020-13-28 18:56:38.570000][INFO ]response_config config.cur_=1020 linker_handle=1001
+[2020-13-28 18:59:03.152000][ERROR]Express File file_buffer->size_=118958 SINGLE_BLOCK=131072 file_buffer->max_=10113 file_buffer->cur_=10113
+[2020-13-28 18:59:03.153000][INFO ]Express Recv File Success Save Path=C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run Size=1325519022
+[2020-13-28 18:59:14.004000][INFO ]Close File Path C:/Base/20201219/debug/qt-opensource-linux-x64-5.14.0.run And Delete It From Map
+[2020-13-28 19:00:59.945000][INFO ]on_disconnect---->>>> 1001
+[2020-13-28 19:00:59.947000][INFO ]Express Client Logout linker_handle=1001 ip=127.0.0.1 port=27361
