@@ -22,7 +22,10 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 
 ### media_express
 
-
+## Demo实测截图
+![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/live0.jpg)
+![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/live3.jpg)
+![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/live8.jpg)
 
 ## HLS低延时安全传输架构图
 ![image](E:/Github/DExpress/image/framework_hls.jpg)
