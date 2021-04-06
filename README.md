@@ -38,8 +38,16 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 	
 - 因此如果只是做云游戏从服务端将画面传到客户端进行展现，实际的时间应该为：云游戏延迟时间 = （测量时间 - 50）/ 2;
 	
+第一张截图：
+
 ![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/live0.jpg)
+
+第二张截图：
+
 ![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/live3.jpg)
+
+第三张截图：
+
 ![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/live8.jpg)
 
 ## 传输波形图

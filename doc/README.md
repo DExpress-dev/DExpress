@@ -23,8 +23,25 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 ### media_express
 
 ## Demo实测截图
+
+###	说明：	
+
+- 以下截图是我编写的一个直播Demo的截图，一个用户手机A采集画面并将采集到的画面发送给中转服务器。中转服务器接收到数据后，将画面数据转发给另外的一个用户手机B。用户手机B将接收到的数据绘制到手机中。
+
+- 为了保证数据的连贯性，在B手机端人为设置了50毫秒的延迟。
+	
+- 因此如果只是做云游戏从服务端将画面传到客户端进行展现，实际的时间应该为：云游戏延迟时间 = （测量时间 - 50）/ 2;
+	
+第一张截图：
+
 ![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/live0.jpg)
+
+第二张截图：
+
 ![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/live3.jpg)
+
+第三张截图：
+
 ![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/live8.jpg)
 
 ## HLS低延时安全传输架构图
