@@ -29,6 +29,11 @@ DExpress是一款低延时安全数据传输产品。这款产品采用HARQ（�
 		使用DExpress内核实现了livego的Forward功能（使用harq将rtmp协议转发给其它的livego服务器）
 
 ## Demo实测截图
+
+	以下截图是我编写的一个直播Demo的截图，一个用户手机A采集画面并将采集到的画面发送给中转服务器。中转服务器接收到数据后，将画面数据转发给另外的一个用户手机B。用户手机B将接收到的数据绘制到手机中。
+
+	从以上流程可以看出数据传输有两个过程，从A手机传到中转服务器、从中转服务器传到B手机。
+
 ![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/live0.jpg)
 ![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/live3.jpg)
 ![image](https://github.com/DExpress-dev/DExpress/blob/main/doc/live8.jpg)
